@@ -1,0 +1,66 @@
+name: Leilões WoW Forever
+
+# Monitor de preços do WoW Forever. Os dados vão para o branch separado
+# "wow-leiloes-dados" (um único commit, sempre substituído).
+on:
+  schedule:
+    - cron: "17,47 * * * *" # a cada 30 minutos
+  workflow_dispatch:
+    inputs:
+      receitas:
+        description: "Baixar de novo as receitas de todas as profissões"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: wow-leiloes
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    env:
+      BLIZZARD_CLIENT_ID: ${{ secrets.BLIZZARD_CLIENT_ID }}
+      BLIZZARD_CLIENT_SECRET: ${{ secrets.BLIZZARD_CLIENT_SECRET }}
+      WOW_REGION: ${{ vars.WOW_REGION }}
+      RULESET_ID: ${{ vars.RULESET_ID }}
+      HOUSE_IDS: ${{ vars.HOUSE_IDS }}
+      HOUSE_FILTER: ${{ vars.HOUSE_FILTER }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Baixar dados salvos
+        run: |
+          mkdir -p data
+          if git ls-remote --exit-code --heads origin wow-leiloes-dados >/dev/null; then
+            git clone -q --depth 1 --branch wow-leiloes-dados \
+              "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}" antigos
+            cp -r antigos/data/. data/ 2>/dev/null || true
+          fi
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Baixar receitas das profissões
+        if: inputs.receitas || hashFiles('data/recipes.json') == ''
+        run: python3 -I fetch_recipes.py
+
+      - name: Buscar preços na API da Blizzard
+        run: python3 -I fetch_prices.py
+
+      - name: Salvar dados no branch wow-leiloes-dados
+        # Um único commit, sempre substituído, para o repositório não crescer.
+        run: |
+          mkdir dados && cp -r data dados/data
+          cd dados
+          git init -q -b wow-leiloes-dados
+          git config user.name "wow-leiloes-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data
+          git commit -qm "Preços $(date -u +%Y-%m-%dT%H:%MZ)"
+          git push -qf "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}" wow-leiloes-dados
