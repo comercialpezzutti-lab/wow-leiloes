@@ -1,0 +1,700 @@
+<meta charset="utf-8">
+<title>Leilões Forever</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<meta name="theme-color" content="#0e1118">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&family=Inter:wght@400;500;600;700&display=swap">
+<style>
+  /* Layout: one centered column. Header, "melhores agora" strip, toolbar, recipe list.
+     Recipe detail slides in from the right. Dark, single theme (a game HUD). */
+  :root {
+    --bg: #0e1118; --surface: #161b26; --surface-2: #1d2432; --surface-3: #252d3e; --line: #2a3243;
+    --text: #ebe6da; --muted: #8e95a6; --faint: #5d6577;
+    --gold: #e8b84a; --gold-soft: rgba(232, 184, 74, .14); --silver: #c3c8d2; --copper: #d08a55;
+    --profit: #5fd38d; --profit-soft: rgba(95, 211, 141, .12); --loss: #ef6b5b; --loss-soft: rgba(239, 107, 91, .12);
+    --display: "Cinzel", Georgia, "Times New Roman", serif;
+    --body: "Inter", system-ui, -apple-system, "Segoe UI", sans-serif;
+    --r: 12px;
+    color-scheme: dark;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; background: var(--bg); color: var(--text); font: 15px/1.5 var(--body); -webkit-font-smoothing: antialiased; }
+  body { background: radial-gradient(1200px 500px at 50% -200px, rgba(232, 184, 74, .08), transparent 70%), var(--bg); min-height: 100%; }
+  main { max-width: 1080px; margin: 0 auto; padding-block: 22px 90px; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
+  button, select, input { font: inherit; color: inherit; }
+  :focus-visible { outline: 2px solid var(--gold); outline-offset: 2px; }
+  .num { font-variant-numeric: tabular-nums; }
+  .g { color: var(--gold); } .s { color: var(--silver); } .c { color: var(--copper); }
+  .na { color: var(--faint); }
+
+  /* header */
+  header { display: flex; flex-wrap: wrap; gap: 12px 20px; align-items: flex-end; justify-content: space-between; }
+  .brand h1 { font: 700 28px/1.1 var(--display); letter-spacing: .5px; margin: 0; color: var(--gold); text-wrap: balance; }
+  .status { display: flex; flex-wrap: wrap; align-items: center; gap: 6px 12px; margin-top: 8px; color: var(--muted); font-size: 13px; }
+  .live { display: inline-flex; align-items: center; gap: 6px; color: var(--profit); font-weight: 600; }
+  .live i { width: 7px; height: 7px; border-radius: 50%; background: currentColor; box-shadow: 0 0 0 0 currentColor; animation: pulse 2.4s infinite; }
+  .live.stale { color: var(--loss); }
+  @keyframes pulse { 0% { box-shadow: 0 0 0 0 rgba(95, 211, 141, .5); } 70% { box-shadow: 0 0 0 7px rgba(95, 211, 141, 0); } 100% { box-shadow: 0 0 0 0 rgba(95, 211, 141, 0); } }
+  .pick { display: flex; flex-direction: column; gap: 4px; }
+  .pick label { color: var(--faint); font-size: 11px; text-transform: uppercase; letter-spacing: .8px; }
+  select { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 8px 32px 8px 12px; appearance: none; cursor: pointer;
+    background-image: linear-gradient(45deg, transparent 50%, var(--muted) 50%), linear-gradient(135deg, var(--muted) 50%, transparent 50%);
+    background-position: calc(100% - 17px) 55%, calc(100% - 12px) 55%; background-size: 5px 5px; background-repeat: no-repeat; }
+  .banner { margin-top: 14px; padding: 10px 14px; border-radius: 10px; background: var(--loss-soft); color: var(--text); font-size: 14px; }
+
+  /* profession nav */
+  nav { display: flex; gap: 6px; overflow-x: auto; margin: 22px 0 0; padding-bottom: 6px; scrollbar-width: thin; }
+  .tab { flex: 0 0 auto; border: 1px solid transparent; background: transparent; color: var(--muted); border-radius: 999px; padding: 7px 14px; cursor: pointer; font-size: 14px; font-weight: 500; transition: background .15s, color .15s; }
+  .tab:hover { background: var(--surface); color: var(--text); }
+  .tab small { color: var(--faint); font-weight: 500; margin-left: 4px; }
+  .tab.on { background: var(--gold-soft); border-color: rgba(232, 184, 74, .45); color: var(--gold); }
+  .tab.on small { color: var(--gold); opacity: .75; }
+
+  /* best now */
+  .section-title { display: flex; align-items: baseline; justify-content: space-between; gap: 10px; margin: 26px 0 10px; }
+  .section-title h2 { font: 600 13px/1 var(--body); text-transform: uppercase; letter-spacing: 1.2px; color: var(--muted); margin: 0; }
+  .section-title span { color: var(--faint); font-size: 12px; }
+  .best { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px; }
+  .pick-card { text-align: left; background: linear-gradient(180deg, var(--surface-2), var(--surface)); border: 1px solid var(--line); border-radius: var(--r); padding: 14px 16px; cursor: pointer; min-width: 0; transition: border-color .15s, transform .15s; }
+  .pick-card:hover { border-color: rgba(232, 184, 74, .5); transform: translateY(-1px); }
+  .pick-card .rank { color: var(--gold); font: 700 12px/1 var(--display); letter-spacing: 1px; }
+  .pick-card .name { font-weight: 600; margin: 6px 0 10px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .pick-card .big { font-size: 22px; font-weight: 700; color: var(--profit); line-height: 1.1; }
+  .pick-card .meta { color: var(--muted); font-size: 12px; margin-top: 6px; }
+  .empty-best { grid-column: 1 / -1; color: var(--muted); background: var(--surface); border: 1px dashed var(--line); border-radius: var(--r); padding: 16px; font-size: 14px; }
+
+  /* toolbar */
+  .toolbar { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; margin: 26px 0 12px; }
+  .search { flex: 1 1 260px; position: relative; min-width: 0; }
+  .search input { width: 100%; background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 9px 12px 9px 36px; }
+  .search svg { position: absolute; left: 12px; top: 50%; transform: translateY(-50%); width: 16px; height: 16px; stroke: var(--faint); }
+  .chip { display: inline-flex; align-items: center; gap: 6px; border: 1px solid var(--line); background: var(--surface); color: var(--muted); border-radius: 999px; padding: 7px 12px; cursor: pointer; font-size: 13px; user-select: none; }
+  .chip input { display: none; }
+  .chip:has(input:checked) { border-color: rgba(95, 211, 141, .5); background: var(--profit-soft); color: var(--profit); }
+  .chip .dot { width: 6px; height: 6px; border-radius: 50%; background: currentColor; opacity: .7; }
+
+  /* recipe list */
+  .list { display: flex; flex-direction: column; gap: 6px; }
+  .row { display: grid; grid-template-columns: 44px minmax(0, 1fr) auto auto; gap: 14px; align-items: center; width: 100%; text-align: left; background: var(--surface); border: 1px solid transparent; border-radius: var(--r); padding: 12px 16px; cursor: pointer; transition: background .12s, border-color .12s; }
+  .row:hover { background: var(--surface-2); border-color: var(--line); }
+  .lvl { width: 38px; height: 38px; border-radius: 10px; display: grid; place-items: center; background: var(--surface-3); color: var(--gold); font: 700 14px/1 var(--display); }
+  .lvl.na { color: var(--faint); }
+  .row .title { font-weight: 600; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .row .flow { color: var(--muted); font-size: 13px; margin-top: 2px; }
+  .badge { display: inline-block; font-size: 10.5px; font-weight: 600; text-transform: uppercase; letter-spacing: .6px; padding: 2px 7px; border-radius: 6px; margin-left: 8px; vertical-align: 2px; background: var(--surface-3); color: var(--muted); }
+  .badge.pattern { background: var(--gold-soft); color: var(--gold); }
+  .market { display: flex; gap: 18px; color: var(--muted); font-size: 12px; text-align: right; }
+  .market b { display: block; color: var(--text); font-size: 14px; font-weight: 600; }
+  .profit { min-width: 108px; text-align: right; }
+  .profit .v { font-size: 17px; font-weight: 700; }
+  .profit .m { font-size: 12px; margin-top: 1px; }
+  .up, .pos { color: var(--profit); } .down, .neg { color: var(--loss); }
+  .more { display: block; margin: 16px auto 0; background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 9px 18px; cursor: pointer; color: var(--muted); }
+  .more:hover { color: var(--text); }
+  .foot { margin-top: 28px; color: var(--faint); font-size: 12px; line-height: 1.6; max-width: 70ch; }
+
+  /* detail drawer */
+  .veil { position: fixed; inset: 0; background: rgba(5, 7, 12, .6); backdrop-filter: blur(2px); opacity: 0; pointer-events: none; transition: opacity .2s; z-index: 10; }
+  .veil.on { opacity: 1; pointer-events: auto; }
+  .drawer { position: fixed; top: 0; right: 0; height: 100%; width: min(560px, 100%); background: var(--bg); border-left: 1px solid var(--line); z-index: 11; overflow-y: auto; transform: translateX(100%); transition: transform .22s ease;
+    padding-block: calc(20px + env(safe-area-inset-top, 0px)) calc(40px + env(safe-area-inset-bottom, 0px)); padding-left: 20px; padding-right: max(20px, env(safe-area-inset-right, 0px)); }
+  .drawer.on { transform: none; }
+  @media (prefers-reduced-motion: reduce) { .drawer, .veil, .row, .pick-card { transition: none; } .live i { animation: none; } }
+  .close { position: absolute; top: calc(14px + env(safe-area-inset-top, 0px)); right: max(14px, env(safe-area-inset-right, 0px)); width: 34px; height: 34px; border-radius: 50%; border: 1px solid var(--line); background: var(--surface); color: var(--muted); font-size: 18px; line-height: 1; cursor: pointer; }
+  .d-head .prof { color: var(--gold); font-size: 12px; font-weight: 600; text-transform: uppercase; letter-spacing: 1px; }
+  .d-head h3 { font: 700 22px/1.2 var(--display); margin: 6px 44px 4px 0; text-wrap: balance; }
+  .d-head .sub { color: var(--muted); font-size: 13px; }
+  .hero { margin-top: 18px; border-radius: var(--r); padding: 16px 18px; background: var(--surface); border: 1px solid var(--line); display: grid; grid-template-columns: 1fr auto; gap: 6px 16px; align-items: end; }
+  .hero.good { background: linear-gradient(135deg, var(--profit-soft), var(--surface) 70%); border-color: rgba(95, 211, 141, .3); }
+  .hero.bad { background: linear-gradient(135deg, var(--loss-soft), var(--surface) 70%); border-color: rgba(239, 107, 91, .3); }
+  .hero .k { color: var(--muted); font-size: 12px; text-transform: uppercase; letter-spacing: .8px; }
+  .hero .v { font-size: 30px; font-weight: 700; line-height: 1.1; }
+  .hero .m { font-size: 15px; font-weight: 600; text-align: right; }
+  .hero .eq { grid-column: 1 / -1; color: var(--muted); font-size: 13px; }
+  .block { margin-top: 22px; }
+  .block > h4 { font: 600 12px/1 var(--body); text-transform: uppercase; letter-spacing: 1.2px; color: var(--muted); margin: 0 0 10px; }
+  .stats { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 8px; }
+  .stat { background: var(--surface); border-radius: 10px; padding: 10px 12px; min-width: 0; }
+  .stat .k { color: var(--faint); font-size: 11px; text-transform: uppercase; letter-spacing: .6px; }
+  .stat .v { font-size: 15px; font-weight: 600; margin-top: 3px; }
+  .stat .t { font-size: 12px; margin-top: 2px; color: var(--muted); }
+  .sold { display: flex; gap: 8px; }
+  .sold div { flex: 1; background: var(--surface); border-radius: 10px; padding: 10px 12px; text-align: center; }
+  .sold b { display: block; font-size: 18px; }
+  .sold span { color: var(--faint); font-size: 11px; text-transform: uppercase; letter-spacing: .6px; }
+  .learn { background: var(--surface); border-radius: 10px; padding: 12px 14px; font-size: 14px; display: flex; flex-direction: column; gap: 6px; }
+  .learn .lbl { color: var(--muted); font-size: 12px; }
+  .learn a { color: var(--gold); }
+  .mats { background: var(--surface); border-radius: 10px; overflow: hidden; }
+  .mat { border-bottom: 1px solid var(--line); }
+  .mat:last-child { border-bottom: 0; }
+  .mat summary { list-style: none; display: grid; grid-template-columns: minmax(0, 1fr) auto auto; gap: 12px; align-items: center; padding: 11px 14px; cursor: pointer; }
+  .mat summary::-webkit-details-marker { display: none; }
+  .mat summary:hover { background: var(--surface-2); }
+  .mat .n { min-width: 0; }
+  .mat .n b { font-weight: 600; }
+  .mat .n .q { color: var(--gold); font-weight: 700; margin-right: 6px; }
+  .src { font-size: 11px; font-weight: 600; text-transform: uppercase; letter-spacing: .5px; padding: 3px 8px; border-radius: 6px; background: var(--surface-3); color: var(--muted); white-space: nowrap; }
+  .src.vendor { background: var(--gold-soft); color: var(--gold); }
+  .src.ah { background: rgba(120, 160, 255, .13); color: #9db6ff; }
+  .src.none { background: var(--loss-soft); color: var(--loss); }
+  .mat .tot { font-weight: 600; text-align: right; min-width: 70px; }
+  .mat .more-info { padding: 0 14px 12px; color: var(--muted); font-size: 13px; display: grid; gap: 6px; }
+  .mat .prices { display: flex; flex-wrap: wrap; gap: 6px 16px; color: var(--text); }
+  .mat .prices span { color: var(--faint); margin-right: 4px; }
+  .mat .chev { color: var(--faint); transition: transform .15s; }
+  .mat[open] .chev { transform: rotate(90deg); }
+  .note { color: var(--faint); font-size: 12px; margin-top: 10px; }
+
+  /* mode switch + sell view */
+  .modes { display: inline-flex; gap: 4px; margin-top: 18px; padding: 4px; border-radius: 12px; background: var(--surface); border: 1px solid var(--line); }
+  .mode { border: 0; background: transparent; color: var(--muted); padding: 8px 18px; border-radius: 9px; cursor: pointer; font-weight: 600; }
+  .mode.on { background: var(--gold-soft); color: var(--gold); }
+  .row.sell { grid-template-columns: minmax(0, 1fr) auto auto; }
+  .tip { display: inline-block; font-size: 11px; font-weight: 600; padding: 2px 7px; border-radius: 6px; margin-left: 8px; vertical-align: 2px; }
+  .tip.up { background: var(--profit-soft); } .tip.down { background: var(--loss-soft); }
+  .tip.proc { background: var(--gold-soft); color: var(--gold); }
+  .spark { width: 100%; height: 70px; display: block; }
+  .spark-wrap { background: var(--surface); border-radius: 10px; padding: 10px 12px; }
+  .spark-wrap .lbl { display: flex; justify-content: space-between; color: var(--faint); font-size: 11px; }
+  .opt { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 10px; padding: 10px 14px; border-bottom: 1px solid var(--line); font-size: 14px; }
+  .opt:last-child { border-bottom: 0; }
+  .opt .w { color: var(--muted); font-size: 12px; }
+  .opt.best-opt { background: var(--profit-soft); }
+
+  @media (max-width: 760px) {
+    .best { grid-template-columns: 1fr; }
+    .market { display: none; }
+    .row { grid-template-columns: 40px minmax(0, 1fr) auto; gap: 12px; padding: 12px 14px; }
+    .stats { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    .brand h1 { font-size: 24px; }
+  }
+</style>
+
+<main>
+  <header>
+    <div class="brand">
+      <h1>Leilões Forever</h1>
+      <div class="status" id="status"><span class="live"><i></i>Carregando</span></div>
+    </div>
+    <div class="pick">
+      <label for="house">Casa de leilões</label>
+      <select id="house"></select>
+    </div>
+  </header>
+  <div id="banner"></div>
+  <div class="modes" role="tablist">
+    <button class="mode" data-m="sell">O que vender</button>
+    <button class="mode" data-m="craft">O que fabricar</button>
+  </div>
+
+  <section id="sellView" hidden>
+    <nav id="cats" aria-label="Categorias"></nav>
+    <div class="toolbar">
+      <div class="search">
+        <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"></circle><path d="m20 20-3.5-3.5"></path></svg>
+        <input type="search" id="sq" placeholder="Buscar item" aria-label="Buscar item">
+      </div>
+      <select id="ssort" aria-label="Ordenar">
+        <option value="flow">Mais ouro girando</option>
+        <option value="sold">Mais vendidos</option>
+        <option value="trend">Maior alta</option>
+        <option value="gain">Melhor processar</option>
+        <option value="price">Maior preço</option>
+        <option value="name">Nome</option>
+      </select>
+      <label class="chip"><input type="checkbox" id="sOnlySold" checked><span class="dot"></span>Só com vendas</label>
+    </div>
+    <div class="list" id="slist"></div>
+    <button class="more" id="smore" hidden></button>
+    <p class="foot">Anuncie por: 1 cobre abaixo do menor anúncio agora. Você recebe: esse preço menos 5% de taxa do leilão. Ouro girando: preço × unidades vendidas no período, mostra onde há dinheiro de verdade. Processar: quanto cada unidade rende se você transformar o item numa receita (ex.: minério em barra) e vender o resultado, já descontando os outros materiais.</p>
+  </section>
+
+  <section id="craftView" hidden>
+  <nav id="tabs" aria-label="Profissões"></nav>
+
+  <div class="section-title"><h2>Melhores agora</h2><span id="bestNote"></span></div>
+  <div class="best" id="best"></div>
+
+  <div class="toolbar">
+    <div class="search">
+      <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"></circle><path d="m20 20-3.5-3.5"></path></svg>
+      <input type="search" id="q" placeholder="Buscar receita ou material" aria-label="Buscar">
+    </div>
+    <select id="sort" aria-label="Ordenar">
+      <option value="perday">Mais lucro por dia</option>
+      <option value="profit">Maior lucro</option>
+      <option value="margin">Maior margem</option>
+      <option value="sold">Mais vendidos</option>
+      <option value="level">Nível (menor primeiro)</option>
+      <option value="name">Nome</option>
+    </select>
+    <select id="win" aria-label="Período de vendas">
+      <option value="6">Vendas em 6h</option>
+      <option value="12">Vendas em 12h</option>
+      <option value="24" selected>Vendas em 24h</option>
+    </select>
+    <label class="chip"><input type="checkbox" id="onlyProfit"><span class="dot"></span>Só com lucro</label>
+    <label class="chip"><input type="checkbox" id="onlySold" checked><span class="dot"></span>Só com oferta</label>
+  </div>
+
+  <div class="list" id="list"></div>
+  <button class="more" id="more" hidden></button>
+
+  <p class="foot">Custo: o mais barato entre o leilão e o vendedor, para cada material. Venda: 1 cobre abaixo do menor anúncio do item (o preço que vende de verdade), menos 5% de taxa. Vendidos: estimativa a partir dos anúncios que sumiram antes de expirar (a Blizzard não diferencia compra de cancelamento). Nível: perícia exigida quando a receita vem de um molde, senão o nível do item. Dados da API da Blizzard, coletados a cada 30 minutos.</p>
+  </section>
+</main>
+
+<div class="veil" id="veil"></div>
+<aside class="drawer" id="drawer" aria-hidden="true">
+  <button class="close" id="close" aria-label="Fechar">✕</button>
+  <div id="detail"></div>
+</aside>
+
+<script>
+const $ = (id) => document.getElementById(id);
+const S = { data: null, rec: null, prev: null, snaps: [], win: 24, house: null, prof: null, sort: "perday", limit: 50, shown: [], mode: "sell", cat: "*", ssort: "flow", slimit: 50, sshown: [] };
+const store = { get(k) { try { return localStorage.getItem(k); } catch { return null; } }, set(k, v) { try { localStorage.setItem(k, v); } catch {} } };
+const esc = (s) => String(s ?? "").replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+
+function money(c) {
+  if (c == null || !isFinite(c)) return '<span class="na">—</span>';
+  const neg = c < 0; c = Math.round(Math.abs(c));
+  const g = Math.floor(c / 10000), s = Math.floor((c % 10000) / 100), cu = c % 100;
+  const p = [];
+  if (g) p.push(`${g}<span class="g">g</span>`);
+  if (g || s) p.push(`${s}<span class="s">s</span>`);
+  if (!g) p.push(`${cu}<span class="c">c</span>`);
+  return `<span class="num">${neg ? "−" : ""}${p.join(" ")}</span>`;
+}
+const pct = (v) => v == null || !isFinite(v) ? "—" : `${v > 0 ? "+" : ""}${Math.round(v * 100)}%`;
+const itemName = (id) => S.rec.items[id]?.name || `Item ${id}`;
+const vendorOf = (id) => S.data.config.vendor?.[id] || null;
+const price = (id) => S.house.items[id] || null;
+const prevPrice = (id) => S.prev?.[String(S.house.id)]?.[id] || null; // [min, median, qty, sold]
+
+// Units bought in the window: sum of the per-run estimates saved in each snapshot.
+function soldIn(id, hours = S.win) {
+  const house = String(S.house.id);
+  const since = new Date(Date.now() - hours * 3600e3).toISOString().slice(0, 13);
+  let total = 0, known = false;
+  for (const snap of S.snaps) {
+    if (snap.stamp <= since) continue;
+    const row = snap.data[house];
+    if (!row) continue;
+    known = true;
+    total += row[id]?.[3] || 0;
+  }
+  return known ? total : null;
+}
+
+function unit(id) {
+  const ah = price(id)?.min ?? null;
+  const v = vendorOf(id), vc = v?.copper ?? null;
+  const opts = [];
+  if (ah != null) opts.push({ cost: ah, src: "leilão" });
+  if (vc != null) opts.push({ cost: vc, src: "vendedor" });
+  if (!opts.length) return { cost: null, src: v ? "vendedor" : "sem preço" };
+  return opts.sort((a, b) => a.cost - b.cost)[0];
+}
+
+// Price that actually sells: just under the cheapest listing.
+function listPrice(id) { const p = price(id); return p?.min != null ? Math.max(1, p.min - 1) : null; }
+const netOf = (c) => c == null ? null : c * (1 - (S.data.config.ah_cut ?? 0.05));
+
+function evaluate(r) {
+  const cut = S.data.config.ah_cut ?? 0.05;
+  let cost = 0, missing = 0;
+  for (const [id, n] of Object.entries(r.reagents)) {
+    const u = unit(id);
+    if (u.cost == null) missing++; else cost += u.cost * n;
+  }
+  const out = r.makes ? price(r.makes) : null;
+  const lp = r.makes ? listPrice(r.makes) : null;
+  const sell = lp != null ? lp * (1 - cut) * (r.qty || 1) : null;
+  const ok = !missing && sell != null;
+  const prev = r.makes ? prevPrice(r.makes) : null;
+  return {
+    r, cost: missing ? null : cost, sell, missing,
+    profit: ok ? sell - cost : null,
+    margin: ok && cost > 0 ? (sell - cost) / cost : null,
+    supply: out?.qty ?? 0, listings: out?.listings ?? 0,
+    trend: out?.median && prev && prev[1] ? out.median / prev[1] - 1 : null,
+    sold: r.makes ? soldIn(r.makes) : null,
+    perday: null,
+    level: r.skill ?? (r.makes ? S.rec.items[r.makes]?.ilvl : null) ?? null,
+  };
+}
+
+function inProfession() {
+  return S.rec.recipes.filter((r) => r.profession && (S.prof === "*" || r.profession === S.prof));
+}
+
+function rows() {
+  const q = $("q").value.trim().toLowerCase();
+  let list = inProfession();
+  if (q) list = list.filter((r) => r.name.toLowerCase().includes(q) || Object.keys(r.reagents).some((id) => itemName(id).toLowerCase().includes(q)));
+  let ev = list.map(evaluate);
+  for (const e of ev) e.perday = e.profit != null && e.sold != null ? e.profit * Math.min(e.sold, e.supply || e.sold) : null;
+  if ($("onlySold").checked) ev = ev.filter((e) => e.supply > 0 || !e.r.makes);
+  if ($("onlyProfit").checked) ev = ev.filter((e) => e.profit > 0 || (!e.r.makes && e.cost != null));
+  const key = S.sort, dir = key === "level" || key === "name" ? 1 : -1;
+  ev.sort((a, b) => {
+    const av = key === "name" ? a.r.name : a[key], bv = key === "name" ? b.r.name : b[key];
+    if (av == null && bv == null) return 0; if (av == null) return 1; if (bv == null) return -1;
+    return typeof av === "string" ? av.localeCompare(bv) * dir : (av - bv) * dir;
+  });
+  return ev;
+}
+
+function renderTabs() {
+  const counts = {};
+  for (const r of S.rec.recipes) if (r.profession) counts[r.profession] = (counts[r.profession] || 0) + 1;
+  const profs = S.rec.professions.filter((p) => counts[p.name] > 3).sort((a, b) => (a.type === b.type ? a.name.localeCompare(b.name) : a.type === "Principal" ? -1 : 1));
+  $("tabs").innerHTML = [`<button class="tab ${S.prof === "*" ? "on" : ""}" data-p="*">Todas</button>`]
+    .concat(profs.map((p) => `<button class="tab ${S.prof === p.name ? "on" : ""}" data-p="${esc(p.name)}">${esc(p.name)}<small>${counts[p.name]}</small></button>`)).join("");
+  $("tabs").querySelectorAll(".tab").forEach((b) => b.onclick = () => { S.prof = b.dataset.p; store.set("prof", S.prof); S.limit = 50; renderTabs(); render(); });
+}
+
+// Best now: real profit, enough supply to trust the price, no absurd margins from one listing.
+function renderBest() {
+  const ev = inProfession().filter((r) => r.makes).map(evaluate)
+    .filter((e) => e.profit > 0 && e.supply >= 3 && e.margin < 10 && (e.sold == null || e.sold > 0))
+    .sort((a, b) => (b.profit * Math.min(b.sold || 1, 30)) - (a.profit * Math.min(a.sold || 1, 30)))
+    .slice(0, 3);
+  $("bestNote").textContent = ev.length ? "lucro × vendas, só o que está vendendo" : "";
+  $("best").innerHTML = ev.length ? ev.map((e, i) => `
+    <button class="pick-card" data-b="${i}">
+      <div class="rank">${["I", "II", "III"][i]}${e.level ? ` · NV ${e.level}` : ""}</div>
+      <div class="name">${esc(e.r.name)}</div>
+      <div class="big">${money(e.profit)}</div>
+      <div class="meta">${pct(e.margin)} de margem · ${e.sold == null ? "vendas ainda sendo medidas" : `${e.sold} vendidos em ${S.win}h`}</div>
+    </button>`).join("") : `<div class="empty-best">Nenhuma receita com lucro confiável nesta profissão agora. Tente outra profissão ou desligue os filtros abaixo.</div>`;
+  $("best").querySelectorAll(".pick-card").forEach((b) => b.onclick = () => openDetail(ev[+b.dataset.b]));
+}
+
+function renderList() {
+  const ev = rows();
+  S.shown = ev.slice(0, S.limit);
+  $("list").innerHTML = S.shown.map((e, i) => {
+    const tags = (e.r.makes ? "" : '<span class="badge">serviço</span>') + (e.r.source?.type === "pattern" ? '<span class="badge pattern">molde</span>' : "") + (S.prof === "*" ? `<span class="badge">${esc(e.r.profession)}</span>` : "");
+    const flow = e.r.makes
+      ? `${money(e.cost)} <span class="na">→</span> ${money(e.sell)}`
+      : `materiais ${money(e.cost)}`;
+    return `<button class="row" data-i="${i}">
+      <div class="lvl ${e.level == null ? "na" : ""}">${e.level ?? "–"}</div>
+      <div style="min-width:0"><div class="title">${esc(e.r.name)}${tags}</div><div class="flow">${flow}</div></div>
+      <div class="market"><div>vendidos<b>${e.sold ?? "—"}</b></div><div>à venda<b>${e.supply || "—"}</b></div></div>
+      <div class="profit">${e.r.makes ? `<div class="v ${e.profit > 0 ? "pos" : e.profit < 0 ? "neg" : ""}">${money(e.profit)}</div><div class="m ${e.margin > 0 ? "pos" : e.margin < 0 ? "neg" : "na"}">${pct(e.margin)}</div>` : '<div class="m na">não vai ao leilão</div>'}</div>
+    </button>`;
+  }).join("") || `<div class="empty-best">Nada encontrado com esses filtros.</div>`;
+  $("more").hidden = ev.length <= S.limit;
+  $("more").textContent = `Mostrar mais ${Math.min(50, ev.length - S.limit)} de ${ev.length - S.limit}`;
+  $("list").querySelectorAll(".row").forEach((b) => b.onclick = () => openDetail(S.shown[+b.dataset.i]));
+}
+
+function render() { if (S.mode === "sell") renderSell(); else { renderBest(); renderList(); } }
+
+// ---------- O que vender ----------
+function catOf(id) {
+  const c = (S.rec.items[id]?.cls || "").toLowerCase();
+  if (c.includes("metal e pedra")) return "Minérios e barras";
+  if (c.includes("planta")) return "Ervas";
+  if (c.startsWith("mercadorias / couro")) return "Couro";
+  if (c.startsWith("mercadorias / tecido")) return "Tecido";
+  if (c.includes("encantamento")) return "Encantamento";
+  if (c.includes("culinária")) return "Carne e peixe";
+  if (c.startsWith("consumível")) return "Consumíveis";
+  if (c.startsWith("armadura") || c.startsWith("arma")) return "Equipamento";
+  return "Outros";
+}
+const CATS = ["Minérios e barras", "Ervas", "Couro", "Tecido", "Encantamento", "Carne e peixe", "Consumíveis", "Equipamento", "Outros"];
+
+let USES = null; // item id -> recipes that consume it
+function uses(id) {
+  if (!USES) { USES = {}; for (const r of S.rec.recipes) if (r.makes && r.profession) for (const k of Object.keys(r.reagents)) (USES[k] ||= []).push(r); }
+  return USES[id] || [];
+}
+// What one unit of `id` is worth if you craft it into something and sell that.
+function processOptions(id) {
+  const out = [];
+  for (const r of uses(id)) {
+    const n = r.reagents[id], o = price(r.makes), lp = listPrice(r.makes);
+    if (!n || lp == null || !o || o.qty < 3) continue;
+    let other = 0, bad = false;
+    for (const [k, m] of Object.entries(r.reagents)) { if (k === id) continue; const u = unit(k); if (u.cost == null) { bad = true; break; } other += u.cost * m; }
+    if (bad) continue;
+    out.push({ r, per: (netOf(lp) * (r.qty || 1) - other) / n, sold: soldIn(r.makes) });
+  }
+  return out.sort((a, b) => b.per - a.per);
+}
+
+function evalItem(id) {
+  const p = price(id), lp = listPrice(id), prev = prevPrice(id);
+  const sold = soldIn(id);
+  const raw = netOf(lp);
+  const best = processOptions(id).find((o) => o.sold == null || o.sold > 0) || null;
+  return {
+    id, p, lp, raw, sold, best,
+    name: itemName(id), cat: catOf(id),
+    trend: p?.median && prev && prev[1] ? p.median / prev[1] - 1 : null,
+    flow: lp != null && sold ? lp * sold : 0,
+    gain: best && raw != null ? best.per - raw : null,
+    price: lp,
+  };
+}
+
+function sellRows() {
+  const q = $("sq").value.trim().toLowerCase();
+  let ids = Object.keys(S.house.items).filter((id) => S.house.items[id]?.min != null && S.rec.items[id]);
+  if (S.cat !== "*") ids = ids.filter((id) => catOf(id) === S.cat);
+  if (q) ids = ids.filter((id) => itemName(id).toLowerCase().includes(q));
+  let ev = ids.map(evalItem);
+  if ($("sOnlySold").checked) ev = ev.filter((e) => e.sold == null || e.sold > 0);
+  const key = S.ssort;
+  ev.sort((a, b) => {
+    if (key === "name") return a.name.localeCompare(b.name);
+    const av = a[key], bv = b[key];
+    if (av == null && bv == null) return 0; if (av == null) return 1; if (bv == null) return -1;
+    return bv - av;
+  });
+  return ev;
+}
+
+function renderCats() {
+  const n = {}; for (const id of Object.keys(S.house.items)) if (S.rec.items[id] && S.house.items[id]?.min != null) n[catOf(id)] = (n[catOf(id)] || 0) + 1;
+  $("cats").innerHTML = [`<button class="tab ${S.cat === "*" ? "on" : ""}" data-c="*">Tudo</button>`]
+    .concat(CATS.filter((c) => n[c]).map((c) => `<button class="tab ${S.cat === c ? "on" : ""}" data-c="${esc(c)}">${esc(c)}<small>${n[c]}</small></button>`)).join("");
+  $("cats").querySelectorAll(".tab").forEach((b) => b.onclick = () => { S.cat = b.dataset.c; store.set("cat", S.cat); S.slimit = 50; renderCats(); renderSell(); });
+}
+
+function trendTip(t) {
+  if (t == null || Math.abs(t) < 0.2) return "";
+  return `<span class="tip ${t > 0 ? "up" : "down"}">${t > 0 ? "▲" : "▼"} ${Math.abs(Math.round(t * 100))}%</span>`;
+}
+
+function renderSell() {
+  const ev = sellRows();
+  S.sshown = ev.slice(0, S.slimit);
+  $("slist").innerHTML = S.sshown.map((e, i) => {
+    const proc = e.gain != null && e.gain > Math.max(1, 0.1 * (e.raw || 0)) ? `<span class="tip proc">vale processar</span>` : "";
+    return `<button class="row sell" data-i="${i}">
+      <div style="min-width:0"><div class="title">${esc(e.name)}${trendTip(e.trend)}${proc}</div>
+        <div class="flow">anuncie por ${money(e.lp)} · ${e.p.qty} à venda${e.sold ? ` · ${e.sold} vendidos` : ""}</div></div>
+      <div class="market"><div>vendidos ${S.win}h<b>${e.sold ?? "—"}</b></div><div>ouro girando<b>${e.sold ? money(e.flow) : "—"}</b></div></div>
+      <div class="profit"><div class="v">${money(e.raw)}</div><div class="m na">você recebe</div></div>
+    </button>`;
+  }).join("") || `<div class="empty-best">Nada encontrado com esses filtros.</div>`;
+  $("smore").hidden = ev.length <= S.slimit;
+  $("smore").textContent = `Mostrar mais ${Math.min(50, ev.length - S.slimit)} de ${ev.length - S.slimit}`;
+  $("slist").querySelectorAll(".row").forEach((b) => b.onclick = () => openItem(S.sshown[+b.dataset.i].id));
+}
+
+function sparkline(id) {
+  const house = String(S.house.id);
+  const pts = S.snaps.map((s) => ({ t: s.stamp, v: s.data[house]?.[id]?.[0] })).filter((x) => x.v != null).sort((a, b) => a.t.localeCompare(b.t));
+  if (pts.length < 2) return `<div class="spark-wrap"><div class="lbl"><span>Histórico do menor preço</span></div><div class="note">Ainda juntando histórico: aparece depois de algumas coletas.</div></div>`;
+  const vs = pts.map((p) => p.v), lo = Math.min(...vs), hi = Math.max(...vs), W = 300, H = 60;
+  const xy = pts.map((p, i) => [i / (pts.length - 1) * W, H - 4 - (hi === lo ? 0.5 : (p.v - lo) / (hi - lo)) * (H - 8)]);
+  const d = xy.map(([x, y], i) => `${i ? "L" : "M"}${x.toFixed(1)},${y.toFixed(1)}`).join("");
+  const hh = (t) => `${String((+t.slice(11, 13) - 3 + 24) % 24).padStart(2, "0")}h`;
+  return `<div class="spark-wrap"><div class="lbl"><span>Menor preço, últimas ${pts.length} coletas</span><span>${money(lo)} – ${money(hi)}</span></div>
+    <svg class="spark" viewBox="0 0 ${W} ${H}" preserveAspectRatio="none"><path d="${d}" fill="none" stroke="var(--gold)" stroke-width="2" vector-effect="non-scaling-stroke"/></svg>
+    <div class="lbl"><span>${hh(pts[0].t)}</span><span>${hh(pts[pts.length - 1].t)} (Brasília)</span></div></div>`;
+}
+
+function openItem(id) {
+  const e = evalItem(id), p = e.p, prev = prevPrice(id);
+  const opts = processOptions(id).slice(0, 5);
+  const crafted = S.rec.recipes.filter((r) => r.makes === id && r.profession).map(evaluate).sort((a, b) => (b.profit ?? -1e12) - (a.profit ?? -1e12))[0];
+  const bestPer = opts[0]?.per;
+  $("detail").innerHTML = `
+    <div class="d-head"><div class="prof">${esc(e.cat)}</div><h3>${esc(e.name)}</h3><div class="sub">${esc(originOf(id) || "")}&nbsp;</div></div>
+    <div class="hero good">
+      <div><div class="k">Anuncie por (cada)</div><div class="v">${money(e.lp)}</div></div>
+      <div class="m">${trendTip(e.trend) || ""}</div>
+      <div class="eq">1 cobre abaixo do menor anúncio. Você recebe ${money(e.raw)} por unidade depois da taxa de 5%.</div>
+    </div>
+    <div class="block"><h4>Mercado agora</h4>
+      <div class="stats">
+        <div class="stat"><div class="k">Menor preço</div><div class="v">${money(p?.min)}</div></div>
+        <div class="stat"><div class="k">Preço médio</div><div class="v">${money(p?.median)}</div></div>
+        <div class="stat"><div class="k">À venda</div><div class="v num">${p?.qty ?? 0}</div><div class="t">${p?.listings ?? 0} anúncios</div></div>
+        <div class="stat"><div class="k">Antes</div><div class="v">${money(prev?.[1])}</div><div class="t ${e.trend > 0 ? "up" : e.trend < 0 ? "down" : ""}">${pct(e.trend)}</div></div>
+      </div>
+    </div>
+    <div class="block">${sparkline(id)}</div>
+    <div class="block"><h4>Vendidos (estimativa)</h4>
+      <div class="sold">${[6, 12, 24].map((h) => { const v = soldIn(id, h); return `<div><b class="num">${v ?? "—"}</b><span>${h} horas</span></div>`; }).join("")}</div>
+    </div>
+    ${opts.length ? `<div class="block"><h4>Vender assim ou processar?</h4><div class="mats">
+      <div class="opt ${bestPer == null || e.raw >= bestPer ? "best-opt" : ""}"><div><b>Vender como está</b><div class="w">por unidade, já sem a taxa</div></div><div>${money(e.raw)}</div></div>
+      ${opts.map((o, i) => `<div class="opt ${i === 0 && o.per > e.raw ? "best-opt" : ""}"><div><b>${esc(itemName(o.r.makes))}</b><div class="w">${esc(o.r.profession)} · ${o.r.reagents[id]}× por fabricação · ${o.sold == null ? "vendas ainda sendo medidas" : `${o.sold} vendidos em ${S.win}h`}</div></div><div class="${o.per > e.raw ? "pos" : "neg"}">${money(o.per)}</div></div>`).join("")}
+    </div><div class="note">Quanto cada unidade de ${esc(e.name)} rende em cada caminho, descontando os outros materiais e a taxa.</div></div>` : ""}
+    ${crafted ? `<div class="block"><h4>Fabricar para vender</h4><div class="learn"><div><b>${esc(crafted.r.name)}</b> <span class="lbl">· ${esc(crafted.r.profession)}</span></div><div class="lbl">Custa ${money(crafted.cost)} em materiais e vende por ${money(crafted.sell)}: lucro de <b class="${crafted.profit > 0 ? "pos" : "neg"}">${money(crafted.profit)}</b> por unidade.</div></div></div>` : ""}`;
+  $("drawer").classList.add("on"); $("veil").classList.add("on"); $("drawer").setAttribute("aria-hidden", "false");
+  $("drawer").scrollTop = 0;
+}
+
+function setMode(m) {
+  S.mode = m; store.set("mode", m);
+  document.querySelectorAll(".mode").forEach((b) => b.classList.toggle("on", b.dataset.m === m));
+  $("sellView").hidden = m !== "sell"; $("craftView").hidden = m !== "craft";
+  $("sellView").style.display = m === "sell" ? "" : "none"; $("craftView").style.display = m === "craft" ? "" : "none";
+  render();
+}
+
+function originOf(id) {
+  const it = S.rec.items[id] || {};
+  const cls = (it.cls || "").toLowerCase();
+  return it.origin || (/planta|erva/.test(cls) ? "Herborismo (colheita de ervas)" : /poç|elixir|frasco/.test(cls) ? "Alquimia"
+    : /comida/.test(cls) ? "Culinária" : /explosiv/.test(cls) ? "Engenharia" : /missão/.test(cls) ? "Item de missão ou de masmorra" : "");
+}
+
+function matRow(id, n) {
+  const p = price(id), v = vendorOf(id), u = unit(id);
+  const srcClass = u.src === "vendedor" ? "vendor" : u.src === "leilão" ? "ah" : "none";
+  const info = [];
+  info.push(`<div class="prices"><div><span>Leilão</span>${money(p?.min)}${p ? ` <span class="na">(${p.qty} à venda)</span>` : ""}</div><div><span>Vendedor</span>${v ? (v.copper == null ? "ver no NPC" : money(v.copper)) : '<span class="na">não vende</span>'}</div></div>`);
+  if (v) info.push(`<div><b>Onde comprar:</b> ${esc(S.data.config.vendor_places?.[v.place] || v.place)}</div>`);
+  const origin = originOf(id);
+  if (origin && !v) info.push(`<div><b>Como conseguir:</b> ${esc(origin)}</div>`);
+  const crafted = S.rec.recipes.find((r) => r.makes === id && r.profession);
+  if (crafted) info.push(`<div><b>Fabricado por:</b> ${esc(crafted.profession)} (${esc(crafted.name)})</div>`);
+  if (!p && !v && !origin && !crafted) info.push("<div>Sem anúncios agora. Tente mais tarde ou consiga em masmorras e missões.</div>");
+  return `<details class="mat">
+    <summary><div class="n"><span class="q">${n}×</span><b>${esc(itemName(id))}</b></div><span class="src ${srcClass}">${esc(u.src)}</span><span class="tot">${money(u.cost == null ? null : u.cost * n)} <span class="chev">›</span></span></summary>
+    <div class="more-info">${info.join("")}</div>
+  </details>`;
+}
+
+function learnBlock(r) {
+  const src = r.source || { type: "trainer" };
+  if (src.type === "trainer") return `<div class="learn"><div><b>Instrutor de ${esc(r.profession)}</b></div><div class="lbl">Ventobravo, Altaforja e Darnassus. A receita aparece na lista do instrutor quando sua perícia chega no nível dela.</div></div>`;
+  const p = price(String(src.item));
+  return `<div class="learn">
+    <div><b>${esc(src.name)}</b>${r.skill ? ` <span class="lbl">· perícia ${r.skill}</span>` : ""}</div>
+    <div class="lbl">${p ? `À venda no leilão agora por <b>${money(p.min)}</b> (${p.qty} disponível${p.qty > 1 ? "is" : ""}).` : "Ninguém vendendo no leilão agora."}</div>
+    <div class="lbl">Quem vende ou onde cai: <a href="https://www.wowhead.com/forever/item=${encodeURIComponent(src.item)}" target="_blank" rel="noopener">ver no Wowhead</a></div>
+  </div>`;
+}
+
+function openDetail(e) {
+  const r = e.r;
+  const out = r.makes ? price(r.makes) : null;
+  const prev = r.makes ? prevPrice(r.makes) : null;
+  const it = r.makes ? S.rec.items[r.makes] : null;
+  const sub = [r.skill ? `perícia ${r.skill}` : null, it?.ilvl ? `item nível ${it.ilvl}` : null, it?.req ? `usa a partir do nível ${it.req}` : null, r.qty > 1 ? `faz ${r.qty}` : null].filter(Boolean).join(" · ");
+  const heroCls = e.profit > 0 ? "good" : e.profit < 0 ? "bad" : "";
+  $("detail").innerHTML = `
+    <div class="d-head">
+      <div class="prof">${esc(r.profession)}</div>
+      <h3>${esc(r.name)}</h3>
+      <div class="sub">${sub || "&nbsp;"}</div>
+    </div>
+    ${r.makes ? `<div class="hero ${heroCls}">
+      <div><div class="k">Lucro por fabricação</div><div class="v ${e.profit > 0 ? "pos" : e.profit < 0 ? "neg" : ""}">${money(e.profit)}</div></div>
+      <div class="m ${e.margin > 0 ? "pos" : e.margin < 0 ? "neg" : "na"}">${pct(e.margin)}</div>
+      <div class="eq">Custa ${money(e.cost)} para fazer e vende por ${money(e.sell)} já sem a taxa.</div>
+    </div>
+    <div class="block"><h4>Mercado do item</h4>
+      <div class="stats">
+        <div class="stat"><div class="k">Menor preço</div><div class="v">${money(out?.min)}</div></div>
+        <div class="stat"><div class="k">Preço médio</div><div class="v">${money(out?.median)}</div></div>
+        <div class="stat"><div class="k">À venda</div><div class="v num">${out?.qty ?? 0}</div><div class="t">${out?.listings ?? 0} anúncios</div></div>
+        <div class="stat"><div class="k">Há 24h</div><div class="v">${money(prev?.[1])}</div><div class="t ${e.trend > 0 ? "up" : e.trend < 0 ? "down" : ""}">${pct(e.trend)}</div></div>
+      </div>
+    </div>
+    <div class="block"><h4>Vendidos (estimativa)</h4>
+      <div class="sold">${[6, 12, 24].map((h) => { const v = soldIn(r.makes, h); return `<div><b class="num">${v ?? "—"}</b><span>${h} horas</span></div>`; }).join("")}</div>
+    </div>` : `<div class="hero"><div><div class="k">Custo dos materiais</div><div class="v">${money(e.cost)}</div></div><div class="eq">Encantamento aplicado no equipamento: é um serviço, não vai para o leilão. Use o custo para cobrar de outros jogadores.</div></div>`}
+    <div class="block"><h4>Como aprender</h4>${learnBlock(r)}</div>
+    <div class="block"><h4>Materiais</h4>
+      <div class="mats">${Object.entries(r.reagents).map(([id, n]) => matRow(id, n)).join("")}</div>
+      <div class="note">Toque num material para ver preços e onde comprar.</div>
+    </div>`;
+  $("drawer").classList.add("on"); $("veil").classList.add("on"); $("drawer").setAttribute("aria-hidden", "false");
+  $("drawer").scrollTop = 0;
+}
+function closeDetail() { $("drawer").classList.remove("on"); $("veil").classList.remove("on"); $("drawer").setAttribute("aria-hidden", "true"); }
+$("close").onclick = closeDetail; $("veil").onclick = closeDetail;
+document.addEventListener("keydown", (ev) => { if (ev.key === "Escape") closeDetail(); });
+
+async function getJSON(path) { const res = await fetch(path, { cache: "no-store" }); if (!res.ok) throw new Error(path); return res.json(); }
+
+function ago(mins) { return mins < 1 ? "agora" : mins < 60 ? `há ${mins} min` : `há ${Math.round(mins / 60)} h`; }
+
+function showStatus() {
+  const when = new Date(S.data.generated_at), mins = Math.round((Date.now() - when) / 60000);
+  const stale = mins > 100;
+  const hhmm = when.toLocaleTimeString("pt-BR", { hour: "2-digit", minute: "2-digit", timeZone: "America/Sao_Paulo" });
+  $("status").innerHTML = `<span class="live ${stale ? "stale" : ""}"><i></i>${stale ? "Desatualizado" : "Ao vivo"}</span><span>preços das ${hhmm} (${ago(mins)})</span><span>${esc(S.data.ruleset?.name || "")}</span>`;
+  $("banner").innerHTML = stale ? '<div class="banner">Os preços têm mais de 1h40. A coleta deve ter falhado; confira o workflow "Leilões WoW Forever" no GitHub Actions.</div>' : "";
+}
+// New prices are published about once an hour: pick them up without a manual reload.
+async function checkNew() {
+  try {
+    const d = await getJSON("data/latest.json");
+    if (d.generated_at !== S.data.generated_at && !$("drawer").classList.contains("on")) location.reload();
+  } catch {}
+}
+
+async function load() {
+  try {
+    [S.data, S.rec] = await Promise.all([getJSON("data/latest.json"), getJSON("data/recipes.json")]);
+  } catch {
+    $("status").innerHTML = '<span class="live stale"><i></i>Sem dados</span>';
+    $("banner").innerHTML = '<div class="banner">Não encontrei os dados. Rode o workflow "Leilões WoW Forever" no GitHub Actions.</div>';
+    return;
+  }
+  try {
+    const idx = await getJSON("data/history_index.json");
+    const target = new Date(Date.now() - 24 * 3600e3).toISOString().slice(0, 13);
+    const pick = idx.filter((s) => s <= target).pop() || idx[0];
+    const recent = idx.filter((s) => s > new Date(Date.now() - 25 * 3600e3).toISOString().slice(0, 13));
+    const wanted = [...new Set([...recent, pick].filter(Boolean))];
+    const loaded = await Promise.all(wanted.map((st) => getJSON(`data/history/${st}.json`).then((data) => ({ stamp: st, data })).catch(() => null)));
+    S.snaps = loaded.filter(Boolean).filter((x) => recent.includes(x.stamp));
+    const prevSnap = loaded.find((x) => x && x.stamp === pick);
+    if (prevSnap && pick !== new Date(S.data.generated_at).toISOString().slice(0, 13)) S.prev = prevSnap.data;
+  } catch {}
+  showStatus();
+  setInterval(showStatus, 60e3);
+  setInterval(checkNew, 5 * 60e3);
+  const only = (S.data.config.house_ids || []).map(String);
+  const houses = S.data.houses.filter((h) => Object.keys(h.items).length && (!only.length || only.includes(String(h.id))));
+  S.data.houses = houses.length ? houses : S.data.houses;
+  $("house").innerHTML = S.data.houses.map((h) => `<option value="${h.id}">${esc(h.name.replace("Casa de Leilões ", ""))} · #${h.id}</option>`).join("");
+  if (S.data.houses.length < 2) document.querySelector(".pick").style.display = "none";
+  const saved = store.get("house");
+  if (saved && S.data.houses.some((h) => String(h.id) === saved)) $("house").value = saved;
+  S.prof = store.get("prof") || "Alfaiataria";
+  if (S.prof !== "*" && !S.rec.recipes.some((r) => r.profession === S.prof)) S.prof = "*";
+  const savedSort = store.get("sort"); if (savedSort && [...$("sort").options].some((o) => o.value === savedSort)) $("sort").value = savedSort;
+  S.sort = $("sort").value;
+  const savedWin = store.get("win"); if (["6", "12", "24"].includes(savedWin)) $("win").value = savedWin;
+  S.win = +$("win").value;
+
+  $("house").onchange = () => { S.house = S.data.houses.find((h) => String(h.id) === $("house").value) || S.data.houses[0]; store.set("house", S.house.id); renderCats(); render(); };
+  $("sort").onchange = () => { S.sort = $("sort").value; store.set("sort", S.sort); S.limit = 50; renderList(); };
+  $("win").onchange = () => { S.win = +$("win").value; store.set("win", S.win); render(); };
+  let t; $("q").oninput = () => { clearTimeout(t); t = setTimeout(() => { S.limit = 50; renderList(); }, 150); };
+  $("onlyProfit").onchange = $("onlySold").onchange = () => { S.limit = 50; renderList(); };
+  $("more").onclick = () => { S.limit += 50; renderList(); };
+  S.cat = store.get("cat") || "*";
+  const ss = store.get("ssort"); if (ss && [...$("ssort").options].some((o) => o.value === ss)) $("ssort").value = ss;
+  S.ssort = $("ssort").value;
+  $("ssort").onchange = () => { S.ssort = $("ssort").value; store.set("ssort", S.ssort); S.slimit = 50; renderSell(); };
+  let t2; $("sq").oninput = () => { clearTimeout(t2); t2 = setTimeout(() => { S.slimit = 50; renderSell(); }, 150); };
+  $("sOnlySold").onchange = () => { S.slimit = 50; renderSell(); };
+  $("smore").onclick = () => { S.slimit += 50; renderSell(); };
+  document.querySelectorAll(".mode").forEach((b) => b.onclick = () => setMode(b.dataset.m));
+
+  S.house = S.data.houses.find((h) => String(h.id) === $("house").value) || S.data.houses[0];
+  renderTabs();
+  renderCats();
+  setMode(store.get("mode") === "craft" ? "craft" : "sell");
+}
+load();
+</script>
