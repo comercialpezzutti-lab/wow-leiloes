@@ -1,0 +1,10493 @@
+{
+ "generated_at": "2026-11-14T14:08:22Z",
+ "demo": false,
+ "region": "us",
+ "ruleset": {
+  "id": 1,
+  "name": "JxJ",
+  "all": [
+   {
+    "id": 1,
+    "name": "JxJ"
+   },
+   {
+    "id": 15,
+    "name": "Interpretação e JxJ"
+   },
+   {
+    "id": 3,
+    "name": "Interpretação"
+   },
+   {
+    "id": 2,
+    "name": "Normal"
+   }
+  ]
+ },
+ "all_houses": [
+  {
+   "id": 110,
+   "name": "Casa de Leilões da Aliança"
+  },
+  {
+   "id": 111,
+   "name": "Casa de Leilões da Aliança"
+  },
+  {
+   "id": 112,
+   "name": "Casa de Leilões da Aliança"
+  },
+  {
+   "id": 113,
+   "name": "Casa de Leilões da Horda"
+  },
+  {
+   "id": 114,
+   "name": "Casa de Leilões da Horda"
+  },
+  {
+   "id": 115,
+   "name": "Casa de Leilões da Horda"
+  },
+  {
+   "id": 116,
+   "name": "Casa de Leilões de Aguanegra"
+  },
+  {
+   "id": 117,
+   "name": "Casa de Leilões de Aguanegra"
+  },
+  {
+   "id": 118,
+   "name": "Casa de Leilões de Aguanegra"
+  },
+  {
+   "id": 119,
+   "name": "Casa de Leilões da Aliança"
+  },
+  {
+   "id": 120,
+   "name": "Casa de Leilões da Horda"
+  },
+  {
+   "id": 121,
+   "name": "Casa de Leilões de Aguanegra"
+  },
+  {
+   "id": 123,
+   "name": "Casa de Leilões da Aliança"
+  },
+  {
+   "id": 124,
+   "name": "Casa de Leilões da Horda"
+  },
+  {
+   "id": 125,
+   "name": "Casa de Leilões de Aguanegra"
+  }
+ ],
+ "houses": [
+  {
+   "id": 110,
+   "name": "Casa de Leilões da Aliança",
+   "items": {
+    "2569": {
+     "min": 202,
+     "median": 250,
+     "qty": 36,
+     "listings": 36
+    },
+    "4245": {
+     "min": 2140,
+     "median": 2199,
+     "qty": 360,
+     "listings": 360
+    },
+    "7285": {
+     "min": 585,
+     "median": 586,
+     "qty": 94,
+     "listings": 94
+    },
+    "6217": {
+     "min": 100,
+     "median": 100,
+     "qty": 451,
+     "listings": 451
+    },
+    "10033": {
+     "min": 9800,
+     "median": 12900,
+     "qty": 42,
+     "listings": 42
+    },
+    "3681": {
+     "min": 400,
+     "median": 400,
+     "qty": 64,
+     "listings": 64
+    },
+    "4253": {
+     "min": 5900,
+     "median": 6295,
+     "qty": 74,
+     "listings": 74
+    },
+    "8389": {
+     "min": 1300,
+     "median": 1300,
+     "qty": 10,
+     "listings": 10
+    },
+    "4417": {
+     "min": 899,
+     "median": 1100,
+     "qty": 67,
+     "listings": 67
+    },
+    "247789": {
+     "min": 100,
+     "median": 100,
+     "qty": 152,
+     "listings": 152
+    },
+    "7373": {
+     "min": 3299,
+     "median": 3700,
+     "qty": 38,
+     "listings": 38
+    },
+    "6325": {
+     "min": 166,
+     "median": 200,
+     "qty": 71,
+     "listings": 71
+    },
+    "4313": {
+     "min": 2648,
+     "median": 2850,
+     "qty": 80,
+     "listings": 80
+    },
+    "18649": {
+     "min": 3150,
+     "median": 3150,
+     "qty": 12,
+     "listings": 12
+    },
+    "11289": {
+     "min": 2899,
+     "median": 4000,
+     "qty": 43,
+     "listings": 43
+    },
+    "12689": {
+     "min": 6500,
+     "median": 6500,
+     "qty": 14,
+     "listings": 14
+    },
+    "6241": {
+     "min": 265,
+     "median": 265,
+     "qty": 42,
+     "listings": 42
+    },
+    "10001": {
+     "min": 6899,
+     "median": 6999,
+     "qty": 21,
+     "listings": 21
+    },
+    "20745": {
+     "min": 499,
+     "median": 534,
+     "qty": 83,
+     "listings": 83
+    },
+    "2317": {
+     "min": 1045,
+     "median": 1200,
+     "qty": 84,
+     "listings": 84
+    },
+    "2865": {
+     "min": 565,
+     "median": 576,
+     "qty": 255,
+     "listings": 255
+    },
+    "7289": {
+     "min": 161,
+     "median": 163,
+     "qty": 49,
+     "listings": 49
+    },
+    "2697": {
+     "min": 100,
+     "median": 100,
+     "qty": 64,
+     "listings": 64
+    },
+    "13521": {
+     "min": 2470000,
+     "median": 2470000,
+     "qty": 4,
+     "listings": 4
+    },
+    "4241": {
+     "min": 2190,
+     "median": 2235,
+     "qty": 344,
+     "listings": 344
+    },
+    "4409": {
+     "min": 199,
+     "median": 200,
+     "qty": 41,
+     "listings": 41
+    },
+    "5957": {
+     "min": 159,
+     "median": 159,
+     "qty": 92,
+     "listings": 92
+    },
+    "4373": {
+     "min": 1798,
+     "median": 2350,
+     "qty": 76,
+     "listings": 76
+    },
+    "2309": {
+     "min": 450,
+     "median": 475,
+     "qty": 71,
+     "listings": 71
+    },
+    "5961": {
+     "min": 1088,
+     "median": 1088,
+     "qty": 78,
+     "listings": 78
+    },
+    "210781": {
+     "min": 6499,
+     "median": 7000,
+     "qty": 32,
+     "listings": 32
+    },
+    "4345": {
+     "min": 185,
+     "median": 250,
+     "qty": 38,
+     "listings": 38
+    },
+    "2853": {
+     "min": 100,
+     "median": 100,
+     "qty": 61,
+     "listings": 61
+    },
+    "4333": {
+     "min": 2998,
+     "median": 4200,
+     "qty": 68,
+     "listings": 68
+    },
+    "3609": {
+     "min": 100,
+     "median": 100,
+     "qty": 83,
+     "listings": 83
+    },
+    "4237": {
+     "min": 189,
+     "median": 200,
+     "qty": 42,
+     "listings": 42
+    },
+    "10045": {
+     "min": 100,
+     "median": 100,
+     "qty": 69,
+     "listings": 69
+    },
+    "5485": {
+     "min": 1499,
+     "median": 1500,
+     "qty": 28,
+     "listings": 28
+    },
+    "15745": {
+     "min": 10000,
+     "median": 10000,
+     "qty": 7,
+     "listings": 7
+    },
+    "10321": {
+     "min": 8700,
+     "median": 8700,
+     "qty": 4,
+     "listings": 4
+    },
+    "7989": {
+     "min": 10000,
+     "median": 17069,
+     "qty": 31,
+     "listings": 31
+    },
+    "2857": {
+     "min": 279,
+     "median": 290,
+     "qty": 64,
+     "listings": 64
+    },
+    "2889": {
+     "min": 100,
+     "median": 195,
+     "qty": 18,
+     "listings": 18
+    },
+    "215369": {
+     "min": 174,
+     "median": 175,
+     "qty": 25,
+     "listings": 25
+    },
+    "10605": {
+     "min": 1900,
+     "median": 1900,
+     "qty": 16,
+     "listings": 16
+    },
+    "10421": {
+     "min": 180,
+     "median": 249,
+     "qty": 19,
+     "listings": 19
+    },
+    "2701": {
+     "min": 490,
+     "median": 490,
+     "qty": 18,
+     "listings": 18
+    },
+    "3469": {
+     "min": 430,
+     "median": 505,
+     "qty": 50,
+     "listings": 50
+    },
+    "4353": {
+     "min": 448,
+     "median": 450,
+     "qty": 39,
+     "listings": 39
+    },
+    "6045": {
+     "min": 798,
+     "median": 798,
+     "qty": 19,
+     "listings": 19
+    },
+    "3481": {
+     "min": 2199,
+     "median": 2200,
+     "qty": 21,
+     "listings": 21
+    },
+    "4257": {
+     "min": 1500,
+     "median": 1500,
+     "qty": 10,
+     "listings": 10
+    },
+    "2553": {
+     "min": 688,
+     "median": 758,
+     "qty": 30,
+     "listings": 30
+    },
+    "11081": {
+     "min": 230,
+     "median": 244,
+     "qty": 31,
+     "listings": 31
+    },
+    "14477": {
+     "min": 20000,
+     "median": 20000,
+     "qty": 7,
+     "listings": 7
+    },
+    "3393": {
+     "min": 336,
+     "median": 336,
+     "qty": 12,
+     "listings": 12
+    },
+    "7057": {
+     "min": 3000,
+     "median": 3400,
+     "qty": 60,
+     "listings": 60
+    },
+    "7453": {
+     "min": 1188,
+     "median": 1700,
+     "qty": 60,
+     "listings": 60
+    },
+    "6709": {
+     "min": 1000,
+     "median": 1000,
+     "qty": 8,
+     "listings": 8
+    },
+    "7955": {
+     "min": 1200,
+     "median": 1200,
+     "qty": 15,
+     "listings": 15
+    },
+    "2587": {
+     "min": 290,
+     "median": 510,
+     "qty": 65,
+     "listings": 65
+    },
+    "4259": {
+     "min": 2050,
+     "median": 2199,
+     "qty": 23,
+     "listings": 23
+    },
+    "5771": {
+     "min": 100,
+     "median": 100,
+     "qty": 51,
+     "listings": 51
+    },
+    "4239": {
+     "min": 135,
+     "median": 143,
+     "qty": 550,
+     "listings": 550
+    },
+    "14639": {
+     "min": 370,
+     "median": 373,
+     "qty": 23,
+     "listings": 23
+    },
+    "4317": {
+     "min": 3500,
+     "median": 4400,
+     "qty": 30,
+     "listings": 30
+    },
+    "15765": {
+     "min": 8900,
+     "median": 8900,
+     "qty": 16,
+     "listings": 16
+    },
+    "10601": {
+     "min": 500,
+     "median": 548,
+     "qty": 18,
+     "listings": 18
+    },
+    "3869": {
+     "min": 1250,
+     "median": 1250,
+     "qty": 20,
+     "listings": 20
+    },
+    "14513": {
+     "min": 289900,
+     "median": 289900,
+     "qty": 6,
+     "listings": 6
+    },
+    "8401": {
+     "min": 1400,
+     "median": 1400,
+     "qty": 18,
+     "listings": 18
+    },
+    "20575": {
+     "min": 1200,
+     "median": 1274,
+     "qty": 24,
+     "listings": 24
+    },
+    "217287": {
+     "min": 5800,
+     "median": 6050,
+     "qty": 89,
+     "listings": 89
+    },
+    "252467": {
+     "min": 11100,
+     "median": 11100,
+     "qty": 22,
+     "listings": 22
+    },
+    "2315": {
+     "min": 304,
+     "median": 304,
+     "qty": 241,
+     "listings": 241
+    },
+    "14479": {
+     "min": 4898,
+     "median": 4998,
+     "qty": 20,
+     "listings": 20
+    },
+    "10603": {
+     "min": 850,
+     "median": 900,
+     "qty": 31,
+     "listings": 31
+    },
+    "10311": {
+     "min": 8000,
+     "median": 8600,
+     "qty": 11,
+     "listings": 11
+    },
+    "4379": {
+     "min": 3198,
+     "median": 3200,
+     "qty": 22,
+     "listings": 22
+    },
+    "7391": {
+     "min": 6999,
+     "median": 7300,
+     "qty": 24,
+     "listings": 24
+    },
+    "16251": {
+     "min": 11169,
+     "median": 13200,
+     "qty": 49,
+     "listings": 49
+    },
+    "6375": {
+     "min": 497,
+     "median": 500,
+     "qty": 74,
+     "listings": 74
+    },
+    "3679": {
+     "min": 149,
+     "median": 149,
+     "qty": 28,
+     "listings": 28
+    },
+    "11151": {
+     "min": 4400,
+     "median": 4400,
+     "qty": 3,
+     "listings": 3
+    },
+    "6735": {
+     "min": 2800,
+     "median": 3000,
+     "qty": 9,
+     "listings": 9
+    },
+    "14471": {
+     "min": 7500,
+     "median": 7800,
+     "qty": 17,
+     "listings": 17
+    },
+    "3395": {
+     "min": 1200,
+     "median": 1499,
+     "qty": 29,
+     "listings": 29
+    },
+    "3683": {
+     "min": 397,
+     "median": 397,
+     "qty": 63,
+     "listings": 63
+    },
+    "3483": {
+     "min": 1000,
+     "median": 1000,
+     "qty": 56,
+     "listings": 56
+    },
+    "10019": {
+     "min": 25300,
+     "median": 25400,
+     "qty": 30,
+     "listings": 30
+    },
+    "13491": {
+     "min": 9799,
+     "median": 9799,
+     "qty": 41,
+     "listings": 41
+    },
+    "2575": {
+     "min": 100,
+     "median": 100,
+     "qty": 40,
+     "listings": 40
+    },
+    "15095": {
+     "min": 50000,
+     "median": 70000,
+     "qty": 10,
+     "listings": 10
+    },
+    "7387": {
+     "min": 5745,
+     "median": 5745,
+     "qty": 15,
+     "listings": 15
+    },
+    "16043": {
+     "min": 5000,
+     "median": 5000,
+     "qty": 21,
+     "listings": 21
+    },
+    "10027": {
+     "min": 9000,
+     "median": 9000,
+     "qty": 47,
+     "listings": 47
+    },
+    "11287": {
+     "min": 159,
+     "median": 185,
+     "qty": 389,
+     "listings": 389
+    },
+    "7975": {
+     "min": 1900,
+     "median": 2400,
+     "qty": 63,
+     "listings": 63
+    },
+    "21547": {
+     "min": 4200,
+     "median": 4400,
+     "qty": 90,
+     "listings": 90
+    },
+    "2307": {
+     "min": 295,
+     "median": 295,
+     "qty": 8,
+     "listings": 8
+    },
+    "2852": {
+     "min": 140,
+     "median": 167,
+     "qty": 75,
+     "listings": 75
+    },
+    "253664": {
+     "min": 498,
+     "median": 525,
+     "qty": 251,
+     "listings": 251
+    },
+    "4332": {
+     "min": 499,
+     "median": 499,
+     "qty": 11,
+     "listings": 11
+    },
+    "7956": {
+     "min": 1540,
+     "median": 1545,
+     "qty": 127,
+     "listings": 127
+    },
+    "6328": {
+     "min": 625,
+     "median": 700,
+     "qty": 54,
+     "listings": 54
+    },
+    "8200": {
+     "min": 9000,
+     "median": 13000,
+     "qty": 26,
+     "listings": 26
+    },
+    "6368": {
+     "min": 506,
+     "median": 510,
+     "qty": 59,
+     "listings": 59
+    },
+    "3480": {
+     "min": 850,
+     "median": 900,
+     "qty": 126,
+     "listings": 126
+    },
+    "10320": {
+     "min": 2092,
+     "median": 2400,
+     "qty": 30,
+     "listings": 30
+    },
+    "4308": {
+     "min": 250,
+     "median": 352,
+     "qty": 47,
+     "listings": 47
+    },
+    "14484": {
+     "min": 5000,
+     "median": 5000,
+     "qty": 10,
+     "listings": 10
+    },
+    "2868": {
+     "min": 540,
+     "median": 545,
+     "qty": 119,
+     "listings": 119
+    },
+    "20576": {
+     "min": 347,
+     "median": 347,
+     "qty": 96,
+     "listings": 96
+    },
+    "728": {
+     "min": 100,
+     "median": 100,
+     "qty": 123,
+     "listings": 123
+    },
+    "4412": {
+     "min": 384,
+     "median": 385,
+     "qty": 35,
+     "listings": 35
+    },
+    "2584": {
+     "min": 257,
+     "median": 257,
+     "qty": 69,
+     "listings": 69
+    },
+    "7372": {
+     "min": 2100,
+     "median": 2200,
+     "qty": 45,
+     "listings": 45
+    },
+    "16220": {
+     "min": 8700,
+     "median": 9900,
+     "qty": 20,
+     "listings": 20
+    },
+    "7360": {
+     "min": 498,
+     "median": 499,
+     "qty": 22,
+     "listings": 22
+    },
+    "4408": {
+     "min": 183,
+     "median": 268,
+     "qty": 51,
+     "listings": 51
+    },
+    "4368": {
+     "min": 419,
+     "median": 2000,
+     "qty": 50,
+     "listings": 50
+    },
+    "3852": {
+     "min": 17499,
+     "median": 17499,
+     "qty": 9,
+     "listings": 9
+    },
+    "3488": {
+     "min": 2178,
+     "median": 2399,
+     "qty": 41,
+     "listings": 41
+    },
+    "9296": {
+     "min": 2500,
+     "median": 2800,
+     "qty": 18,
+     "listings": 18
+    },
+    "2576": {
+     "min": 175,
+     "median": 175,
+     "qty": 13,
+     "listings": 13
+    },
+    "6348": {
+     "min": 174,
+     "median": 200,
+     "qty": 36,
+     "listings": 36
+    },
+    "11204": {
+     "min": 1200,
+     "median": 1200,
+     "qty": 36,
+     "listings": 36
+    },
+    "7276": {
+     "min": 100,
+     "median": 100,
+     "qty": 307,
+     "listings": 307
+    },
+    "11152": {
+     "min": 733,
+     "median": 745,
+     "qty": 114,
+     "listings": 114
+    },
+    "5640": {
+     "min": 900,
+     "median": 999,
+     "qty": 13,
+     "listings": 13
+    },
+    "10300": {
+     "min": 1299,
+     "median": 1299,
+     "qty": 19,
+     "listings": 19
+    },
+    "5964": {
+     "min": 2600,
+     "median": 2644,
+     "qty": 130,
+     "listings": 130
+    },
+    "4252": {
+     "min": 3500,
+     "median": 3550,
+     "qty": 32,
+     "listings": 32
+    },
+    "10048": {
+     "min": 2798,
+     "median": 2800,
+     "qty": 27,
+     "listings": 27
+    },
+    "6468": {
+     "min": 18099,
+     "median": 18799,
+     "qty": 31,
+     "listings": 31
+    },
+    "4348": {
+     "min": 179,
+     "median": 180,
+     "qty": 29,
+     "listings": 29
+    },
+    "4240": {
+     "min": 450,
+     "median": 500,
+     "qty": 291,
+     "listings": 291
+    },
+    "4328": {
+     "min": 2500,
+     "median": 3000,
+     "qty": 20,
+     "listings": 20
+    },
+    "2568": {
+     "min": 120,
+     "median": 127,
+     "qty": 136,
+     "listings": 136
+    },
+    "3736": {
+     "min": 500,
+     "median": 500,
+     "qty": 12,
+     "listings": 12
+    },
+    "4309": {
+     "min": 227,
+     "median": 227,
+     "qty": 83,
+     "listings": 83
+    },
+    "3737": {
+     "min": 588,
+     "median": 588,
+     "qty": 9,
+     "listings": 9
+    },
+    "4293": {
+     "min": 163,
+     "median": 163,
+     "qty": 18,
+     "listings": 18
+    },
+    "11101": {
+     "min": 4500,
+     "median": 4500,
+     "qty": 32,
+     "listings": 32
+    },
+    "2578": {
+     "min": 273,
+     "median": 273,
+     "qty": 43,
+     "listings": 43
+    },
+    "250486": {
+     "min": 3655,
+     "median": 3700,
+     "qty": 72,
+     "listings": 72
+    },
+    "7026": {
+     "min": 100,
+     "median": 100,
+     "qty": 541,
+     "listings": 541
+    },
+    "20750": {
+     "min": 18400,
+     "median": 18500,
+     "qty": 45,
+     "listings": 45
+    },
+    "3482": {
+     "min": 1000,
+     "median": 1028,
+     "qty": 70,
+     "listings": 70
+    },
+    "4362": {
+     "min": 279,
+     "median": 300,
+     "qty": 66,
+     "listings": 66
+    },
+    "7278": {
+     "min": 100,
+     "median": 100,
+     "qty": 250,
+     "listings": 250
+    },
+    "2598": {
+     "min": 100,
+     "median": 100,
+     "qty": 61,
+     "listings": 61
+    },
+    "7046": {
+     "min": 1500,
+     "median": 1500,
+     "qty": 27,
+     "listings": 27
+    },
+    "10498": {
+     "min": 2450,
+     "median": 2450,
+     "qty": 78,
+     "listings": 78
+    },
+    "7374": {
+     "min": 3900,
+     "median": 4200,
+     "qty": 71,
+     "listings": 71
+    },
+    "6242": {
+     "min": 450,
+     "median": 499,
+     "qty": 112,
+     "listings": 112
+    },
+    "2870": {
+     "min": 9500,
+     "median": 10250,
+     "qty": 65,
+     "listings": 65
+    },
+    "7358": {
+     "min": 3590,
+     "median": 4990,
+     "qty": 79,
+     "listings": 79
+    },
+    "10050": {
+     "min": 9500,
+     "median": 9821,
+     "qty": 194,
+     "listings": 194
+    },
+    "11150": {
+     "min": 749,
+     "median": 749,
+     "qty": 54,
+     "listings": 54
+    },
+    "3474": {
+     "min": 788,
+     "median": 2999,
+     "qty": 27,
+     "listings": 27
+    },
+    "20746": {
+     "min": 1400,
+     "median": 1400,
+     "qty": 324,
+     "listings": 324
+    },
+    "16250": {
+     "min": 259700,
+     "median": 259700,
+     "qty": 2,
+     "listings": 2
+    },
+    "4246": {
+     "min": 265,
+     "median": 269,
+     "qty": 376,
+     "listings": 376
+    },
+    "7090": {
+     "min": 500,
+     "median": 595,
+     "qty": 31,
+     "listings": 31
+    },
+    "6350": {
+     "min": 293,
+     "median": 295,
+     "qty": 61,
+     "listings": 61
+    },
+    "4310": {
+     "min": 600,
+     "median": 700,
+     "qty": 121,
+     "listings": 121
+    },
+    "2407": {
+     "min": 173,
+     "median": 174,
+     "qty": 19,
+     "listings": 19
+    },
+    "5543": {
+     "min": 499,
+     "median": 499,
+     "qty": 7,
+     "listings": 7
+    },
+    "2579": {
+     "min": 100,
+     "median": 125,
+     "qty": 22,
+     "listings": 22
+    },
+    "10047": {
+     "min": 179,
+     "median": 190,
+     "qty": 63,
+     "listings": 63
+    },
+    "9999": {
+     "min": 5300,
+     "median": 5300,
+     "qty": 15,
+     "listings": 15
+    },
+    "10035": {
+     "min": 8500,
+     "median": 10000,
+     "qty": 11,
+     "listings": 11
+    },
+    "2699": {
+     "min": 200,
+     "median": 200,
+     "qty": 30,
+     "listings": 30
+    },
+    "14499": {
+     "min": 44400,
+     "median": 54500,
+     "qty": 12,
+     "listings": 12
+    },
+    "6391": {
+     "min": 150,
+     "median": 150,
+     "qty": 19,
+     "listings": 19
+    },
+    "7091": {
+     "min": 275,
+     "median": 285,
+     "qty": 23,
+     "listings": 23
+    },
+    "4247": {
+     "min": 1045,
+     "median": 1049,
+     "qty": 38,
+     "listings": 38
+    },
+    "8212": {
+     "min": 14000,
+     "median": 15000,
+     "qty": 24,
+     "listings": 24
+    },
+    "7052": {
+     "min": 2600,
+     "median": 2600,
+     "qty": 26,
+     "listings": 26
+    },
+    "3840": {
+     "min": 3100,
+     "median": 3100,
+     "qty": 50,
+     "listings": 50
+    },
+    "4296": {
+     "min": 975,
+     "median": 975,
+     "qty": 27,
+     "listings": 27
+    },
+    "15752": {
+     "min": 5967,
+     "median": 5967,
+     "qty": 15,
+     "listings": 15
+    },
+    "7092": {
+     "min": 290,
+     "median": 299,
+     "qty": 26,
+     "listings": 26
+    },
+    "4324": {
+     "min": 2037,
+     "median": 2050,
+     "qty": 76,
+     "listings": 76
+    },
+    "2580": {
+     "min": 145,
+     "median": 149,
+     "qty": 104,
+     "listings": 104
+    },
+    "4264": {
+     "min": 12800,
+     "median": 12800,
+     "qty": 13,
+     "listings": 13
+    },
+    "2300": {
+     "min": 175,
+     "median": 195,
+     "qty": 37,
+     "listings": 37
+    },
+    "10644": {
+     "min": 9900,
+     "median": 9900,
+     "qty": 31,
+     "listings": 31
+    },
+    "7284": {
+     "min": 3750,
+     "median": 3799,
+     "qty": 50,
+     "listings": 50
+    },
+    "14468": {
+     "min": 21900,
+     "median": 24088,
+     "qty": 16,
+     "listings": 16
+    },
+    "6264": {
+     "min": 2887,
+     "median": 2889,
+     "qty": 54,
+     "listings": 54
+    },
+    "4416": {
+     "min": 1399,
+     "median": 1500,
+     "qty": 74,
+     "listings": 74
+    },
+    "13476": {
+     "min": 19000,
+     "median": 28000,
+     "qty": 22,
+     "listings": 22
+    },
+    "11164": {
+     "min": 798,
+     "median": 800,
+     "qty": 14,
+     "listings": 14
+    },
+    "6716": {
+     "min": 199,
+     "median": 199,
+     "qty": 40,
+     "listings": 40
+    },
+    "15748": {
+     "min": 6500,
+     "median": 6500,
+     "qty": 6,
+     "listings": 6
+    },
+    "3868": {
+     "min": 1275,
+     "median": 1277,
+     "qty": 17,
+     "listings": 17
+    },
+    "3872": {
+     "min": 798,
+     "median": 799,
+     "qty": 18,
+     "listings": 18
+    },
+    "4376": {
+     "min": 3500,
+     "median": 3500,
+     "qty": 20,
+     "listings": 20
+    },
+    "16224": {
+     "min": 150000,
+     "median": 150000,
+     "qty": 1,
+     "listings": 1
+    },
+    "4256": {
+     "min": 9299,
+     "median": 25000,
+     "qty": 8,
+     "listings": 8
+    },
+    "4349": {
+     "min": 195,
+     "median": 195,
+     "qty": 15,
+     "listings": 15
+    },
+    "6377": {
+     "min": 1233,
+     "median": 1233,
+     "qty": 8,
+     "listings": 8
+    },
+    "16245": {
+     "min": 65095,
+     "median": 77797,
+     "qty": 17,
+     "listings": 17
+    },
+    "4381": {
+     "min": 4700,
+     "median": 5045,
+     "qty": 12,
+     "listings": 12
+    },
+    "4401": {
+     "min": 900,
+     "median": 999,
+     "qty": 71,
+     "listings": 71
+    },
+    "11225": {
+     "min": 1900,
+     "median": 1999,
+     "qty": 18,
+     "listings": 18
+    },
+    "21358": {
+     "min": 15000,
+     "median": 15000,
+     "qty": 29,
+     "listings": 29
+    },
+    "2882": {
+     "min": 330,
+     "median": 350,
+     "qty": 48,
+     "listings": 48
+    },
+    "2310": {
+     "min": 175,
+     "median": 176,
+     "qty": 79,
+     "listings": 79
+    },
+    "6274": {
+     "min": 800,
+     "median": 800,
+     "qty": 24,
+     "listings": 24
+    },
+    "215370": {
+     "min": 200,
+     "median": 360,
+     "qty": 23,
+     "listings": 23
+    },
+    "4346": {
+     "min": 148,
+     "median": 149,
+     "qty": 19,
+     "listings": 19
+    },
+    "5762": {
+     "min": 437,
+     "median": 500,
+     "qty": 443,
+     "listings": 443
+    },
+    "4414": {
+     "min": 488,
+     "median": 488,
+     "qty": 26,
+     "listings": 26
+    },
+    "7958": {
+     "min": 3390,
+     "median": 3390,
+     "qty": 16,
+     "listings": 16
+    },
+    "3610": {
+     "min": 100,
+     "median": 120,
+     "qty": 22,
+     "listings": 22
+    },
+    "16218": {
+     "min": 4500,
+     "median": 5000,
+     "qty": 6,
+     "listings": 6
+    },
+    "4330": {
+     "min": 273,
+     "median": 274,
+     "qty": 20,
+     "listings": 20
+    },
+    "11098": {
+     "min": 528,
+     "median": 529,
+     "qty": 15,
+     "listings": 15
+    },
+    "2570": {
+     "min": 100,
+     "median": 100,
+     "qty": 72,
+     "listings": 72
+    },
+    "5766": {
+     "min": 1500,
+     "median": 1500,
+     "qty": 3,
+     "listings": 3
+    },
+    "8187": {
+     "min": 26000,
+     "median": 26000,
+     "qty": 1,
+     "listings": 1
+    },
+    "8399": {
+     "min": 1308,
+     "median": 1308,
+     "qty": 22,
+     "listings": 22
+    },
+    "5775": {
+     "min": 9900,
+     "median": 12599,
+     "qty": 31,
+     "listings": 31
+    },
+    "4319": {
+     "min": 2500,
+     "median": 2500,
+     "qty": 5,
+     "listings": 5
+    },
+    "6795": {
+     "min": 3000,
+     "median": 4295,
+     "qty": 106,
+     "listings": 106
+    },
+    "4415": {
+     "min": 8000,
+     "median": 8900,
+     "qty": 18,
+     "listings": 18
+    },
+    "14491": {
+     "min": 9098,
+     "median": 9898,
+     "qty": 6,
+     "listings": 6
+    },
+    "3867": {
+     "min": 949,
+     "median": 950,
+     "qty": 39,
+     "listings": 39
+    },
+    "5739": {
+     "min": 3100,
+     "median": 3100,
+     "qty": 50,
+     "listings": 50
+    },
+    "7279": {
+     "min": 100,
+     "median": 100,
+     "qty": 134,
+     "listings": 134
+    },
+    "4347": {
+     "min": 250,
+     "median": 250,
+     "qty": 17,
+     "listings": 17
+    },
+    "10312": {
+     "min": 1550,
+     "median": 1550,
+     "qty": 10,
+     "listings": 10
+    },
+    "14496": {
+     "min": 11100,
+     "median": 15900,
+     "qty": 15,
+     "listings": 15
+    },
+    "4344": {
+     "min": 100,
+     "median": 100,
+     "qty": 28,
+     "listings": 28
+    },
+    "4320": {
+     "min": 5500,
+     "median": 6000,
+     "qty": 48,
+     "listings": 48
+    },
+    "2864": {
+     "min": 1200,
+     "median": 1670,
+     "qty": 31,
+     "listings": 31
+    },
+    "4292": {
+     "min": 790,
+     "median": 900,
+     "qty": 27,
+     "listings": 27
+    },
+    "6796": {
+     "min": 1450,
+     "median": 1560,
+     "qty": 99,
+     "listings": 99
+    },
+    "3472": {
+     "min": 153,
+     "median": 153,
+     "qty": 25,
+     "listings": 25
+    },
+    "2408": {
+     "min": 200,
+     "median": 200,
+     "qty": 14,
+     "listings": 14
+    },
+    "11168": {
+     "min": 90000,
+     "median": 93000,
+     "qty": 9,
+     "listings": 9
+    },
+    "6892": {
+     "min": 1499,
+     "median": 1500,
+     "qty": 55,
+     "listings": 55
+    },
+    "8213": {
+     "min": 12300,
+     "median": 18000,
+     "qty": 16,
+     "listings": 16
+    },
+    "15737": {
+     "min": 4985,
+     "median": 4999,
+     "qty": 8,
+     "listings": 8
+    },
+    "3866": {
+     "min": 997,
+     "median": 999,
+     "qty": 33,
+     "listings": 33
+    },
+    "10606": {
+     "min": 950,
+     "median": 950,
+     "qty": 37,
+     "listings": 37
+    },
+    "4350": {
+     "min": 300,
+     "median": 369,
+     "qty": 17,
+     "listings": 17
+    },
+    "5774": {
+     "min": 12100,
+     "median": 14000,
+     "qty": 24,
+     "listings": 24
+    },
+    "6390": {
+     "min": 150,
+     "median": 150,
+     "qty": 20,
+     "listings": 20
+    },
+    "2314": {
+     "min": 1100,
+     "median": 1375,
+     "qty": 184,
+     "listings": 184
+    },
+    "6342": {
+     "min": 600,
+     "median": 640,
+     "qty": 84,
+     "listings": 84
+    },
+    "9294": {
+     "min": 1998,
+     "median": 1999,
+     "qty": 39,
+     "listings": 39
+    },
+    "12239": {
+     "min": 456767,
+     "median": 496998,
+     "qty": 6,
+     "listings": 6
+    },
+    "10315": {
+     "min": 1800,
+     "median": 1825,
+     "qty": 14,
+     "listings": 14
+    },
+    "7919": {
+     "min": 4700,
+     "median": 6500,
+     "qty": 434,
+     "listings": 434
+    },
+    "7963": {
+     "min": 6685,
+     "median": 6685,
+     "qty": 9,
+     "listings": 9
+    },
+    "3719": {
+     "min": 1400,
+     "median": 1544,
+     "qty": 165,
+     "listings": 165
+    },
+    "8400": {
+     "min": 1299,
+     "median": 1299,
+     "qty": 21,
+     "listings": 21
+    },
+    "6344": {
+     "min": 150,
+     "median": 200,
+     "qty": 25,
+     "listings": 25
+    },
+    "3680": {
+     "min": 400,
+     "median": 400,
+     "qty": 17,
+     "listings": 17
+    },
+    "15744": {
+     "min": 14700,
+     "median": 14800,
+     "qty": 17,
+     "listings": 17
+    },
+    "10316": {
+     "min": 300,
+     "median": 300,
+     "qty": 4,
+     "listings": 4
+    },
+    "7390": {
+     "min": 9900,
+     "median": 10000,
+     "qty": 25,
+     "listings": 25
+    },
+    "6326": {
+     "min": 477,
+     "median": 478,
+     "qty": 62,
+     "listings": 62
+    },
+    "4322": {
+     "min": 4100,
+     "median": 4100,
+     "qty": 10,
+     "listings": 10
+    },
+    "14478": {
+     "min": 3500,
+     "median": 3500,
+     "qty": 5,
+     "listings": 5
+    },
+    "18658": {
+     "min": 380000,
+     "median": 409100,
+     "qty": 8,
+     "listings": 8
+    },
+    "6710": {
+     "min": 4996,
+     "median": 4998,
+     "qty": 4,
+     "listings": 4
+    },
+    "2698": {
+     "min": 110,
+     "median": 150,
+     "qty": 20,
+     "listings": 20
+    },
+    "5974": {
+     "min": 1700,
+     "median": 2400,
+     "qty": 62,
+     "listings": 62
+    },
+    "3682": {
+     "min": 400,
+     "median": 580,
+     "qty": 65,
+     "listings": 65
+    },
+    "8218": {
+     "min": 2985,
+     "median": 3585,
+     "qty": 71,
+     "listings": 71
+    },
+    "3836": {
+     "min": 5400,
+     "median": 5400,
+     "qty": 48,
+     "listings": 48
+    },
+    "15732": {
+     "min": 3600,
+     "median": 3600,
+     "qty": 17,
+     "listings": 17
+    },
+    "20752": {
+     "min": 3300,
+     "median": 3300,
+     "qty": 10,
+     "listings": 10
+    },
+    "7064": {
+     "min": 12000,
+     "median": 12000,
+     "qty": 2,
+     "listings": 2
+    },
+    "3608": {
+     "min": 530,
+     "median": 530,
+     "qty": 14,
+     "listings": 14
+    },
+    "4314": {
+     "min": 500,
+     "median": 520,
+     "qty": 152,
+     "listings": 152
+    },
+    "4298": {
+     "min": 4500,
+     "median": 4500,
+     "qty": 12,
+     "listings": 12
+    },
+    "14494": {
+     "min": 8999,
+     "median": 8999,
+     "qty": 17,
+     "listings": 17
+    },
+    "8398": {
+     "min": 1167,
+     "median": 1168,
+     "qty": 17,
+     "listings": 17
+    },
+    "2302": {
+     "min": 100,
+     "median": 100,
+     "qty": 65,
+     "listings": 65
+    },
+    "21548": {
+     "min": 1082600,
+     "median": 1082600,
+     "qty": 2,
+     "listings": 2
+    },
+    "11165": {
+     "min": 750,
+     "median": 780,
+     "qty": 16,
+     "listings": 16
+    },
+    "10604": {
+     "min": 820,
+     "median": 820,
+     "qty": 24,
+     "listings": 24
+    },
+    "4356": {
+     "min": 12500,
+     "median": 12500,
+     "qty": 3,
+     "listings": 3
+    },
+    "252545": {
+     "min": 22500,
+     "median": 25699,
+     "qty": 45,
+     "listings": 45
+    },
+    "2308": {
+     "min": 275,
+     "median": 275,
+     "qty": 50,
+     "listings": 50
+    },
+    "7450": {
+     "min": 575,
+     "median": 600,
+     "qty": 10,
+     "listings": 10
+    },
+    "215365": {
+     "min": 3480,
+     "median": 4580,
+     "qty": 42,
+     "listings": 42
+    },
+    "7942": {
+     "min": 21499,
+     "median": 30000,
+     "qty": 25,
+     "listings": 25
+    },
+    "3856": {
+     "min": 15000,
+     "median": 15000,
+     "qty": 4,
+     "listings": 4
+    },
+    "7166": {
+     "min": 1188,
+     "median": 1190,
+     "qty": 12,
+     "listings": 12
+    },
+    "6219": {
+     "min": 144,
+     "median": 144,
+     "qty": 32,
+     "listings": 32
+    },
+    "10499": {
+     "min": 5200,
+     "median": 5300,
+     "qty": 21,
+     "listings": 21
+    },
+    "11202": {
+     "min": 1500,
+     "median": 1800,
+     "qty": 33,
+     "listings": 33
+    },
+    "10302": {
+     "min": 1725,
+     "median": 1725,
+     "qty": 25,
+     "listings": 25
+    },
+    "4403": {
+     "min": 7000,
+     "median": 7000,
+     "qty": 22,
+     "listings": 22
+    },
+    "7991": {
+     "min": 8900,
+     "median": 8900,
+     "qty": 3,
+     "listings": 3
+    },
+    "6044": {
+     "min": 3399,
+     "median": 4300,
+     "qty": 68,
+     "listings": 68
+    },
+    "20758": {
+     "min": 900,
+     "median": 900,
+     "qty": 11,
+     "listings": 11
+    },
+    "5578": {
+     "min": 300,
+     "median": 300,
+     "qty": 22,
+     "listings": 22
+    },
+    "16215": {
+     "min": 13000,
+     "median": 13000,
+     "qty": 6,
+     "listings": 6
+    },
+    "4299": {
+     "min": 599,
+     "median": 600,
+     "qty": 28,
+     "listings": 28
+    },
+    "7086": {
+     "min": 398,
+     "median": 398,
+     "qty": 23,
+     "listings": 23
+    },
+    "14512": {
+     "min": 159900,
+     "median": 159999,
+     "qty": 7,
+     "listings": 7
+    },
+    "4388": {
+     "min": 4500,
+     "median": 4700,
+     "qty": 32,
+     "listings": 32
+    },
+    "11205": {
+     "min": 1800,
+     "median": 1800,
+     "qty": 14,
+     "listings": 14
+    },
+    "9301": {
+     "min": 17325,
+     "median": 17325,
+     "qty": 9,
+     "listings": 9
+    },
+    "2572": {
+     "min": 388,
+     "median": 394,
+     "qty": 54,
+     "listings": 54
+    },
+    "2555": {
+     "min": 6890,
+     "median": 7099,
+     "qty": 68,
+     "listings": 68
+    },
+    "11288": {
+     "min": 205,
+     "median": 214,
+     "qty": 186,
+     "listings": 186
+    },
+    "4316": {
+     "min": 800,
+     "median": 877,
+     "qty": 13,
+     "listings": 13
+    },
+    "5488": {
+     "min": 6200,
+     "median": 6200,
+     "qty": 13,
+     "listings": 13
+    },
+    "18046": {
+     "min": 18000,
+     "median": 18000,
+     "qty": 4,
+     "listings": 4
+    },
+    "5966": {
+     "min": 1900,
+     "median": 2040,
+     "qty": 396,
+     "listings": 396
+    },
+    "6661": {
+     "min": 39900,
+     "median": 39900,
+     "qty": 13,
+     "listings": 13
+    },
+    "2582": {
+     "min": 350,
+     "median": 400,
+     "qty": 42,
+     "listings": 42
+    },
+    "3851": {
+     "min": 9000,
+     "median": 9000,
+     "qty": 13,
+     "listings": 13
+    },
+    "20744": {
+     "min": 388,
+     "median": 399,
+     "qty": 56,
+     "listings": 56
+    },
+    "7935": {
+     "min": 59994,
+     "median": 59995,
+     "qty": 14,
+     "listings": 14
+    },
+    "14508": {
+     "min": 18900,
+     "median": 18900,
+     "qty": 28,
+     "listings": 28
+    },
+    "12694": {
+     "min": 29989,
+     "median": 50000,
+     "qty": 23,
+     "listings": 23
+    },
+    "6454": {
+     "min": 1100,
+     "median": 1750,
+     "qty": 16,
+     "listings": 16
+    },
+    "12713": {
+     "min": 10000,
+     "median": 10000,
+     "qty": 2,
+     "listings": 2
+    },
+    "277025": {
+     "min": 1000,
+     "median": 3000,
+     "qty": 13,
+     "listings": 13
+    },
+    "7348": {
+     "min": 1175,
+     "median": 1200,
+     "qty": 83,
+     "listings": 83
+    },
+    "13520": {
+     "min": 390000,
+     "median": 500000,
+     "qty": 8,
+     "listings": 8
+    },
+    "14474": {
+     "min": 5700,
+     "median": 6000,
+     "qty": 10,
+     "listings": 10
+    },
+    "12162": {
+     "min": 4000,
+     "median": 4000,
+     "qty": 14,
+     "listings": 14
+    },
+    "2406": {
+     "min": 190,
+     "median": 198,
+     "qty": 20,
+     "listings": 20
+    },
+    "11206": {
+     "min": 1499,
+     "median": 1499,
+     "qty": 17,
+     "listings": 17
+    },
+    "6238": {
+     "min": 150,
+     "median": 300,
+     "qty": 57,
+     "listings": 57
+    },
+    "6239": {
+     "min": 410,
+     "median": 486,
+     "qty": 125,
+     "listings": 125
+    },
+    "4410": {
+     "min": 295,
+     "median": 300,
+     "qty": 28,
+     "listings": 28
+    },
+    "8402": {
+     "min": 1475,
+     "median": 1500,
+     "qty": 19,
+     "listings": 19
+    },
+    "14155": {
+     "min": 559900,
+     "median": 570000,
+     "qty": 11,
+     "listings": 11
+    },
+    "3843": {
+     "min": 4900,
+     "median": 4900,
+     "qty": 7,
+     "listings": 7
+    },
+    "7288": {
+     "min": 149,
+     "median": 180,
+     "qty": 17,
+     "listings": 17
+    },
+    "7920": {
+     "min": 8092,
+     "median": 8093,
+     "qty": 55,
+     "listings": 55
+    },
+    "4254": {
+     "min": 2000,
+     "median": 2000,
+     "qty": 40,
+     "listings": 40
+    },
+    "2845": {
+     "min": 1124,
+     "median": 1200,
+     "qty": 57,
+     "listings": 57
+    },
+    "5965": {
+     "min": 5500,
+     "median": 6000,
+     "qty": 17,
+     "listings": 17
+    },
+    "13522": {
+     "min": 659998,
+     "median": 689998,
+     "qty": 3,
+     "listings": 3
+    },
+    "3612": {
+     "min": 900,
+     "median": 1000,
+     "qty": 11,
+     "listings": 11
+    },
+    "7085": {
+     "min": 1000,
+     "median": 1198,
+     "qty": 49,
+     "listings": 49
+    },
+    "5782": {
+     "min": 8500,
+     "median": 9300,
+     "qty": 11,
+     "listings": 11
+    },
+    "14466": {
+     "min": 3000,
+     "median": 3000,
+     "qty": 9,
+     "listings": 9
+    },
+    "8384": {
+     "min": 27000,
+     "median": 28500,
+     "qty": 3,
+     "listings": 3
+    },
+    "11203": {
+     "min": 1100,
+     "median": 1100,
+     "qty": 39,
+     "listings": 39
+    },
+    "4251": {
+     "min": 1100,
+     "median": 1199,
+     "qty": 151,
+     "listings": 151
+    },
+    "5486": {
+     "min": 399,
+     "median": 400,
+     "qty": 10,
+     "listings": 10
+    },
+    "15779": {
+     "min": 22600,
+     "median": 22600,
+     "qty": 8,
+     "listings": 8
+    },
+    "8397": {
+     "min": 1000,
+     "median": 1000,
+     "qty": 16,
+     "listings": 16
+    },
+    "3870": {
+     "min": 899,
+     "median": 1100,
+     "qty": 18,
+     "listings": 18
+    },
+    "12429": {
+     "min": 179999,
+     "median": 179999,
+     "qty": 7,
+     "listings": 7
+    },
+    "7053": {
+     "min": 2400,
+     "median": 2500,
+     "qty": 45,
+     "listings": 45
+    },
+    "3875": {
+     "min": 41000,
+     "median": 41000,
+     "qty": 8,
+     "listings": 8
+    },
+    "7992": {
+     "min": 2000,
+     "median": 2000,
+     "qty": 11,
+     "listings": 11
+    },
+    "2583": {
+     "min": 758,
+     "median": 768,
+     "qty": 13,
+     "listings": 13
+    },
+    "7148": {
+     "min": 9900,
+     "median": 10560,
+     "qty": 47,
+     "listings": 47
+    },
+    "4297": {
+     "min": 700,
+     "median": 700,
+     "qty": 22,
+     "listings": 22
+    },
+    "8216": {
+     "min": 9000,
+     "median": 12500,
+     "qty": 30,
+     "listings": 30
+    },
+    "8395": {
+     "min": 2000,
+     "median": 2800,
+     "qty": 83,
+     "listings": 83
+    },
+    "21099": {
+     "min": 749,
+     "median": 750,
+     "qty": 46,
+     "listings": 46
+    },
+    "2312": {
+     "min": 620,
+     "median": 820,
+     "qty": 29,
+     "listings": 29
+    },
+    "3473": {
+     "min": 1050,
+     "median": 1075,
+     "qty": 27,
+     "listings": 27
+    },
+    "7363": {
+     "min": 998,
+     "median": 1999,
+     "qty": 69,
+     "listings": 69
+    },
+    "12695": {
+     "min": 9900,
+     "median": 10000,
+     "qty": 7,
+     "listings": 7
+    },
+    "8208": {
+     "min": 25000,
+     "median": 25000,
+     "qty": 9,
+     "listings": 9
+    },
+    "7051": {
+     "min": 2700,
+     "median": 2700,
+     "qty": 20,
+     "listings": 20
+    },
+    "7930": {
+     "min": 8900,
+     "median": 8900,
+     "qty": 10,
+     "listings": 10
+    },
+    "13287": {
+     "min": 35500,
+     "median": 39900,
+     "qty": 16,
+     "listings": 16
+    },
+    "6787": {
+     "min": 519,
+     "median": 520,
+     "qty": 29,
+     "listings": 29
+    },
+    "11208": {
+     "min": 1400,
+     "median": 1400,
+     "qty": 4,
+     "listings": 4
+    },
+    "2854": {
+     "min": 360,
+     "median": 399,
+     "qty": 109,
+     "listings": 109
+    },
+    "15763": {
+     "min": 34500,
+     "median": 34500,
+     "qty": 3,
+     "listings": 3
+    },
+    "4343": {
+     "min": 183,
+     "median": 184,
+     "qty": 118,
+     "listings": 118
+    },
+    "3831": {
+     "min": 3300,
+     "median": 4232,
+     "qty": 59,
+     "listings": 59
+    },
+    "7993": {
+     "min": 2500,
+     "median": 2500,
+     "qty": 12,
+     "listings": 12
+    },
+    "14489": {
+     "min": 5000,
+     "median": 5000,
+     "qty": 5,
+     "listings": 5
+    },
+    "6346": {
+     "min": 15088,
+     "median": 15088,
+     "qty": 7,
+     "listings": 7
+    },
+    "7055": {
+     "min": 2700,
+     "median": 3300,
+     "qty": 47,
+     "listings": 47
+    },
+    "16216": {
+     "min": 89500,
+     "median": 89900,
+     "qty": 7,
+     "listings": 7
+    },
+    "5963": {
+     "min": 3395,
+     "median": 3397,
+     "qty": 75,
+     "listings": 75
+    },
+    "9295": {
+     "min": 2100,
+     "median": 2200,
+     "qty": 19,
+     "listings": 19
+    },
+    "9303": {
+     "min": 12000,
+     "median": 12400,
+     "qty": 19,
+     "listings": 19
+    },
+    "10424": {
+     "min": 1498,
+     "median": 3098,
+     "qty": 102,
+     "listings": 102
+    },
+    "2303": {
+     "min": 175,
+     "median": 175,
+     "qty": 49,
+     "listings": 49
+    },
+    "7277": {
+     "min": 100,
+     "median": 110,
+     "qty": 19,
+     "listings": 19
+    },
+    "7928": {
+     "min": 36500,
+     "median": 37300,
+     "qty": 17,
+     "listings": 17
+    },
+    "7926": {
+     "min": 31583,
+     "median": 31583,
+     "qty": 9,
+     "listings": 9
+    },
+    "7945": {
+     "min": 22499,
+     "median": 22499,
+     "qty": 30,
+     "listings": 30
+    },
+    "12691": {
+     "min": 4000,
+     "median": 4000,
+     "qty": 8,
+     "listings": 8
+    },
+    "2316": {
+     "min": 560,
+     "median": 563,
+     "qty": 414,
+     "listings": 414
+    },
+    "7290": {
+     "min": 1898,
+     "median": 19900,
+     "qty": 42,
+     "listings": 42
+    },
+    "10323": {
+     "min": 6900,
+     "median": 6900,
+     "qty": 6,
+     "listings": 6
+    },
+    "10314": {
+     "min": 7900,
+     "median": 7900,
+     "qty": 6,
+     "listings": 6
+    },
+    "10317": {
+     "min": 9300,
+     "median": 9300,
+     "qty": 7,
+     "listings": 7
+    },
+    "4238": {
+     "min": 200,
+     "median": 218,
+     "qty": 195,
+     "listings": 195
+    },
+    "7281": {
+     "min": 199,
+     "median": 200,
+     "qty": 32,
+     "listings": 32
+    },
+    "13311": {
+     "min": 33000,
+     "median": 38800,
+     "qty": 18,
+     "listings": 18
+    },
+    "5972": {
+     "min": 400,
+     "median": 400,
+     "qty": 16,
+     "listings": 16
+    },
+    "4321": {
+     "min": 1999,
+     "median": 1999,
+     "qty": 34,
+     "listings": 34
+    },
+    "15726": {
+     "min": 7098,
+     "median": 8299,
+     "qty": 24,
+     "listings": 24
+    },
+    "11038": {
+     "min": 300,
+     "median": 300,
+     "qty": 11,
+     "listings": 11
+    },
+    "2881": {
+     "min": 358,
+     "median": 358,
+     "qty": 9,
+     "listings": 9
+    },
+    "2866": {
+     "min": 600,
+     "median": 600,
+     "qty": 42,
+     "listings": 42
+    },
+    "13477": {
+     "min": 18000,
+     "median": 18400,
+     "qty": 9,
+     "listings": 9
+    },
+    "12406": {
+     "min": 12500,
+     "median": 20500,
+     "qty": 6,
+     "listings": 6
+    },
+    "16219": {
+     "min": 119799,
+     "median": 119799,
+     "qty": 5,
+     "listings": 5
+    },
+    "13856": {
+     "min": 9000,
+     "median": 10000,
+     "qty": 84,
+     "listings": 84
+    },
+    "6476": {
+     "min": 3400,
+     "median": 7300,
+     "qty": 83,
+     "listings": 83
+    },
+    "11224": {
+     "min": 12200,
+     "median": 12200,
+     "qty": 5,
+     "listings": 5
+    },
+    "8211": {
+     "min": 15000,
+     "median": 32000,
+     "qty": 13,
+     "listings": 13
+    },
+    "5542": {
+     "min": 548,
+     "median": 548,
+     "qty": 30,
+     "listings": 30
+    },
+    "4354": {
+     "min": 40000,
+     "median": 50099,
+     "qty": 10,
+     "listings": 10
+    },
+    "10053": {
+     "min": 9900,
+     "median": 9900,
+     "qty": 2,
+     "listings": 2
+    },
+    "9998": {
+     "min": 5750,
+     "median": 5750,
+     "qty": 22,
+     "listings": 22
+    },
+    "8174": {
+     "min": 18800,
+     "median": 18800,
+     "qty": 37,
+     "listings": 37
+    },
+    "14514": {
+     "min": 559899,
+     "median": 609999,
+     "qty": 13,
+     "listings": 13
+    },
+    "6347": {
+     "min": 178,
+     "median": 180,
+     "qty": 36,
+     "listings": 36
+    },
+    "6467": {
+     "min": 8999,
+     "median": 9300,
+     "qty": 69,
+     "listings": 69
+    },
+    "12425": {
+     "min": 13399,
+     "median": 13399,
+     "qty": 53,
+     "listings": 53
+    },
+    "12836": {
+     "min": 35300,
+     "median": 35440,
+     "qty": 10,
+     "listings": 10
+    },
+    "5770": {
+     "min": 7500,
+     "median": 7599,
+     "qty": 91,
+     "listings": 91
+    },
+    "22246": {
+     "min": 21598,
+     "median": 21999,
+     "qty": 25,
+     "listings": 25
+    },
+    "8386": {
+     "min": 1200,
+     "median": 1200,
+     "qty": 16,
+     "listings": 16
+    },
+    "12792": {
+     "min": 158900,
+     "median": 158900,
+     "qty": 3,
+     "listings": 3
+    },
+    "3873": {
+     "min": 4599,
+     "median": 4900,
+     "qty": 33,
+     "listings": 33
+    },
+    "6466": {
+     "min": 700,
+     "median": 989,
+     "qty": 30,
+     "listings": 30
+    },
+    "5507": {
+     "min": 4899,
+     "median": 5799,
+     "qty": 107,
+     "listings": 107
+    },
+    "2847": {
+     "min": 900,
+     "median": 1500,
+     "qty": 51,
+     "listings": 51
+    },
+    "13481": {
+     "min": 1700000,
+     "median": 1700000,
+     "qty": 3,
+     "listings": 3
+    },
+    "16112": {
+     "min": 3974,
+     "median": 4099,
+     "qty": 189,
+     "listings": 189
+    },
+    "6475": {
+     "min": 1360,
+     "median": 1360,
+     "qty": 2,
+     "listings": 2
+    },
+    "4352": {
+     "min": 300,
+     "median": 300,
+     "qty": 16,
+     "listings": 16
+    },
+    "4294": {
+     "min": 500,
+     "median": 500,
+     "qty": 25,
+     "listings": 25
+    },
+    "2883": {
+     "min": 372,
+     "median": 373,
+     "qty": 28,
+     "listings": 28
+    },
+    "6214": {
+     "min": 1400,
+     "median": 1750,
+     "qty": 31,
+     "listings": 31
+    },
+    "15743": {
+     "min": 10194,
+     "median": 10198,
+     "qty": 10,
+     "listings": 10
+    },
+    "15757": {
+     "min": 9999,
+     "median": 10000,
+     "qty": 8,
+     "listings": 8
+    },
+    "10301": {
+     "min": 1324,
+     "median": 1460,
+     "qty": 11,
+     "listings": 11
+    },
+    "4248": {
+     "min": 996,
+     "median": 996,
+     "qty": 3,
+     "listings": 3
+    },
+    "11166": {
+     "min": 999,
+     "median": 999,
+     "qty": 22,
+     "listings": 22
+    },
+    "253667": {
+     "min": 7799,
+     "median": 8099,
+     "qty": 118,
+     "listings": 118
+    },
+    "18239": {
+     "min": 1300,
+     "median": 1400,
+     "qty": 14,
+     "listings": 14
+    },
+    "6474": {
+     "min": 1575,
+     "median": 2375,
+     "qty": 21,
+     "listings": 21
+    },
+    "15755": {
+     "min": 7600,
+     "median": 7700,
+     "qty": 10,
+     "listings": 10
+    },
+    "12704": {
+     "min": 14900,
+     "median": 14900,
+     "qty": 10,
+     "listings": 10
+    },
+    "12693": {
+     "min": 11949,
+     "median": 11949,
+     "qty": 11,
+     "listings": 11
+    },
+    "277027": {
+     "min": 6700,
+     "median": 6700,
+     "qty": 4,
+     "listings": 4
+    },
+    "277033": {
+     "min": 1500,
+     "median": 2500,
+     "qty": 8,
+     "listings": 8
+    },
+    "277008": {
+     "min": 1000,
+     "median": 1000,
+     "qty": 9,
+     "listings": 9
+    },
+    "16045": {
+     "min": 5000,
+     "median": 5000,
+     "qty": 15,
+     "listings": 15
+    },
+    "277031": {
+     "min": 1000,
+     "median": 2000,
+     "qty": 10,
+     "listings": 10
+    },
+    "3871": {
+     "min": 16500,
+     "median": 17590,
+     "qty": 8,
+     "listings": 8
+    },
+    "15733": {
+     "min": 4800,
+     "median": 4800,
+     "qty": 12,
+     "listings": 12
+    },
+    "277000": {
+     "min": 2000,
+     "median": 5000,
+     "qty": 10,
+     "listings": 10
+    },
+    "6040": {
+     "min": 1939,
+     "median": 2100,
+     "qty": 119,
+     "listings": 119
+    },
+    "22307": {
+     "min": 5000,
+     "median": 6500,
+     "qty": 21,
+     "listings": 21
+    },
+    "277002": {
+     "min": 1000,
+     "median": 3500,
+     "qty": 18,
+     "listings": 18
+    },
+    "277026": {
+     "min": 1000,
+     "median": 6000,
+     "qty": 17,
+     "listings": 17
+    },
+    "277034": {
+     "min": 1500,
+     "median": 5000,
+     "qty": 11,
+     "listings": 11
+    },
+    "277010": {
+     "min": 1500,
+     "median": 5000,
+     "qty": 19,
+     "listings": 19
+    },
+    "5781": {
+     "min": 2300,
+     "median": 2398,
+     "qty": 23,
+     "listings": 23
+    },
+    "277029": {
+     "min": 1500,
+     "median": 4000,
+     "qty": 26,
+     "listings": 26
+    },
+    "277037": {
+     "min": 2000,
+     "median": 5000,
+     "qty": 18,
+     "listings": 18
+    },
+    "277038": {
+     "min": 1500,
+     "median": 4000,
+     "qty": 20,
+     "listings": 20
+    },
+    "12408": {
+     "min": 26000,
+     "median": 26000,
+     "qty": 16,
+     "listings": 16
+    },
+    "277028": {
+     "min": 1000,
+     "median": 2000,
+     "qty": 15,
+     "listings": 15
+    },
+    "4336": {
+     "min": 6500,
+     "median": 7500,
+     "qty": 6,
+     "listings": 6
+    },
+    "4312": {
+     "min": 7500,
+     "median": 10000,
+     "qty": 6,
+     "listings": 6
+    },
+    "2585": {
+     "min": 1800,
+     "median": 1950,
+     "qty": 57,
+     "listings": 57
+    },
+    "4331": {
+     "min": 900,
+     "median": 1000,
+     "qty": 9,
+     "listings": 9
+    },
+    "5540": {
+     "min": 4800,
+     "median": 5000,
+     "qty": 72,
+     "listings": 72
+    },
+    "7931": {
+     "min": 8700,
+     "median": 9200,
+     "qty": 44,
+     "listings": 44
+    },
+    "7048": {
+     "min": 1018,
+     "median": 1023,
+     "qty": 64,
+     "listings": 64
+    },
+    "4456": {
+     "min": 2400,
+     "median": 2400,
+     "qty": 25,
+     "listings": 25
+    },
+    "12226": {
+     "min": 6199,
+     "median": 6199,
+     "qty": 9,
+     "listings": 9
+    },
+    "8390": {
+     "min": 1280,
+     "median": 1280,
+     "qty": 12,
+     "listings": 12
+    },
+    "5484": {
+     "min": 6500,
+     "median": 6500,
+     "qty": 5,
+     "listings": 5
+    },
+    "5483": {
+     "min": 6500,
+     "median": 6500,
+     "qty": 6,
+     "listings": 6
+    },
+    "6046": {
+     "min": 480000,
+     "median": 501500,
+     "qty": 6,
+     "listings": 6
+    },
+    "18661": {
+     "min": 7500,
+     "median": 7500,
+     "qty": 21,
+     "listings": 21
+    },
+    "15749": {
+     "min": 10000,
+     "median": 10000,
+     "qty": 3,
+     "listings": 3
+    },
+    "277035": {
+     "min": 5000,
+     "median": 5000,
+     "qty": 1,
+     "listings": 1
+    },
+    "277011": {
+     "min": 2000,
+     "median": 2000,
+     "qty": 8,
+     "listings": 8
+    },
+    "277006": {
+     "min": 1000,
+     "median": 1700,
+     "qty": 15,
+     "listings": 15
+    },
+    "277036": {
+     "min": 1000,
+     "median": 5000,
+     "qty": 23,
+     "listings": 23
+    },
+    "277012": {
+     "min": 1000,
+     "median": 5000,
+     "qty": 17,
+     "listings": 17
+    },
+    "277014": {
+     "min": 1500,
+     "median": 4000,
+     "qty": 19,
+     "listings": 19
+    },
+    "277009": {
+     "min": 1500,
+     "median": 1500,
+     "qty": 9,
+     "listings": 9
+    },
+    "277015": {
+     "min": 1000,
+     "median": 4000,
+     "qty": 16,
+     "listings": 16
+    },
+    "250603": {
+     "min": 10500,
+     "median": 11800,
+     "qty": 4,
+     "listings": 4
+    },
+    "10008": {
+     "min": 6997,
+     "median": 7397,
+     "qty": 60,
+     "listings": 60
+    },
+    "8175": {
+     "min": 4800,
+     "median": 4979,
+     "qty": 28,
+     "listings": 28
+    },
+    "7449": {
+     "min": 1075,
+     "median": 1075,
+     "qty": 5,
+     "listings": 5
+    },
+    "22390": {
+     "min": 8000100,
+     "median": 9990100,
+     "qty": 3,
+     "listings": 3
+    },
+    "7506": {
+     "min": 7200,
+     "median": 7200,
+     "qty": 33,
+     "listings": 33
+    },
+    "3611": {
+     "min": 800,
+     "median": 900,
+     "qty": 24,
+     "listings": 24
+    },
+    "277032": {
+     "min": 1000,
+     "median": 4000,
+     "qty": 18,
+     "listings": 18
+    },
+    "6338": {
+     "min": 500,
+     "median": 999,
+     "qty": 56,
+     "listings": 56
+    },
+    "15728": {
+     "min": 8500,
+     "median": 8500,
+     "qty": 9,
+     "listings": 9
+    },
+    "10040": {
+     "min": 24300,
+     "median": 27000,
+     "qty": 10,
+     "listings": 10
+    },
+    "7361": {
+     "min": 7000,
+     "median": 7000,
+     "qty": 1,
+     "listings": 1
+    },
+    "14498": {
+     "min": 19900,
+     "median": 19900,
+     "qty": 10,
+     "listings": 10
+    },
+    "7921": {
+     "min": 7400,
+     "median": 7400,
+     "qty": 13,
+     "listings": 13
+    },
+    "10609": {
+     "min": 19000,
+     "median": 19000,
+     "qty": 4,
+     "listings": 4
+    },
+    "7934": {
+     "min": 11500,
+     "median": 11500,
+     "qty": 2,
+     "listings": 2
+    },
+    "277003": {
+     "min": 3000,
+     "median": 3000,
+     "qty": 10,
+     "listings": 10
+    },
+    "10588": {
+     "min": 69998,
+     "median": 69998,
+     "qty": 3,
+     "listings": 3
+    },
+    "12835": {
+     "min": 40000,
+     "median": 40000,
+     "qty": 8,
+     "listings": 8
+    },
+    "269900": {
+     "min": 60800,
+     "median": 60800,
+     "qty": 2,
+     "listings": 2
+    },
+    "7976": {
+     "min": 79998,
+     "median": 89999,
+     "qty": 11,
+     "listings": 11
+    },
+    "3844": {
+     "min": 18498,
+     "median": 18498,
+     "qty": 3,
+     "listings": 3
+    },
+    "4260": {
+     "min": 3000,
+     "median": 3000,
+     "qty": 10,
+     "listings": 10
+    },
+    "13941": {
+     "min": 27504,
+     "median": 29204,
+     "qty": 9,
+     "listings": 9
+    },
+    "3490": {
+     "min": 5950,
+     "median": 5950,
+     "qty": 19,
+     "listings": 19
+    },
+    "7084": {
+     "min": 1555,
+     "median": 2300,
+     "qty": 56,
+     "listings": 56
+    },
+    "277007": {
+     "min": 1000,
+     "median": 2000,
+     "qty": 11,
+     "listings": 11
+    },
+    "276998": {
+     "min": 2000,
+     "median": 4000,
+     "qty": 14,
+     "listings": 14
+    },
+    "4311": {
+     "min": 1200,
+     "median": 2300,
+     "qty": 171,
+     "listings": 171
+    },
+    "2851": {
+     "min": 141,
+     "median": 150,
+     "qty": 169,
+     "listings": 169
+    },
+    "4335": {
+     "min": 8800,
+     "median": 14400,
+     "qty": 25,
+     "listings": 25
+    },
+    "277022": {
+     "min": 1000,
+     "median": 5000,
+     "qty": 16,
+     "listings": 16
+    },
+    "7959": {
+     "min": 100000,
+     "median": 100000,
+     "qty": 3,
+     "listings": 3
+    },
+    "277023": {
+     "min": 1500,
+     "median": 5000,
+     "qty": 19,
+     "listings": 19
+    },
+    "277004": {
+     "min": 1500,
+     "median": 5000,
+     "qty": 10,
+     "listings": 10
+    },
+    "250543": {
+     "min": 47469,
+     "median": 47469,
+     "qty": 26,
+     "listings": 26
+    },
+    "276999": {
+     "min": 1000,
+     "median": 3000,
+     "qty": 9,
+     "listings": 9
+    },
+    "277001": {
+     "min": 1500,
+     "median": 5000,
+     "qty": 18,
+     "listings": 18
+    },
+    "277013": {
+     "min": 1500,
+     "median": 2000,
+     "qty": 17,
+     "listings": 17
+    },
+    "6349": {
+     "min": 1300,
+     "median": 1800,
+     "qty": 37,
+     "listings": 37
+    },
+    "3830": {
+     "min": 590,
+     "median": 590,
+     "qty": 13,
+     "listings": 13
+    },
+    "16113": {
+     "min": 6748,
+     "median": 7500,
+     "qty": 186,
+     "listings": 186
+    },
+    "3874": {
+     "min": 1398,
+     "median": 1400,
+     "qty": 23,
+     "listings": 23
+    },
+    "10423": {
+     "min": 2900,
+     "median": 3000,
+     "qty": 20,
+     "listings": 20
+    },
+    "2311": {
+     "min": 300,
+     "median": 600,
+     "qty": 5,
+     "listings": 5
+    },
+    "4250": {
+     "min": 780,
+     "median": 780,
+     "qty": 25,
+     "listings": 25
+    },
+    "10501": {
+     "min": 10000,
+     "median": 12000,
+     "qty": 15,
+     "listings": 15
+    },
+    "8217": {
+     "min": 9400,
+     "median": 11055,
+     "qty": 127,
+     "listings": 127
+    },
+    "14510": {
+     "min": 4502600,
+     "median": 4502600,
+     "qty": 1,
+     "listings": 1
+    },
+    "9297": {
+     "min": 10000,
+     "median": 10900,
+     "qty": 11,
+     "listings": 11
+    },
+    "18414": {
+     "min": 5005100,
+     "median": 5005100,
+     "qty": 1,
+     "listings": 1
+    },
+    "4372": {
+     "min": 12500,
+     "median": 12500,
+     "qty": 2,
+     "listings": 2
+    },
+    "14103": {
+     "min": 16900,
+     "median": 16900,
+     "qty": 16,
+     "listings": 16
+    },
+    "4355": {
+     "min": 700,
+     "median": 800,
+     "qty": 9,
+     "listings": 9
+    },
+    "7282": {
+     "min": 608,
+     "median": 609,
+     "qty": 89,
+     "listings": 89
+    },
+    "10055": {
+     "min": 39900,
+     "median": 39900,
+     "qty": 10,
+     "listings": 10
+    },
+    "11226": {
+     "min": 120000,
+     "median": 180000,
+     "qty": 11,
+     "listings": 11
+    },
+    "11611": {
+     "min": 99998,
+     "median": 99998,
+     "qty": 12,
+     "listings": 12
+    },
+    "4300": {
+     "min": 999,
+     "median": 1000,
+     "qty": 19,
+     "listings": 19
+    },
+    "11610": {
+     "min": 8100,
+     "median": 8500,
+     "qty": 7,
+     "listings": 7
+    },
+    "17062": {
+     "min": 3340,
+     "median": 3400,
+     "qty": 122,
+     "listings": 122
+    },
+    "14470": {
+     "min": 3900,
+     "median": 3900,
+     "qty": 9,
+     "listings": 9
+    },
+    "2577": {
+     "min": 185,
+     "median": 190,
+     "qty": 22,
+     "listings": 22
+    },
+    "3396": {
+     "min": 3185,
+     "median": 4000,
+     "qty": 92,
+     "listings": 92
+    },
+    "21219": {
+     "min": 5445,
+     "median": 5499,
+     "qty": 33,
+     "listings": 33
+    },
+    "6240": {
+     "min": 600,
+     "median": 600,
+     "qty": 74,
+     "listings": 74
+    },
+    "16052": {
+     "min": 30000,
+     "median": 30000,
+     "qty": 4,
+     "listings": 4
+    },
+    "13479": {
+     "min": 1000000,
+     "median": 1000000,
+     "qty": 1,
+     "listings": 1
+    },
+    "13499": {
+     "min": 400000,
+     "median": 400000,
+     "qty": 1,
+     "listings": 1
+    },
+    "253973": {
+     "min": 26900,
+     "median": 26900,
+     "qty": 34,
+     "listings": 34
+    },
+    "8198": {
+     "min": 23099,
+     "median": 23099,
+     "qty": 5,
+     "listings": 5
+    },
+    "4249": {
+     "min": 700,
+     "median": 700,
+     "qty": 106,
+     "listings": 106
+    },
+    "3835": {
+     "min": 1550,
+     "median": 1900,
+     "qty": 453,
+     "listings": 453
+    },
+    "13493": {
+     "min": 1999995,
+     "median": 2509998,
+     "qty": 5,
+     "listings": 5
+    },
+    "10508": {
+     "min": 20000,
+     "median": 20000,
+     "qty": 12,
+     "listings": 12
+    },
+    "4411": {
+     "min": 290000,
+     "median": 400000,
+     "qty": 5,
+     "listings": 5
+    },
+    "3853": {
+     "min": 22400,
+     "median": 22899,
+     "qty": 44,
+     "listings": 44
+    },
+    "277715": {
+     "min": 950,
+     "median": 1000,
+     "qty": 76,
+     "listings": 76
+    },
+    "10036": {
+     "min": 32500,
+     "median": 32500,
+     "qty": 10,
+     "listings": 10
+    },
+    "277039": {
+     "min": 1500,
+     "median": 4000,
+     "qty": 16,
+     "listings": 16
+    },
+    "5773": {
+     "min": 9900,
+     "median": 10000,
+     "qty": 9,
+     "listings": 9
+    },
+    "6786": {
+     "min": 699,
+     "median": 800,
+     "qty": 37,
+     "listings": 37
+    },
+    "4301": {
+     "min": 19998,
+     "median": 24598,
+     "qty": 11,
+     "listings": 11
+    },
+    "5765": {
+     "min": 6950,
+     "median": 7100,
+     "qty": 151,
+     "listings": 151
+    },
+    "6263": {
+     "min": 1999,
+     "median": 2044,
+     "qty": 26,
+     "listings": 26
+    },
+    "5763": {
+     "min": 2150,
+     "median": 2238,
+     "qty": 232,
+     "listings": 232
+    },
+    "16244": {
+     "min": 1150000,
+     "median": 1259999,
+     "qty": 7,
+     "listings": 7
+    },
+    "10009": {
+     "min": 12500,
+     "median": 12500,
+     "qty": 38,
+     "listings": 38
+    },
+    "14467": {
+     "min": 2999,
+     "median": 3899,
+     "qty": 8,
+     "listings": 8
+    },
+    "10051": {
+     "min": 22597,
+     "median": 22700,
+     "qty": 285,
+     "listings": 285
+    },
+    "8189": {
+     "min": 22000,
+     "median": 22000,
+     "qty": 14,
+     "listings": 14
+    },
+    "8210": {
+     "min": 11400,
+     "median": 11400,
+     "qty": 14,
+     "listings": 14
+    },
+    "10318": {
+     "min": 10000,
+     "median": 10000,
+     "qty": 19,
+     "listings": 19
+    },
+    "4385": {
+     "min": 2195,
+     "median": 2200,
+     "qty": 30,
+     "listings": 30
+    },
+    "14504": {
+     "min": 12200,
+     "median": 12200,
+     "qty": 7,
+     "listings": 7
+    },
+    "8214": {
+     "min": 10400,
+     "median": 15000,
+     "qty": 64,
+     "listings": 64
+    },
+    "10504": {
+     "min": 18900,
+     "median": 39900,
+     "qty": 37,
+     "listings": 37
+    },
+    "10510": {
+     "min": 23900,
+     "median": 23900,
+     "qty": 6,
+     "listings": 6
+    },
+    "7060": {
+     "min": 5000,
+     "median": 5000,
+     "qty": 3,
+     "listings": 3
+    },
+    "15775": {
+     "min": 30000,
+     "median": 50000,
+     "qty": 4,
+     "listings": 4
+    },
+    "15742": {
+     "min": 350000,
+     "median": 350000,
+     "qty": 3,
+     "listings": 3
+    },
+    "7452": {
+     "min": 35000,
+     "median": 57500,
+     "qty": 7,
+     "listings": 7
+    },
+    "16042": {
+     "min": 20099,
+     "median": 24599,
+     "qty": 19,
+     "listings": 19
+    },
+    "277030": {
+     "min": 1000,
+     "median": 1700,
+     "qty": 22,
+     "listings": 22
+    },
+    "16041": {
+     "min": 22592,
+     "median": 22592,
+     "qty": 10,
+     "listings": 10
+    },
+    "10041": {
+     "min": 50000,
+     "median": 56900,
+     "qty": 24,
+     "listings": 24
+    },
+    "12682": {
+     "min": 6900,
+     "median": 7000,
+     "qty": 26,
+     "listings": 26
+    },
+    "277005": {
+     "min": 1000,
+     "median": 2500,
+     "qty": 12,
+     "listings": 12
+    },
+    "8192": {
+     "min": 9900,
+     "median": 9900,
+     "qty": 10,
+     "listings": 10
+    },
+    "10024": {
+     "min": 16500,
+     "median": 17400,
+     "qty": 11,
+     "listings": 11
+    },
+    "8215": {
+     "min": 13000,
+     "median": 22900,
+     "qty": 8,
+     "listings": 8
+    },
+    "12728": {
+     "min": 196900,
+     "median": 196900,
+     "qty": 1,
+     "listings": 1
+    },
+    "13943": {
+     "min": 22892,
+     "median": 22892,
+     "qty": 13,
+     "listings": 13
+    },
+    "13946": {
+     "min": 34200,
+     "median": 34300,
+     "qty": 17,
+     "listings": 17
+    },
+    "14111": {
+     "min": 41100,
+     "median": 41100,
+     "qty": 18,
+     "listings": 18
+    },
+    "11144": {
+     "min": 3896,
+     "median": 6998,
+     "qty": 149,
+     "listings": 149
+    },
+    "8204": {
+     "min": 12898,
+     "median": 12898,
+     "qty": 19,
+     "listings": 19
+    },
+    "5783": {
+     "min": 10000,
+     "median": 10000,
+     "qty": 5,
+     "listings": 5
+    },
+    "15091": {
+     "min": 20200,
+     "median": 29900,
+     "qty": 30,
+     "listings": 30
+    },
+    "8388": {
+     "min": 12490,
+     "median": 12500,
+     "qty": 10,
+     "listings": 10
+    },
+    "8347": {
+     "min": 77777,
+     "median": 77777,
+     "qty": 4,
+     "listings": 4
+    },
+    "18653": {
+     "min": 150000,
+     "median": 180000,
+     "qty": 11,
+     "listings": 11
+    },
+    "8197": {
+     "min": 8999,
+     "median": 10000,
+     "qty": 87,
+     "listings": 87
+    },
+    "13868": {
+     "min": 29800,
+     "median": 29800,
+     "qty": 4,
+     "listings": 4
+    },
+    "2844": {
+     "min": 180,
+     "median": 180,
+     "qty": 2,
+     "listings": 2
+    },
+    "10011": {
+     "min": 25000,
+     "median": 25000,
+     "qty": 6,
+     "listings": 6
+    },
+    "12259": {
+     "min": 17700,
+     "median": 17700,
+     "qty": 9,
+     "listings": 9
+    },
+    "15747": {
+     "min": 4999,
+     "median": 4999,
+     "qty": 11,
+     "listings": 11
+    },
+    "3848": {
+     "min": 2700,
+     "median": 2900,
+     "qty": 65,
+     "listings": 65
+    },
+    "15771": {
+     "min": 996969,
+     "median": 996969,
+     "qty": 1,
+     "listings": 1
+    },
+    "13940": {
+     "min": 24988,
+     "median": 24989,
+     "qty": 4,
+     "listings": 4
+    },
+    "3485": {
+     "min": 2300,
+     "median": 2300,
+     "qty": 25,
+     "listings": 25
+    },
+    "22248": {
+     "min": 80000,
+     "median": 80000,
+     "qty": 3,
+     "listings": 3
+    },
+    "12697": {
+     "min": 30000,
+     "median": 30000,
+     "qty": 10,
+     "listings": 10
+    },
+    "6731": {
+     "min": 2500,
+     "median": 4000,
+     "qty": 30,
+     "listings": 30
+    },
+    "11813": {
+     "min": 10000,
+     "median": 10000,
+     "qty": 12,
+     "listings": 12
+    },
+    "250536": {
+     "min": 13000,
+     "median": 13000,
+     "qty": 6,
+     "listings": 6
+    },
+    "8387": {
+     "min": 6000,
+     "median": 7000,
+     "qty": 21,
+     "listings": 21
+    },
+    "6039": {
+     "min": 9699,
+     "median": 9699,
+     "qty": 5,
+     "listings": 5
+    },
+    "8191": {
+     "min": 49401,
+     "median": 50000,
+     "qty": 25,
+     "listings": 25
+    },
+    "254079": {
+     "min": 55500,
+     "median": 58500,
+     "qty": 36,
+     "listings": 36
+    },
+    "7359": {
+     "min": 5000,
+     "median": 5000,
+     "qty": 2,
+     "listings": 2
+    },
+    "8206": {
+     "min": 17400,
+     "median": 19000,
+     "qty": 13,
+     "listings": 13
+    },
+    "18731": {
+     "min": 2999,
+     "median": 3600,
+     "qty": 25,
+     "listings": 25
+    },
+    "10576": {
+     "min": 100000,
+     "median": 100000,
+     "qty": 1,
+     "listings": 1
+    },
+    "250485": {
+     "min": 6999,
+     "median": 9999,
+     "qty": 7,
+     "listings": 7
+    },
+    "11612": {
+     "min": 13500,
+     "median": 13500,
+     "qty": 8,
+     "listings": 8
+    },
+    "13865": {
+     "min": 30400,
+     "median": 30400,
+     "qty": 5,
+     "listings": 5
+    },
+    "7349": {
+     "min": 3197,
+     "median": 3199,
+     "qty": 66,
+     "listings": 66
+    },
+    "18984": {
+     "min": 299900,
+     "median": 299900,
+     "qty": 1,
+     "listings": 1
+    },
+    "15067": {
+     "min": 200000,
+     "median": 200000,
+     "qty": 5,
+     "listings": 5
+    },
+    "14136": {
+     "min": 695600,
+     "median": 695600,
+     "qty": 1,
+     "listings": 1
+    },
+    "7933": {
+     "min": 9400,
+     "median": 9400,
+     "qty": 12,
+     "listings": 12
+    },
+    "13497": {
+     "min": 259100,
+     "median": 259100,
+     "qty": 2,
+     "listings": 2
+    },
+    "5528": {
+     "min": 1399,
+     "median": 1399,
+     "qty": 6,
+     "listings": 6
+    },
+    "15746": {
+     "min": 7524,
+     "median": 7524,
+     "qty": 8,
+     "listings": 8
+    },
+    "10021": {
+     "min": 30000,
+     "median": 33500,
+     "qty": 34,
+     "listings": 34
+    },
+    "10018": {
+     "min": 12000,
+     "median": 12000,
+     "qty": 18,
+     "listings": 18
+    },
+    "15761": {
+     "min": 6400,
+     "median": 6400,
+     "qty": 9,
+     "listings": 9
+    },
+    "3850": {
+     "min": 15300,
+     "median": 15500,
+     "qty": 41,
+     "listings": 41
+    },
+    "12424": {
+     "min": 61200,
+     "median": 71200,
+     "qty": 32,
+     "listings": 32
+    },
+    "4326": {
+     "min": 2699,
+     "median": 2700,
+     "qty": 25,
+     "listings": 25
+    },
+    "4393": {
+     "min": 9500,
+     "median": 9700,
+     "qty": 15,
+     "listings": 15
+    },
+    "15846": {
+     "min": 63000,
+     "median": 63000,
+     "qty": 50,
+     "listings": 50
+    },
+    "13519": {
+     "min": 10000000,
+     "median": 10000000,
+     "qty": 3,
+     "listings": 3
+    },
+    "12683": {
+     "min": 14900,
+     "median": 19000,
+     "qty": 20,
+     "listings": 20
+    },
+    "21340": {
+     "min": 40000,
+     "median": 40000,
+     "qty": 35,
+     "listings": 35
+    },
+    "10025": {
+     "min": 60000,
+     "median": 60000,
+     "qty": 7,
+     "listings": 7
+    },
+    "14108": {
+     "min": 59999,
+     "median": 59999,
+     "qty": 4,
+     "listings": 4
+    },
+    "3837": {
+     "min": 12000,
+     "median": 15700,
+     "qty": 19,
+     "listings": 19
+    },
+    "10002": {
+     "min": 32000,
+     "median": 32000,
+     "qty": 6,
+     "listings": 6
+    },
+    "16110": {
+     "min": 37598,
+     "median": 37599,
+     "qty": 14,
+     "listings": 14
+    },
+    "7050": {
+     "min": 1500,
+     "median": 1510,
+     "qty": 74,
+     "listings": 74
+    },
+    "4396": {
+     "min": 29900,
+     "median": 29900,
+     "qty": 17,
+     "listings": 17
+    },
+    "6385": {
+     "min": 400,
+     "median": 400,
+     "qty": 11,
+     "listings": 11
+    },
+    "252481": {
+     "min": 19900,
+     "median": 19900,
+     "qty": 4,
+     "listings": 4
+    },
+    "13870": {
+     "min": 59900,
+     "median": 59900,
+     "qty": 2,
+     "listings": 2
+    },
+    "7378": {
+     "min": 3594,
+     "median": 3594,
+     "qty": 10,
+     "listings": 10
+    },
+    "10044": {
+     "min": 34000,
+     "median": 42900,
+     "qty": 7,
+     "listings": 7
+    },
+    "250608": {
+     "min": 25000,
+     "median": 25000,
+     "qty": 2,
+     "listings": 2
+    },
+    "6663": {
+     "min": 29500,
+     "median": 29900,
+     "qty": 18,
+     "listings": 18
+    },
+    "15064": {
+     "min": 259800,
+     "median": 259800,
+     "qty": 4,
+     "listings": 4
+    },
+    "10052": {
+     "min": 20000,
+     "median": 20000,
+     "qty": 12,
+     "listings": 12
+    },
+    "7386": {
+     "min": 6000,
+     "median": 6000,
+     "qty": 25,
+     "listings": 25
+    },
+    "7941": {
+     "min": 15400,
+     "median": 15400,
+     "qty": 8,
+     "listings": 8
+    },
+    "254035": {
+     "min": 33800,
+     "median": 33900,
+     "qty": 17,
+     "listings": 17
+    },
+    "250541": {
+     "min": 33100,
+     "median": 33100,
+     "qty": 5,
+     "listings": 5
+    },
+    "10716": {
+     "min": 18000,
+     "median": 18000,
+     "qty": 4,
+     "listings": 4
+    },
+    "20747": {
+     "min": 1235,
+     "median": 1300,
+     "qty": 27,
+     "listings": 27
+    },
+    "13860": {
+     "min": 18900,
+     "median": 18900,
+     "qty": 18,
+     "listings": 18
+    },
+    "14476": {
+     "min": 5000,
+     "median": 6000,
+     "qty": 13,
+     "listings": 13
+    },
+    "13863": {
+     "min": 18600,
+     "median": 18700,
+     "qty": 63,
+     "listings": 63
+    },
+    "3471": {
+     "min": 950,
+     "median": 950,
+     "qty": 11,
+     "listings": 11
+    },
+    "3491": {
+     "min": 8334,
+     "median": 9000,
+     "qty": 44,
+     "listings": 44
+    },
+    "7937": {
+     "min": 34699,
+     "median": 34700,
+     "qty": 10,
+     "listings": 10
+    },
+    "4351": {
+     "min": 2490,
+     "median": 4300,
+     "qty": 9,
+     "listings": 9
+    },
+    "15738": {
+     "min": 8000,
+     "median": 8000,
+     "qty": 8,
+     "listings": 8
+    },
+    "18238": {
+     "min": 10700,
+     "median": 10700,
+     "qty": 13,
+     "listings": 13
+    },
+    "20075": {
+     "min": 18500,
+     "median": 18500,
+     "qty": 7,
+     "listings": 7
+    },
+    "10023": {
+     "min": 44999,
+     "median": 50099,
+     "qty": 9,
+     "listings": 9
+    },
+    "12422": {
+     "min": 150000,
+     "median": 150000,
+     "qty": 1,
+     "listings": 1
+    },
+    "10028": {
+     "min": 50000,
+     "median": 50000,
+     "qty": 2,
+     "listings": 2
+    },
+    "3484": {
+     "min": 4300,
+     "median": 4450,
+     "qty": 47,
+     "listings": 47
+    },
+    "8209": {
+     "min": 20000,
+     "median": 22200,
+     "qty": 11,
+     "listings": 11
+    },
+    "8203": {
+     "min": 23299,
+     "median": 23299,
+     "qty": 2,
+     "listings": 2
+    },
+    "260802": {
+     "min": 21900,
+     "median": 21900,
+     "qty": 18,
+     "listings": 18
+    },
+    "7065": {
+     "min": 6900,
+     "median": 6968,
+     "qty": 67,
+     "listings": 67
+    },
+    "13518": {
+     "min": 299999,
+     "median": 300000,
+     "qty": 5,
+     "listings": 5
+    },
+    "7189": {
+     "min": 55499,
+     "median": 55499,
+     "qty": 4,
+     "listings": 4
+    },
+    "14506": {
+     "min": 10000,
+     "median": 10000,
+     "qty": 12,
+     "listings": 12
+    },
+    "10031": {
+     "min": 60099,
+     "median": 60099,
+     "qty": 7,
+     "listings": 7
+    },
+    "10042": {
+     "min": 35000,
+     "median": 47000,
+     "qty": 28,
+     "listings": 28
+    },
+    "7375": {
+     "min": 5099,
+     "median": 5100,
+     "qty": 9,
+     "listings": 9
+    },
+    "15094": {
+     "min": 19300,
+     "median": 19600,
+     "qty": 39,
+     "listings": 39
+    },
+    "5487": {
+     "min": 50000,
+     "median": 50000,
+     "qty": 3,
+     "listings": 3
+    },
+    "5764": {
+     "min": 6299,
+     "median": 6400,
+     "qty": 349,
+     "listings": 349
+    },
+    "250545": {
+     "min": 40000,
+     "median": 47500,
+     "qty": 7,
+     "listings": 7
+    },
+    "254021": {
+     "min": 88800,
+     "median": 88800,
+     "qty": 2,
+     "listings": 2
+    },
+    "10026": {
+     "min": 26400,
+     "median": 30500,
+     "qty": 38,
+     "listings": 38
+    },
+    "13857": {
+     "min": 35500,
+     "median": 35500,
+     "qty": 6,
+     "listings": 6
+    },
+    "14143": {
+     "min": 29800,
+     "median": 29800,
+     "qty": 1,
+     "listings": 1
+    },
+    "10502": {
+     "min": 30000,
+     "median": 30000,
+     "qty": 14,
+     "listings": 14
+    },
+    "2850": {
+     "min": 3300,
+     "median": 4400,
+     "qty": 148,
+     "listings": 148
+    },
+    "3855": {
+     "min": 20000,
+     "median": 21699,
+     "qty": 31,
+     "listings": 31
+    },
+    "16055": {
+     "min": 700000,
+     "median": 750000,
+     "qty": 5,
+     "listings": 5
+    },
+    "8028": {
+     "min": 26600,
+     "median": 26600,
+     "qty": 7,
+     "listings": 7
+    },
+    "14046": {
+     "min": 51100,
+     "median": 52000,
+     "qty": 41,
+     "listings": 41
+    },
+    "8202": {
+     "min": 12000,
+     "median": 14900,
+     "qty": 17,
+     "listings": 17
+    },
+    "6275": {
+     "min": 700,
+     "median": 700,
+     "qty": 4,
+     "listings": 4
+    },
+    "250589": {
+     "min": 59994,
+     "median": 79996,
+     "qty": 25,
+     "listings": 25
+    },
+    "10726": {
+     "min": 40000,
+     "median": 40000,
+     "qty": 2,
+     "listings": 2
+    },
+    "10720": {
+     "min": 18000,
+     "median": 18000,
+     "qty": 8,
+     "listings": 8
+    },
+    "15084": {
+     "min": 11500,
+     "median": 12900,
+     "qty": 44,
+     "listings": 44
+    },
+    "8185": {
+     "min": 44900,
+     "median": 44900,
+     "qty": 2,
+     "listings": 2
+    },
+    "10326": {
+     "min": 14999,
+     "median": 14999,
+     "qty": 7,
+     "listings": 7
+    },
+    "13495": {
+     "min": 750000,
+     "median": 750000,
+     "qty": 3,
+     "listings": 3
+    },
+    "15727": {
+     "min": 3100,
+     "median": 3100,
+     "qty": 5,
+     "listings": 5
+    },
+    "277024": {
+     "min": 5000,
+     "median": 5000,
+     "qty": 2,
+     "listings": 2
+    },
+    "8345": {
+     "min": 65900,
+     "median": 65900,
+     "qty": 1,
+     "listings": 1
+    },
+    "12684": {
+     "min": 29000,
+     "median": 29900,
+     "qty": 11,
+     "listings": 11
+    },
+    "249144": {
+     "min": 19599,
+     "median": 19599,
+     "qty": 9,
+     "listings": 9
+    },
+    "7049": {
+     "min": 2080,
+     "median": 2280,
+     "qty": 39,
+     "listings": 39
+    },
+    "254123": {
+     "min": 29000,
+     "median": 29700,
+     "qty": 66,
+     "listings": 66
+    },
+    "9366": {
+     "min": 19000,
+     "median": 20000,
+     "qty": 25,
+     "listings": 25
+    },
+    "252582": {
+     "min": 50000,
+     "median": 50000,
+     "qty": 8,
+     "listings": 8
+    },
+    "5780": {
+     "min": 999,
+     "median": 1000,
+     "qty": 36,
+     "listings": 36
+    },
+    "7936": {
+     "min": 44999,
+     "median": 44999,
+     "qty": 3,
+     "listings": 3
+    },
+    "7058": {
+     "min": 2500,
+     "median": 2500,
+     "qty": 12,
+     "listings": 12
+    },
+    "3849": {
+     "min": 11985,
+     "median": 11985,
+     "qty": 2,
+     "listings": 2
+    },
+    "18518": {
+     "min": 2500000,
+     "median": 2500000,
+     "qty": 1,
+     "listings": 1
+    },
+    "4318": {
+     "min": 1299,
+     "median": 1300,
+     "qty": 28,
+     "listings": 28
+    },
+    "254015": {
+     "min": 8000,
+     "median": 8000,
+     "qty": 13,
+     "listings": 13
+    },
+    "250602": {
+     "min": 50000,
+     "median": 50000,
+     "qty": 1,
+     "listings": 1
+    },
+    "13949": {
+     "min": 21000,
+     "median": 22000,
+     "qty": 8,
+     "listings": 8
+    },
+    "4334": {
+     "min": 579,
+     "median": 579,
+     "qty": 42,
+     "listings": 42
+    },
+    "12703": {
+     "min": 696969,
+     "median": 749997,
+     "qty": 5,
+     "listings": 5
+    },
+    "215366": {
+     "min": 1299,
+     "median": 1299,
+     "qty": 4,
+     "listings": 4
+    },
+    "12428": {
+     "min": 153000,
+     "median": 153000,
+     "qty": 5,
+     "listings": 5
+    },
+    "4413": {
+     "min": 1000700,
+     "median": 1000700,
+     "qty": 2,
+     "listings": 2
+    },
+    "20754": {
+     "min": 37075,
+     "median": 37076,
+     "qty": 19,
+     "listings": 19
+    },
+    "16049": {
+     "min": 48000,
+     "median": 48000,
+     "qty": 6,
+     "listings": 6
+    },
+    "7062": {
+     "min": 2450,
+     "median": 2450,
+     "qty": 30,
+     "listings": 30
+    },
+    "15760": {
+     "min": 500069,
+     "median": 500069,
+     "qty": 3,
+     "listings": 3
+    },
+    "12834": {
+     "min": 209900,
+     "median": 209900,
+     "qty": 3,
+     "listings": 3
+    },
+    "254133": {
+     "min": 747500,
+     "median": 747500,
+     "qty": 1,
+     "listings": 1
+    },
+    "6672": {
+     "min": 64058,
+     "median": 64058,
+     "qty": 8,
+     "listings": 8
+    },
+    "250590": {
+     "min": 250000,
+     "median": 250000,
+     "qty": 1,
+     "listings": 1
+    },
+    "14635": {
+     "min": 7000,
+     "median": 7000,
+     "qty": 4,
+     "listings": 4
+    },
+    "6712": {
+     "min": 500,
+     "median": 600,
+     "qty": 244,
+     "listings": 244
+    },
+    "13867": {
+     "min": 43400,
+     "median": 44500,
+     "qty": 43,
+     "listings": 43
+    },
+    "22389": {
+     "min": 9990100,
+     "median": 9990100,
+     "qty": 2,
+     "listings": 2
+    },
+    "12702": {
+     "min": 250000,
+     "median": 250000,
+     "qty": 3,
+     "listings": 3
+    },
+    "254137": {
+     "min": 228700,
+     "median": 228700,
+     "qty": 1,
+     "listings": 1
+    },
+    "3846": {
+     "min": 18000,
+     "median": 18000,
+     "qty": 11,
+     "listings": 11
+    },
+    "12720": {
+     "min": 4990000,
+     "median": 4990000,
+     "qty": 1,
+     "listings": 1
+    },
+    "4244": {
+     "min": 1800,
+     "median": 2000,
+     "qty": 5,
+     "listings": 5
+    },
+    "250605": {
+     "min": 30000,
+     "median": 30000,
+     "qty": 2,
+     "listings": 2
+    },
+    "12833": {
+     "min": 110000,
+     "median": 110000,
+     "qty": 3,
+     "listings": 3
+    },
+    "8207": {
+     "min": 30000,
+     "median": 30000,
+     "qty": 2,
+     "listings": 2
+    },
+    "7946": {
+     "min": 27000,
+     "median": 27000,
+     "qty": 16,
+     "listings": 16
+    },
+    "12426": {
+     "min": 49900,
+     "median": 49900,
+     "qty": 22,
+     "listings": 22
+    },
+    "7954": {
+     "min": 50000,
+     "median": 50000,
+     "qty": 5,
+     "listings": 5
+    },
+    "2849": {
+     "min": 1998,
+     "median": 2999,
+     "qty": 20,
+     "listings": 20
+    },
+    "2848": {
+     "min": 1199,
+     "median": 1400,
+     "qty": 22,
+     "listings": 22
+    },
+    "13948": {
+     "min": 45000,
+     "median": 45000,
+     "qty": 6,
+     "listings": 6
+    },
+    "4386": {
+     "min": 4000,
+     "median": 5000,
+     "qty": 10,
+     "listings": 10
+    },
+    "276995": {
+     "min": 3500,
+     "median": 3500,
+     "qty": 1,
+     "listings": 1
+    },
+    "277019": {
+     "min": 3500,
+     "median": 3500,
+     "qty": 4,
+     "listings": 4
+    },
+    "276996": {
+     "min": 4000,
+     "median": 4000,
+     "qty": 2,
+     "listings": 2
+    },
+    "277020": {
+     "min": 4000,
+     "median": 4000,
+     "qty": 3,
+     "listings": 3
+    },
+    "254019": {
+     "min": 3999,
+     "median": 3999,
+     "qty": 21,
+     "listings": 21
+    },
+    "277016": {
+     "min": 4200,
+     "median": 4200,
+     "qty": 2,
+     "listings": 2
+    },
+    "10721": {
+     "min": 55000,
+     "median": 55000,
+     "qty": 2,
+     "listings": 2
+    },
+    "12711": {
+     "min": 255100,
+     "median": 255100,
+     "qty": 3,
+     "listings": 3
+    },
+    "22308": {
+     "min": 63175,
+     "median": 66500,
+     "qty": 8,
+     "listings": 8
+    },
+    "10034": {
+     "min": 74900,
+     "median": 74900,
+     "qty": 6,
+     "listings": 6
+    },
+    "254013": {
+     "min": 10300,
+     "median": 10300,
+     "qty": 13,
+     "listings": 13
+    },
+    "15065": {
+     "min": 300000,
+     "median": 300000,
+     "qty": 3,
+     "listings": 3
+    },
+    "260825": {
+     "min": 349900,
+     "median": 349900,
+     "qty": 1,
+     "listings": 1
+    },
+    "16248": {
+     "min": 1009100,
+     "median": 1009100,
+     "qty": 2,
+     "listings": 2
+    },
+    "16051": {
+     "min": 216967,
+     "median": 249999,
+     "qty": 13,
+     "listings": 13
+    },
+    "253999": {
+     "min": 40000,
+     "median": 40000,
+     "qty": 3,
+     "listings": 3
+    },
+    "8205": {
+     "min": 8900,
+     "median": 8900,
+     "qty": 1,
+     "listings": 1
+    },
+    "252559": {
+     "min": 27700,
+     "median": 27700,
+     "qty": 19,
+     "listings": 19
+    },
+    "277017": {
+     "min": 5500,
+     "median": 5500,
+     "qty": 2,
+     "listings": 2
+    },
+    "6369": {
+     "min": 3700,
+     "median": 3700,
+     "qty": 25,
+     "listings": 25
+    },
+    "276997": {
+     "min": 3000,
+     "median": 3000,
+     "qty": 3,
+     "listings": 3
+    },
+    "276994": {
+     "min": 3800,
+     "median": 3800,
+     "qty": 2,
+     "listings": 2
+    },
+    "14511": {
+     "min": 14990000,
+     "median": 14990000,
+     "qty": 2,
+     "listings": 2
+    },
+    "276993": {
+     "min": 5900,
+     "median": 5900,
+     "qty": 3,
+     "listings": 3
+    },
+    "277021": {
+     "min": 3500,
+     "median": 3500,
+     "qty": 2,
+     "listings": 2
+    },
+    "254033": {
+     "min": 14999,
+     "median": 14999,
+     "qty": 18,
+     "listings": 18
+    },
+    "13871": {
+     "min": 79900,
+     "median": 79900,
+     "qty": 1,
+     "listings": 1
+    },
+    "14101": {
+     "min": 12200,
+     "median": 12200,
+     "qty": 2,
+     "listings": 2
+    },
+    "7059": {
+     "min": 6000,
+     "median": 6564,
+     "qty": 25,
+     "listings": 25
+    },
+    "14043": {
+     "min": 34900,
+     "median": 34900,
+     "qty": 6,
+     "listings": 6
+    },
+    "7961": {
+     "min": 139999,
+     "median": 140000,
+     "qty": 11,
+     "listings": 11
+    },
+    "10007": {
+     "min": 18700,
+     "median": 18700,
+     "qty": 1,
+     "listings": 1
+    },
+    "250609": {
+     "min": 27500,
+     "median": 27500,
+     "qty": 14,
+     "listings": 14
+    },
+    "10577": {
+     "min": 19500,
+     "median": 19500,
+     "qty": 2,
+     "listings": 2
+    },
+    "8367": {
+     "min": 200000,
+     "median": 200000,
+     "qty": 2,
+     "listings": 2
+    },
+    "7061": {
+     "min": 28597,
+     "median": 28598,
+     "qty": 15,
+     "listings": 15
+    },
+    "15066": {
+     "min": 490000,
+     "median": 490000,
+     "qty": 4,
+     "listings": 4
+    },
+    "7938": {
+     "min": 59969,
+     "median": 59969,
+     "qty": 3,
+     "listings": 3
+    },
+    "3841": {
+     "min": 7900,
+     "median": 16000,
+     "qty": 16,
+     "listings": 16
+    },
+    "15772": {
+     "min": 950000,
+     "median": 1000000,
+     "qty": 8,
+     "listings": 8
+    },
+    "8176": {
+     "min": 5085,
+     "median": 7100,
+     "qty": 449,
+     "listings": 449
+    },
+    "12418": {
+     "min": 35000,
+     "median": 35000,
+     "qty": 5,
+     "listings": 5
+    },
+    "12419": {
+     "min": 25000,
+     "median": 35000,
+     "qty": 10,
+     "listings": 10
+    },
+    "5642": {
+     "min": 3000,
+     "median": 3000,
+     "qty": 15,
+     "listings": 15
+    },
+    "4255": {
+     "min": 5000,
+     "median": 5000,
+     "qty": 38,
+     "listings": 38
+    },
+    "7990": {
+     "min": 4000,
+     "median": 4000,
+     "qty": 16,
+     "listings": 16
+    },
+    "7913": {
+     "min": 26967,
+     "median": 26967,
+     "qty": 2,
+     "listings": 2
+    },
+    "3854": {
+     "min": 24100,
+     "median": 24100,
+     "qty": 8,
+     "listings": 8
+    },
+    "10713": {
+     "min": 70700,
+     "median": 70700,
+     "qty": 14,
+     "listings": 14
+    },
+    "8193": {
+     "min": 9800,
+     "median": 13100,
+     "qty": 91,
+     "listings": 91
+    },
+    "4327": {
+     "min": 16000,
+     "median": 16500,
+     "qty": 7,
+     "listings": 7
+    },
+    "7047": {
+     "min": 8000,
+     "median": 8895,
+     "qty": 32,
+     "listings": 32
+    },
+    "9367": {
+     "min": 500000,
+     "median": 600000,
+     "qty": 5,
+     "listings": 5
+    },
+    "252544": {
+     "min": 11000,
+     "median": 11000,
+     "qty": 10,
+     "listings": 10
+    },
+    "12828": {
+     "min": 150100,
+     "median": 150100,
+     "qty": 4,
+     "listings": 4
+    },
+    "250539": {
+     "min": 8500,
+     "median": 8500,
+     "qty": 2,
+     "listings": 2
+    },
+    "12409": {
+     "min": 65600,
+     "median": 65600,
+     "qty": 1,
+     "listings": 1
+    },
+    "11207": {
+     "min": 154900,
+     "median": 154900,
+     "qty": 8,
+     "listings": 8
+    },
+    "13494": {
+     "min": 299800,
+     "median": 299800,
+     "qty": 3,
+     "listings": 3
+    },
+    "12427": {
+     "min": 148200,
+     "median": 148200,
+     "qty": 3,
+     "listings": 3
+    },
+    "16056": {
+     "min": 359100,
+     "median": 359100,
+     "qty": 1,
+     "listings": 1
+    },
+    "14482": {
+     "min": 456100,
+     "median": 456100,
+     "qty": 2,
+     "listings": 2
+    },
+    "12260": {
+     "min": 25200,
+     "median": 25200,
+     "qty": 3,
+     "listings": 3
+    },
+    "252574": {
+     "min": 49900,
+     "median": 49900,
+     "qty": 11,
+     "listings": 11
+    },
+    "4243": {
+     "min": 1000,
+     "median": 1000,
+     "qty": 34,
+     "listings": 34
+    },
+    "3845": {
+     "min": 34352,
+     "median": 34352,
+     "qty": 12,
+     "listings": 12
+    },
+    "6384": {
+     "min": 317,
+     "median": 317,
+     "qty": 11,
+     "listings": 11
+    },
+    "20753": {
+     "min": 9999,
+     "median": 9999,
+     "qty": 7,
+     "listings": 7
+    },
+    "4383": {
+     "min": 9950,
+     "median": 10050,
+     "qty": 12,
+     "listings": 12
+    },
+    "15739": {
+     "min": 8800,
+     "median": 8800,
+     "qty": 5,
+     "listings": 5
+    },
+    "12717": {
+     "min": 7000000,
+     "median": 7000000,
+     "qty": 1,
+     "listings": 1
+    },
+    "252580": {
+     "min": 33333,
+     "median": 33333,
+     "qty": 10,
+     "listings": 10
+    },
+    "15093": {
+     "min": 18800,
+     "median": 18800,
+     "qty": 12,
+     "listings": 12
+    },
+    "15731": {
+     "min": 4400,
+     "median": 4400,
+     "qty": 3,
+     "listings": 3
+    },
+    "18587": {
+     "min": 199999,
+     "median": 199999,
+     "qty": 6,
+     "listings": 6
+    },
+    "7352": {
+     "min": 3399,
+     "median": 3399,
+     "qty": 6,
+     "listings": 6
+    },
+    "7943": {
+     "min": 37900,
+     "median": 37900,
+     "qty": 5,
+     "listings": 5
+    },
+    "252555": {
+     "min": 22500,
+     "median": 22500,
+     "qty": 1,
+     "listings": 1
+    },
+    "15071": {
+     "min": 35300,
+     "median": 35300,
+     "qty": 16,
+     "listings": 16
+    },
+    "10003": {
+     "min": 7499,
+     "median": 7900,
+     "qty": 65,
+     "listings": 65
+    },
+    "8201": {
+     "min": 25000,
+     "median": 25000,
+     "qty": 24,
+     "listings": 24
+    },
+    "254077": {
+     "min": 150000,
+     "median": 150000,
+     "qty": 1,
+     "listings": 1
+    },
+    "7939": {
+     "min": 135000,
+     "median": 135000,
+     "qty": 5,
+     "listings": 5
+    },
+    "10054": {
+     "min": 29900,
+     "median": 30000,
+     "qty": 5,
+     "listings": 5
+    },
+    "7371": {
+     "min": 2450,
+     "median": 2500,
+     "qty": 52,
+     "listings": 52
+    },
+    "277018": {
+     "min": 3800,
+     "median": 3800,
+     "qty": 2,
+     "listings": 2
+    },
+    "276992": {
+     "min": 4000,
+     "median": 4000,
+     "qty": 3,
+     "listings": 3
+    },
+    "4242": {
+     "min": 650,
+     "median": 1200,
+     "qty": 118,
+     "listings": 118
+    },
+    "3489": {
+     "min": 2400,
+     "median": 2400,
+     "qty": 3,
+     "listings": 3
+    },
+    "7927": {
+     "min": 24997,
+     "median": 24997,
+     "qty": 11,
+     "listings": 11
+    },
+    "13864": {
+     "min": 44500,
+     "median": 44500,
+     "qty": 15,
+     "listings": 15
+    },
+    "18519": {
+     "min": 5000000,
+     "median": 5000000,
+     "qty": 2,
+     "listings": 2
+    },
+    "4262": {
+     "min": 8500,
+     "median": 9000,
+     "qty": 8,
+     "listings": 8
+    },
+    "10056": {
+     "min": 1500,
+     "median": 2000,
+     "qty": 12,
+     "listings": 12
+    },
+    "10029": {
+     "min": 12000,
+     "median": 12000,
+     "qty": 6,
+     "listings": 6
+    },
+    "8349": {
+     "min": 121800,
+     "median": 121800,
+     "qty": 2,
+     "listings": 2
+    },
+    "14490": {
+     "min": 45000,
+     "median": 45000,
+     "qty": 1,
+     "listings": 1
+    },
+    "15086": {
+     "min": 19700,
+     "median": 19700,
+     "qty": 24,
+     "listings": 24
+    },
+    "7957": {
+     "min": 2700,
+     "median": 2700,
+     "qty": 2,
+     "listings": 2
+    },
+    "7377": {
+     "min": 7000,
+     "median": 7000,
+     "qty": 11,
+     "listings": 11
+    },
+    "254017": {
+     "min": 4900,
+     "median": 4900,
+     "qty": 3,
+     "listings": 3
+    },
+    "10518": {
+     "min": 29999,
+     "median": 29999,
+     "qty": 2,
+     "listings": 2
+    },
+    "250483": {
+     "min": 10000,
+     "median": 10000,
+     "qty": 7,
+     "listings": 7
+    },
+    "8348": {
+     "min": 199999,
+     "median": 199999,
+     "qty": 5,
+     "listings": 5
+    },
+    "6329": {
+     "min": 1200,
+     "median": 1200,
+     "qty": 24,
+     "listings": 24
+    },
+    "252479": {
+     "min": 30000,
+     "median": 30000,
+     "qty": 3,
+     "listings": 3
+    },
+    "11167": {
+     "min": 1299,
+     "median": 1299,
+     "qty": 7,
+     "listings": 7
+    },
+    "18948": {
+     "min": 12500,
+     "median": 12900,
+     "qty": 22,
+     "listings": 22
+    },
+    "277050": {
+     "min": 19001,
+     "median": 19001,
+     "qty": 19,
+     "listings": 19
+    },
+    "15060": {
+     "min": 299999,
+     "median": 299999,
+     "qty": 1,
+     "listings": 1
+    },
+    "12830": {
+     "min": 50000,
+     "median": 50000,
+     "qty": 3,
+     "listings": 3
+    },
+    "252449": {
+     "min": 1600,
+     "median": 10000,
+     "qty": 31,
+     "listings": 31
+    },
+    "12827": {
+     "min": 50000,
+     "median": 50000,
+     "qty": 3,
+     "listings": 3
+    },
+    "3842": {
+     "min": 4399,
+     "median": 4399,
+     "qty": 27,
+     "listings": 27
+    },
+    "4323": {
+     "min": 7000,
+     "median": 7000,
+     "qty": 5,
+     "listings": 5
+    },
+    "10032": {
+     "min": 35000,
+     "median": 35000,
+     "qty": 3,
+     "listings": 3
+    },
+    "10038": {
+     "min": 33000,
+     "median": 33000,
+     "qty": 4,
+     "listings": 4
+    },
+    "10039": {
+     "min": 40000,
+     "median": 40000,
+     "qty": 1,
+     "listings": 1
+    },
+    "14044": {
+     "min": 30000,
+     "median": 30000,
+     "qty": 1,
+     "listings": 1
+    },
+    "10004": {
+     "min": 58700,
+     "median": 58700,
+     "qty": 2,
+     "listings": 2
+    },
+    "7056": {
+     "min": 7000,
+     "median": 7000,
+     "qty": 2,
+     "listings": 2
+    },
+    "5962": {
+     "min": 4700,
+     "median": 4700,
+     "qty": 4,
+     "listings": 4
+    },
+    "15735": {
+     "min": 35300,
+     "median": 35300,
+     "qty": 1,
+     "listings": 1
+    },
+    "254131": {
+     "min": 100000,
+     "median": 100000,
+     "qty": 6,
+     "listings": 6
+    },
+    "16247": {
+     "min": 1459800,
+     "median": 1459800,
+     "qty": 1,
+     "listings": 1
+    },
+    "2409": {
+     "min": 8000,
+     "median": 9900,
+     "qty": 10,
+     "listings": 10
+    },
+    "254073": {
+     "min": 71522,
+     "median": 71522,
+     "qty": 2,
+     "listings": 2
+    },
+    "14144": {
+     "min": 99900,
+     "median": 99900,
+     "qty": 1,
+     "listings": 1
+    },
+    "14106": {
+     "min": 159000,
+     "median": 159000,
+     "qty": 4,
+     "listings": 4
+    },
+    "15758": {
+     "min": 990000,
+     "median": 990000,
+     "qty": 2,
+     "listings": 2
+    },
+    "13939": {
+     "min": 35500,
+     "median": 39000,
+     "qty": 10,
+     "listings": 10
+    },
+    "3492": {
+     "min": 7999,
+     "median": 7999,
+     "qty": 1,
+     "listings": 1
+    },
+    "14507": {
+     "min": 153190,
+     "median": 153190,
+     "qty": 1,
+     "listings": 1
+    },
+    "16111": {
+     "min": 39900,
+     "median": 39900,
+     "qty": 2,
+     "listings": 2
+    },
+    "4258": {
+     "min": 2755,
+     "median": 2755,
+     "qty": 2,
+     "listings": 2
+    },
+    "15063": {
+     "min": 249800,
+     "median": 249900,
+     "qty": 19,
+     "listings": 19
+    },
+    "13947": {
+     "min": 30000,
+     "median": 30000,
+     "qty": 2,
+     "listings": 2
+    },
+    "4369": {
+     "min": 1500,
+     "median": 1500,
+     "qty": 3,
+     "listings": 3
+    },
+    "7979": {
+     "min": 1771295,
+     "median": 1771295,
+     "qty": 2,
+     "listings": 2
+    },
+    "14497": {
+     "min": 50000,
+     "median": 50000,
+     "qty": 2,
+     "listings": 2
+    },
+    "277054": {
+     "min": 47100,
+     "median": 47100,
+     "qty": 1,
+     "listings": 1
+    },
+    "7283": {
+     "min": 1200,
+     "median": 1200,
+     "qty": 4,
+     "listings": 4
+    },
+    "20755": {
+     "min": 100000,
+     "median": 100000,
+     "qty": 2,
+     "listings": 2
+    },
+    "15083": {
+     "min": 9800,
+     "median": 9800,
+     "qty": 10,
+     "listings": 10
+    },
+    "11223": {
+     "min": 72200,
+     "median": 72200,
+     "qty": 2,
+     "listings": 2
+    },
+    "14112": {
+     "min": 150300,
+     "median": 150300,
+     "qty": 2,
+     "listings": 2
+    },
+    "250606": {
+     "min": 24999,
+     "median": 24999,
+     "qty": 3,
+     "listings": 3
+    },
+    "4455": {
+     "min": 4580,
+     "median": 4700,
+     "qty": 32,
+     "listings": 32
+    },
+    "3678": {
+     "min": 10000,
+     "median": 10000,
+     "qty": 4,
+     "listings": 4
+    },
+    "14104": {
+     "min": 40000,
+     "median": 40000,
+     "qty": 2,
+     "listings": 2
+    },
+    "7944": {
+     "min": 24700,
+     "median": 24700,
+     "qty": 2,
+     "listings": 2
+    },
+    "4315": {
+     "min": 5900,
+     "median": 6600,
+     "qty": 14,
+     "listings": 14
+    },
+    "7922": {
+     "min": 6000,
+     "median": 6000,
+     "qty": 5,
+     "listings": 5
+    },
+    "11128": {
+     "min": 1300,
+     "median": 1300,
+     "qty": 24,
+     "listings": 24
+    },
+    "4329": {
+     "min": 42200,
+     "median": 42200,
+     "qty": 7,
+     "listings": 7
+    },
+    "14501": {
+     "min": 61300,
+     "median": 61300,
+     "qty": 1,
+     "listings": 1
+    },
+    "9293": {
+     "min": 51900,
+     "median": 51900,
+     "qty": 1,
+     "listings": 1
+    },
+    "10046": {
+     "min": 500,
+     "median": 500,
+     "qty": 11,
+     "listings": 11
+    },
+    "7063": {
+     "min": 35500,
+     "median": 35500,
+     "qty": 1,
+     "listings": 1
+    },
+    "10030": {
+     "min": 19290,
+     "median": 19290,
+     "qty": 4,
+     "listings": 4
+    },
+    "14495": {
+     "min": 165390,
+     "median": 165390,
+     "qty": 1,
+     "listings": 1
+    },
+    "13945": {
+     "min": 40100,
+     "median": 40100,
+     "qty": 4,
+     "listings": 4
+    },
+    "8195": {
+     "min": 7900,
+     "median": 7900,
+     "qty": 4,
+     "listings": 4
+    },
+    "5482": {
+     "min": 100,
+     "median": 100,
+     "qty": 1,
+     "listings": 1
+    },
+    "4397": {
+     "min": 99900,
+     "median": 99900,
+     "qty": 2,
+     "listings": 2
+    },
+    "5541": {
+     "min": 15600,
+     "median": 15600,
+     "qty": 1,
+     "listings": 1
+    },
+    "3487": {
+     "min": 1800,
+     "median": 1800,
+     "qty": 1,
+     "listings": 1
+    },
+    "252437": {
+     "min": 910,
+     "median": 940,
+     "qty": 206,
+     "listings": 28
+    },
+    "1081": {
+     "min": 50,
+     "median": 50,
+     "qty": 6865,
+     "listings": 980
+    },
+    "5477": {
+     "min": 60,
+     "median": 84,
+     "qty": 167,
+     "listings": 26
+    },
+    "1705": {
+     "min": 600,
+     "median": 607,
+     "qty": 335,
+     "listings": 258
+    },
+    "4361": {
+     "min": 120,
+     "median": 127,
+     "qty": 387,
+     "listings": 117
+    },
+    "2677": {
+     "min": 85,
+     "median": 106,
+     "qty": 797,
+     "listings": 140
+    },
+    "8169": {
+     "min": 517,
+     "median": 545,
+     "qty": 536,
+     "listings": 202
+    },
+    "2589": {
+     "min": 18,
+     "median": 30,
+     "qty": 15945,
+     "listings": 415
+    },
+    "7069": {
+     "min": 1643,
+     "median": 1686,
+     "qty": 152,
+     "listings": 88
+    },
+    "3685": {
+     "min": 100,
+     "median": 108,
+     "qty": 2205,
+     "listings": 230
+    },
+    "6889": {
+     "min": 45,
+     "median": 54,
+     "qty": 569,
+     "listings": 100
+    },
+    "3577": {
+     "min": 799,
+     "median": 801,
+     "qty": 604,
+     "listings": 119
+    },
+    "4233": {
+     "min": 473,
+     "median": 483,
+     "qty": 662,
+     "listings": 58
+    },
+    "3665": {
+     "min": 150,
+     "median": 150,
+     "qty": 880,
+     "listings": 61
+    },
+    "12217": {
+     "min": 1975,
+     "median": 1990,
+     "qty": 431,
+     "listings": 13
+    },
+    "5633": {
+     "min": 180,
+     "median": 248,
+     "qty": 237,
+     "listings": 11
+    },
+    "249409": {
+     "min": 6081,
+     "median": 6236,
+     "qty": 214,
+     "listings": 65
+    },
+    "12209": {
+     "min": 210,
+     "median": 229,
+     "qty": 248,
+     "listings": 5
+    },
+    "9313": {
+     "min": 560,
+     "median": 599,
+     "qty": 1398,
+     "listings": 31
+    },
+    "5373": {
+     "min": 900,
+     "median": 1490,
+     "qty": 114,
+     "listings": 61
+    },
+    "8173": {
+     "min": 1414,
+     "median": 1415,
+     "qty": 68,
+     "listings": 11
+    },
+    "8925": {
+     "min": 500,
+     "median": 572,
+     "qty": 388,
+     "listings": 19
+    },
+    "2673": {
+     "min": 474,
+     "median": 539,
+     "qty": 1074,
+     "listings": 159
+    },
+    "6453": {
+     "min": 62,
+     "median": 62,
+     "qty": 973,
+     "listings": 194
+    },
+    "2581": {
+     "min": 20,
+     "median": 20,
+     "qty": 4843,
+     "listings": 260
+    },
+    "6533": {
+     "min": 239,
+     "median": 245,
+     "qty": 900,
+     "listings": 28
+    },
+    "13445": {
+     "min": 1950,
+     "median": 2015,
+     "qty": 614,
+     "listings": 34
+    },
+    "21217": {
+     "min": 185,
+     "median": 190,
+     "qty": 403,
+     "listings": 19
+    },
+    "2841": {
+     "min": 169,
+     "median": 174,
+     "qty": 6941,
+     "listings": 96
+    },
+    "6373": {
+     "min": 35,
+     "median": 35,
+     "qty": 423,
+     "listings": 31
+    },
+    "248825": {
+     "min": 977,
+     "median": 977,
+     "qty": 760,
+     "listings": 69
+    },
+    "2313": {
+     "min": 290,
+     "median": 308,
+     "qty": 409,
+     "listings": 95
+    },
+    "12037": {
+     "min": 198,
+     "median": 260,
+     "qty": 627,
+     "listings": 117
+    },
+    "3241": {
+     "min": 247,
+     "median": 247,
+     "qty": 278,
+     "listings": 22
+    },
+    "3369": {
+     "min": 259,
+     "median": 351,
+     "qty": 1622,
+     "listings": 98
+    },
+    "5785": {
+     "min": 499,
+     "median": 500,
+     "qty": 830,
+     "listings": 322
+    },
+    "765": {
+     "min": 64,
+     "median": 100,
+     "qty": 4149,
+     "listings": 186
+    },
+    "1529": {
+     "min": 748,
+     "median": 770,
+     "qty": 374,
+     "listings": 265
+    },
+    "21153": {
+     "min": 175,
+     "median": 249,
+     "qty": 1846,
+     "listings": 127
+    },
+    "252453": {
+     "min": 2795,
+     "median": 3199,
+     "qty": 262,
+     "listings": 33
+    },
+    "5525": {
+     "min": 20,
+     "median": 20,
+     "qty": 985,
+     "listings": 71
+    },
+    "249425": {
+     "min": 999,
+     "median": 1500,
+     "qty": 193,
+     "listings": 88
+    },
+    "8365": {
+     "min": 170,
+     "median": 205,
+     "qty": 1402,
+     "listings": 43
+    },
+    "4305": {
+     "min": 874,
+     "median": 886,
+     "qty": 601,
+     "listings": 63
+    },
+    "4605": {
+     "min": 6,
+     "median": 10,
+     "qty": 481,
+     "listings": 82
+    },
+    "279985": {
+     "min": 6000,
+     "median": 7189,
+     "qty": 11,
+     "listings": 3
+    },
+    "279949": {
+     "min": 2594,
+     "median": 4191,
+     "qty": 129,
+     "listings": 19
+    },
+    "5465": {
+     "min": 14,
+     "median": 34,
+     "qty": 669,
+     "listings": 79
+    },
+    "3729": {
+     "min": 300,
+     "median": 300,
+     "qty": 190,
+     "listings": 22
+    },
+    "769": {
+     "min": 49,
+     "median": 69,
+     "qty": 3021,
+     "listings": 210
+    },
+    "11185": {
+     "min": 880,
+     "median": 900,
+     "qty": 616,
+     "listings": 67
+    },
+    "255645": {
+     "min": 1378,
+     "median": 1380,
+     "qty": 56,
+     "listings": 44
+    },
+    "7081": {
+     "min": 700,
+     "median": 703,
+     "qty": 107,
+     "listings": 17
+    },
+    "12361": {
+     "min": 68900,
+     "median": 69497,
+     "qty": 41,
+     "listings": 27
+    },
+    "2997": {
+     "min": 413,
+     "median": 415,
+     "qty": 506,
+     "listings": 59
+    },
+    "279957": {
+     "min": 550,
+     "median": 600,
+     "qty": 13,
+     "listings": 2
+    },
+    "4363": {
+     "min": 440,
+     "median": 599,
+     "qty": 276,
+     "listings": 51
+    },
+    "5503": {
+     "min": 28,
+     "median": 35,
+     "qty": 1859,
+     "listings": 163
+    },
+    "7967": {
+     "min": 12021,
+     "median": 13021,
+     "qty": 107,
+     "listings": 18
+    },
+    "3371": {
+     "min": 7,
+     "median": 7,
+     "qty": 3097,
+     "listings": 18
+    },
+    "1015": {
+     "min": 133,
+     "median": 194,
+     "qty": 594,
+     "listings": 124
+    },
+    "2775": {
+     "min": 510,
+     "median": 546,
+     "qty": 1873,
+     "listings": 269
+    },
+    "4359": {
+     "min": 141,
+     "median": 219,
+     "qty": 909,
+     "listings": 137
+    },
+    "783": {
+     "min": 195,
+     "median": 298,
+     "qty": 655,
+     "listings": 213
+    },
+    "249399": {
+     "min": 2850,
+     "median": 2890,
+     "qty": 723,
+     "listings": 268
+    },
+    "1251": {
+     "min": 10,
+     "median": 11,
+     "qty": 1516,
+     "listings": 60
+    },
+    "12223": {
+     "min": 717,
+     "median": 860,
+     "qty": 600,
+     "listings": 145
+    },
+    "12811": {
+     "min": 103798,
+     "median": 113839,
+     "qty": 102,
+     "listings": 70
+    },
+    "1475": {
+     "min": 99,
+     "median": 104,
+     "qty": 531,
+     "listings": 225
+    },
+    "7287": {
+     "min": 187,
+     "median": 214,
+     "qty": 749,
+     "listings": 231
+    },
+    "8845": {
+     "min": 4595,
+     "median": 4599,
+     "qty": 371,
+     "listings": 87
+    },
+    "279941": {
+     "min": 1160,
+     "median": 1160,
+     "qty": 93,
+     "listings": 3
+    },
+    "4625": {
+     "min": 800,
+     "median": 929,
+     "qty": 1153,
+     "listings": 154
+    },
+    "3389": {
+     "min": 600,
+     "median": 649,
+     "qty": 784,
+     "listings": 24
+    },
+    "785": {
+     "min": 64,
+     "median": 75,
+     "qty": 1608,
+     "listings": 146
+    },
+    "249429": {
+     "min": 10455,
+     "median": 10669,
+     "qty": 253,
+     "listings": 78
+    },
+    "279973": {
+     "min": 47,
+     "median": 50,
+     "qty": 107,
+     "listings": 12
+    },
+    "12365": {
+     "min": 519,
+     "median": 523,
+     "qty": 4733,
+     "listings": 142
+    },
+    "19441": {
+     "min": 1500,
+     "median": 1500,
+     "qty": 36,
+     "listings": 28
+    },
+    "2457": {
+     "min": 1099,
+     "median": 1099,
+     "qty": 49,
+     "listings": 7
+    },
+    "729": {
+     "min": 120,
+     "median": 121,
+     "qty": 179,
+     "listings": 34
+    },
+    "15417": {
+     "min": 16000,
+     "median": 28900,
+     "qty": 1065,
+     "listings": 74
+    },
+    "723": {
+     "min": 90,
+     "median": 110,
+     "qty": 403,
+     "listings": 68
+    },
+    "3531": {
+     "min": 57,
+     "median": 57,
+     "qty": 2824,
+     "listings": 173
+    },
+    "731": {
+     "min": 29,
+     "median": 30,
+     "qty": 228,
+     "listings": 42
+    },
+    "8151": {
+     "min": 250,
+     "median": 250,
+     "qty": 969,
+     "listings": 237
+    },
+    "6051": {
+     "min": 65,
+     "median": 65,
+     "qty": 662,
+     "listings": 92
+    },
+    "13423": {
+     "min": 287,
+     "median": 295,
+     "qty": 1582,
+     "listings": 19
+    },
+    "4235": {
+     "min": 916,
+     "median": 918,
+     "qty": 245,
+     "listings": 82
+    },
+    "5095": {
+     "min": 15,
+     "median": 60,
+     "qty": 1280,
+     "listings": 46
+    },
+    "4375": {
+     "min": 750,
+     "median": 1138,
+     "qty": 148,
+     "listings": 11
+    },
+    "3383": {
+     "min": 109,
+     "median": 123,
+     "qty": 692,
+     "listings": 65
+    },
+    "2835": {
+     "min": 9,
+     "median": 18,
+     "qty": 4032,
+     "listings": 150
+    },
+    "247239": {
+     "min": 65,
+     "median": 65,
+     "qty": 105,
+     "listings": 13
+    },
+    "8067": {
+     "min": 1,
+     "median": 1,
+     "qty": 145239,
+     "listings": 202
+    },
+    "3239": {
+     "min": 7,
+     "median": 9,
+     "qty": 1351,
+     "listings": 68
+    },
+    "8951": {
+     "min": 725,
+     "median": 900,
+     "qty": 336,
+     "listings": 22
+    },
+    "250079": {
+     "min": 122,
+     "median": 134,
+     "qty": 95,
+     "listings": 8
+    },
+    "273127": {
+     "min": 25500,
+     "median": 26000,
+     "qty": 62,
+     "listings": 30
+    },
+    "787": {
+     "min": 24,
+     "median": 33,
+     "qty": 1068,
+     "listings": 74
+    },
+    "4231": {
+     "min": 255,
+     "median": 325,
+     "qty": 677,
+     "listings": 82
+    },
+    "248819": {
+     "min": 172400,
+     "median": 172500,
+     "qty": 53,
+     "listings": 29
+    },
+    "15419": {
+     "min": 3186,
+     "median": 3190,
+     "qty": 132,
+     "listings": 48
+    },
+    "5527": {
+     "min": 95,
+     "median": 95,
+     "qty": 1363,
+     "listings": 81
+    },
+    "13759": {
+     "min": 345,
+     "median": 366,
+     "qty": 898,
+     "listings": 44
+    },
+    "6471": {
+     "min": 1545,
+     "median": 1670,
+     "qty": 104,
+     "listings": 58
+    },
+    "9187": {
+     "min": 2100,
+     "median": 2199,
+     "qty": 473,
+     "listings": 31
+    },
+    "3575": {
+     "min": 288,
+     "median": 340,
+     "qty": 2025,
+     "listings": 62
+    },
+    "21071": {
+     "min": 108,
+     "median": 123,
+     "qty": 493,
+     "listings": 25
+    },
+    "2319": {
+     "min": 91,
+     "median": 100,
+     "qty": 5716,
+     "listings": 201
+    },
+    "12359": {
+     "min": 1684,
+     "median": 1694,
+     "qty": 1251,
+     "listings": 25
+    },
+    "2771": {
+     "min": 187,
+     "median": 187,
+     "qty": 1727,
+     "listings": 28
+    },
+    "13463": {
+     "min": 1400,
+     "median": 1549,
+     "qty": 1998,
+     "listings": 195
+    },
+    "4291": {
+     "min": 511,
+     "median": 515,
+     "qty": 447,
+     "listings": 19
+    },
+    "17035": {
+     "min": 550,
+     "median": 800,
+     "qty": 60,
+     "listings": 9
+    },
+    "6359": {
+     "min": 38,
+     "median": 75,
+     "qty": 5114,
+     "listings": 331
+    },
+    "11135": {
+     "min": 2500,
+     "median": 2625,
+     "qty": 186,
+     "listings": 55
+    },
+    "14343": {
+     "min": 6549,
+     "median": 6550,
+     "qty": 77,
+     "listings": 49
+    },
+    "2836": {
+     "min": 62,
+     "median": 77,
+     "qty": 3944,
+     "listings": 230
+    },
+    "15420": {
+     "min": 198,
+     "median": 203,
+     "qty": 2033,
+     "listings": 142
+    },
+    "3404": {
+     "min": 291,
+     "median": 298,
+     "qty": 544,
+     "listings": 171
+    },
+    "6048": {
+     "min": 600,
+     "median": 678,
+     "qty": 263,
+     "listings": 41
+    },
+    "5784": {
+     "min": 75,
+     "median": 75,
+     "qty": 4029,
+     "listings": 859
+    },
+    "20520": {
+     "min": 29899,
+     "median": 34900,
+     "qty": 88,
+     "listings": 54
+    },
+    "3172": {
+     "min": 18,
+     "median": 18,
+     "qty": 1866,
+     "listings": 297
+    },
+    "21072": {
+     "min": 128,
+     "median": 148,
+     "qty": 805,
+     "listings": 16
+    },
+    "7072": {
+     "min": 150,
+     "median": 150,
+     "qty": 1052,
+     "listings": 306
+    },
+    "249424": {
+     "min": 1599,
+     "median": 1809,
+     "qty": 537,
+     "listings": 179
+    },
+    "3712": {
+     "min": 203,
+     "median": 235,
+     "qty": 894,
+     "listings": 109
+    },
+    "6888": {
+     "min": 26,
+     "median": 29,
+     "qty": 702,
+     "listings": 57
+    },
+    "3384": {
+     "min": 40,
+     "median": 65,
+     "qty": 121,
+     "listings": 17
+    },
+    "1468": {
+     "min": 45,
+     "median": 47,
+     "qty": 471,
+     "listings": 90
+    },
+    "251524": {
+     "min": 347,
+     "median": 398,
+     "qty": 776,
+     "listings": 54
+    },
+    "8168": {
+     "min": 106,
+     "median": 106,
+     "qty": 668,
+     "listings": 59
+    },
+    "279968": {
+     "min": 52,
+     "median": 58,
+     "qty": 985,
+     "listings": 45
+    },
+    "1288": {
+     "min": 254,
+     "median": 259,
+     "qty": 414,
+     "listings": 73
+    },
+    "4596": {
+     "min": 190,
+     "median": 200,
+     "qty": 212,
+     "listings": 28
+    },
+    "8068": {
+     "min": 2,
+     "median": 2,
+     "qty": 117578,
+     "listings": 36
+    },
+    "7428": {
+     "min": 250,
+     "median": 250,
+     "qty": 246,
+     "listings": 119
+    },
+    "12364": {
+     "min": 12300,
+     "median": 14500,
+     "qty": 167,
+     "listings": 100
+    },
+    "255716": {
+     "min": 30,
+     "median": 45,
+     "qty": 1942,
+     "listings": 47
+    },
+    "4232": {
+     "min": 330,
+     "median": 364,
+     "qty": 571,
+     "listings": 130
+    },
+    "12184": {
+     "min": 274,
+     "median": 313,
+     "qty": 912,
+     "listings": 144
+    },
+    "7964": {
+     "min": 339,
+     "median": 343,
+     "qty": 1078,
+     "listings": 30
+    },
+    "5116": {
+     "min": 307,
+     "median": 308,
+     "qty": 506,
+     "listings": 206
+    },
+    "7676": {
+     "min": 1020,
+     "median": 1120,
+     "qty": 460,
+     "listings": 8
+    },
+    "4360": {
+     "min": 60,
+     "median": 60,
+     "qty": 515,
+     "listings": 46
+    },
+    "7912": {
+     "min": 212,
+     "median": 221,
+     "qty": 4283,
+     "listings": 168
+    },
+    "4404": {
+     "min": 35,
+     "median": 40,
+     "qty": 1269,
+     "listings": 47
+    },
+    "2684": {
+     "min": 160,
+     "median": 175,
+     "qty": 212,
+     "listings": 26
+    },
+    "2592": {
+     "min": 125,
+     "median": 150,
+     "qty": 7291,
+     "listings": 286
+    },
+    "8152": {
+     "min": 578,
+     "median": 689,
+     "qty": 291,
+     "listings": 163
+    },
+    "2304": {
+     "min": 15,
+     "median": 15,
+     "qty": 2064,
+     "listings": 181
+    },
+    "2840": {
+     "min": 122,
+     "median": 145,
+     "qty": 4222,
+     "listings": 133
+    },
+    "17056": {
+     "min": 108,
+     "median": 120,
+     "qty": 1284,
+     "listings": 171
+    },
+    "248820": {
+     "min": 80000,
+     "median": 80000,
+     "qty": 17,
+     "listings": 15
+    },
+    "2672": {
+     "min": 95,
+     "median": 106,
+     "qty": 819,
+     "listings": 76
+    },
+    "3356": {
+     "min": 187,
+     "median": 200,
+     "qty": 916,
+     "listings": 85
+    },
+    "6452": {
+     "min": 28,
+     "median": 28,
+     "qty": 193,
+     "listings": 16
+    },
+    "250932": {
+     "min": 36,
+     "median": 50,
+     "qty": 75,
+     "listings": 7
+    },
+    "3860": {
+     "min": 936,
+     "median": 938,
+     "qty": 3289,
+     "listings": 85
+    },
+    "2772": {
+     "min": 249,
+     "median": 285,
+     "qty": 3354,
+     "listings": 195
+    },
+    "2996": {
+     "min": 54,
+     "median": 59,
+     "qty": 896,
+     "listings": 59
+    },
+    "6316": {
+     "min": 15,
+     "median": 15,
+     "qty": 277,
+     "listings": 14
+    },
+    "252452": {
+     "min": 1644,
+     "median": 1700,
+     "qty": 35,
+     "listings": 17
+    },
+    "12208": {
+     "min": 446,
+     "median": 467,
+     "qty": 1175,
+     "listings": 147
+    },
+    "2685": {
+     "min": 288,
+     "median": 288,
+     "qty": 142,
+     "listings": 3
+    },
+    "4593": {
+     "min": 12,
+     "median": 14,
+     "qty": 200,
+     "listings": 10
+    },
+    "4377": {
+     "min": 410,
+     "median": 419,
+     "qty": 830,
+     "listings": 110
+    },
+    "818": {
+     "min": 116,
+     "median": 159,
+     "qty": 463,
+     "listings": 226
+    },
+    "3358": {
+     "min": 465,
+     "median": 478,
+     "qty": 1549,
+     "listings": 180
+    },
+    "13422": {
+     "min": 210,
+     "median": 300,
+     "qty": 2526,
+     "listings": 103
+    },
+    "3818": {
+     "min": 449,
+     "median": 538,
+     "qty": 2117,
+     "listings": 300
+    },
+    "2458": {
+     "min": 25,
+     "median": 46,
+     "qty": 399,
+     "listings": 38
+    },
+    "6470": {
+     "min": 54,
+     "median": 60,
+     "qty": 505,
+     "listings": 92
+    },
+    "774": {
+     "min": 16,
+     "median": 20,
+     "qty": 1447,
+     "listings": 277
+    },
+    "858": {
+     "min": 26,
+     "median": 27,
+     "qty": 1133,
+     "listings": 110
+    },
+    "3530": {
+     "min": 28,
+     "median": 28,
+     "qty": 5332,
+     "listings": 249
+    },
+    "10978": {
+     "min": 500,
+     "median": 618,
+     "qty": 261,
+     "listings": 56
+    },
+    "10558": {
+     "min": 367,
+     "median": 375,
+     "qty": 654,
+     "listings": 43
+    },
+    "4306": {
+     "min": 198,
+     "median": 200,
+     "qty": 8130,
+     "listings": 287
+    },
+    "730": {
+     "min": 79,
+     "median": 152,
+     "qty": 4802,
+     "listings": 500
+    },
+    "6042": {
+     "min": 1300,
+     "median": 1400,
+     "qty": 60,
+     "listings": 22
+    },
+    "10286": {
+     "min": 406,
+     "median": 407,
+     "qty": 922,
+     "listings": 187
+    },
+    "6530": {
+     "min": 25,
+     "median": 31,
+     "qty": 847,
+     "listings": 155
+    },
+    "4594": {
+     "min": 12,
+     "median": 35,
+     "qty": 1417,
+     "listings": 41
+    },
+    "2842": {
+     "min": 350,
+     "median": 457,
+     "qty": 382,
+     "listings": 66
+    },
+    "17222": {
+     "min": 668,
+     "median": 687,
+     "qty": 340,
+     "listings": 14
+    },
+    "3858": {
+     "min": 804,
+     "median": 808,
+     "qty": 3029,
+     "listings": 121
+    },
+    "249426": {
+     "min": 2550,
+     "median": 3015,
+     "qty": 470,
+     "listings": 174
+    },
+    "1210": {
+     "min": 261,
+     "median": 308,
+     "qty": 446,
+     "listings": 233
+    },
+    "7286": {
+     "min": 25,
+     "median": 25,
+     "qty": 1202,
+     "listings": 130
+    },
+    "3174": {
+     "min": 16,
+     "median": 19,
+     "qty": 1278,
+     "listings": 214
+    },
+    "3390": {
+     "min": 1206,
+     "median": 1274,
+     "qty": 208,
+     "listings": 23
+    },
+    "8838": {
+     "min": 1495,
+     "median": 1500,
+     "qty": 849,
+     "listings": 93
+    },
+    "6450": {
+     "min": 200,
+     "median": 200,
+     "qty": 4225,
+     "listings": 207
+    },
+    "1206": {
+     "min": 798,
+     "median": 1180,
+     "qty": 371,
+     "listings": 253
+    },
+    "3486": {
+     "min": 1017,
+     "median": 1018,
+     "qty": 177,
+     "listings": 16
+    },
+    "8170": {
+     "min": 1220,
+     "median": 1300,
+     "qty": 2181,
+     "listings": 153
+    },
+    "2318": {
+     "min": 59,
+     "median": 74,
+     "qty": 6151,
+     "listings": 240
+    },
+    "249274": {
+     "min": 8133,
+     "median": 8900,
+     "qty": 528,
+     "listings": 137
+    },
+    "13754": {
+     "min": 249,
+     "median": 299,
+     "qty": 494,
+     "listings": 25
+    },
+    "11186": {
+     "min": 780,
+     "median": 855,
+     "qty": 492,
+     "listings": 57
+    },
+    "2770": {
+     "min": 117,
+     "median": 131,
+     "qty": 3595,
+     "listings": 176
+    },
+    "5470": {
+     "min": 198,
+     "median": 198,
+     "qty": 52,
+     "listings": 41
+    },
+    "2886": {
+     "min": 14,
+     "median": 26,
+     "qty": 1978,
+     "listings": 67
+    },
+    "249431": {
+     "min": 20000,
+     "median": 20500,
+     "qty": 176,
+     "listings": 29
+    },
+    "8831": {
+     "min": 447,
+     "median": 528,
+     "qty": 2379,
+     "listings": 281
+    },
+    "6303": {
+     "min": 18,
+     "median": 23,
+     "qty": 712,
+     "listings": 78
+    },
+    "6291": {
+     "min": 47,
+     "median": 50,
+     "qty": 698,
+     "listings": 34
+    },
+    "7075": {
+     "min": 499,
+     "median": 500,
+     "qty": 46,
+     "listings": 40
+    },
+    "250947": {
+     "min": 90,
+     "median": 196,
+     "qty": 861,
+     "listings": 175
+    },
+    "249391": {
+     "min": 285,
+     "median": 475,
+     "qty": 1202,
+     "listings": 336
+    },
+    "2675": {
+     "min": 45,
+     "median": 45,
+     "qty": 757,
+     "listings": 11
+    },
+    "7971": {
+     "min": 2000,
+     "median": 4549,
+     "qty": 795,
+     "listings": 336
+    },
+    "3663": {
+     "min": 125,
+     "median": 125,
+     "qty": 412,
+     "listings": 69
+    },
+    "6043": {
+     "min": 1500,
+     "median": 1583,
+     "qty": 49,
+     "listings": 19
+    },
+    "13760": {
+     "min": 655,
+     "median": 758,
+     "qty": 783,
+     "listings": 31
+    },
+    "4236": {
+     "min": 1150,
+     "median": 1177,
+     "qty": 540,
+     "listings": 62
+    },
+    "4592": {
+     "min": 29,
+     "median": 65,
+     "qty": 4277,
+     "listings": 85
+    },
+    "279956": {
+     "min": 69,
+     "median": 137,
+     "qty": 129,
+     "listings": 16
+    },
+    "8836": {
+     "min": 1662,
+     "median": 2142,
+     "qty": 609,
+     "listings": 220
+    },
+    "4384": {
+     "min": 1200,
+     "median": 1210,
+     "qty": 369,
+     "listings": 54
+    },
+    "12808": {
+     "min": 3485,
+     "median": 3992,
+     "qty": 190,
+     "listings": 139
+    },
+    "3388": {
+     "min": 158,
+     "median": 178,
+     "qty": 422,
+     "listings": 110
+    },
+    "724": {
+     "min": 68,
+     "median": 72,
+     "qty": 249,
+     "listings": 33
+    },
+    "10512": {
+     "min": 5,
+     "median": 7,
+     "qty": 26403,
+     "listings": 41
+    },
+    "5500": {
+     "min": 802,
+     "median": 819,
+     "qty": 265,
+     "listings": 183
+    },
+    "10620": {
+     "min": 1297,
+     "median": 1299,
+     "qty": 2307,
+     "listings": 79
+    },
+    "3220": {
+     "min": 40,
+     "median": 65,
+     "qty": 808,
+     "listings": 57
+    },
+    "249872": {
+     "min": 150,
+     "median": 150,
+     "qty": 271,
+     "listings": 6
+    },
+    "2924": {
+     "min": 95,
+     "median": 98,
+     "qty": 482,
+     "listings": 63
+    },
+    "5996": {
+     "min": 480,
+     "median": 595,
+     "qty": 173,
+     "listings": 30
+    },
+    "5468": {
+     "min": 290,
+     "median": 290,
+     "qty": 32,
+     "listings": 16
+    },
+    "14529": {
+     "min": 811,
+     "median": 811,
+     "qty": 136,
+     "listings": 6
+    },
+    "2289": {
+     "min": 420,
+     "median": 426,
+     "qty": 125,
+     "listings": 103
+    },
+    "273125": {
+     "min": 48599,
+     "median": 62995,
+     "qty": 170,
+     "listings": 80
+    },
+    "250353": {
+     "min": 598,
+     "median": 699,
+     "qty": 28,
+     "listings": 4
+    },
+    "6361": {
+     "min": 8,
+     "median": 18,
+     "qty": 1227,
+     "listings": 68
+    },
+    "4265": {
+     "min": 685,
+     "median": 685,
+     "qty": 149,
+     "listings": 23
+    },
+    "6362": {
+     "min": 5,
+     "median": 14,
+     "qty": 3415,
+     "listings": 104
+    },
+    "118": {
+     "min": 7,
+     "median": 34,
+     "qty": 1055,
+     "listings": 134
+    },
+    "4406": {
+     "min": 600,
+     "median": 600,
+     "qty": 148,
+     "listings": 36
+    },
+    "2838": {
+     "min": 356,
+     "median": 361,
+     "qty": 2927,
+     "listings": 104
+    },
+    "1082": {
+     "min": 150,
+     "median": 150,
+     "qty": 134,
+     "listings": 25
+    },
+    "251290": {
+     "min": 850097,
+     "median": 850097,
+     "qty": 7,
+     "listings": 7
+    },
+    "7974": {
+     "min": 54,
+     "median": 60,
+     "qty": 1824,
+     "listings": 88
+    },
+    "13758": {
+     "min": 17,
+     "median": 23,
+     "qty": 2075,
+     "listings": 42
+    },
+    "2594": {
+     "min": 1060,
+     "median": 1090,
+     "qty": 8,
+     "listings": 7
+    },
+    "13930": {
+     "min": 51,
+     "median": 79,
+     "qty": 547,
+     "listings": 10
+    },
+    "4338": {
+     "min": 600,
+     "median": 690,
+     "qty": 4344,
+     "listings": 199
+    },
+    "18662": {
+     "min": 200,
+     "median": 200,
+     "qty": 183,
+     "listings": 26
+    },
+    "3382": {
+     "min": 90,
+     "median": 100,
+     "qty": 223,
+     "listings": 25
+    },
+    "1710": {
+     "min": 490,
+     "median": 500,
+     "qty": 737,
+     "listings": 89
+    },
+    "3666": {
+     "min": 125,
+     "median": 125,
+     "qty": 78,
+     "listings": 8
+    },
+    "8846": {
+     "min": 3955,
+     "median": 3955,
+     "qty": 377,
+     "listings": 35
+    },
+    "2934": {
+     "min": 19,
+     "median": 25,
+     "qty": 1394,
+     "listings": 72
+    },
+    "6358": {
+     "min": 250,
+     "median": 333,
+     "qty": 1094,
+     "listings": 46
+    },
+    "6890": {
+     "min": 32,
+     "median": 44,
+     "qty": 347,
+     "listings": 13
+    },
+    "6522": {
+     "min": 385,
+     "median": 386,
+     "qty": 713,
+     "listings": 13
+    },
+    "249430": {
+     "min": 3697,
+     "median": 3697,
+     "qty": 71,
+     "listings": 26
+    },
+    "13466": {
+     "min": 3000,
+     "median": 3549,
+     "qty": 783,
+     "listings": 79
+    },
+    "255718": {
+     "min": 400,
+     "median": 446,
+     "qty": 428,
+     "listings": 16
+    },
+    "9154": {
+     "min": 300,
+     "median": 300,
+     "qty": 52,
+     "listings": 7
+    },
+    "2454": {
+     "min": 104,
+     "median": 110,
+     "qty": 775,
+     "listings": 59
+    },
+    "4371": {
+     "min": 513,
+     "median": 513,
+     "qty": 281,
+     "listings": 36
+    },
+    "250327": {
+     "min": 2499,
+     "median": 2500,
+     "qty": 39,
+     "listings": 7
+    },
+    "13455": {
+     "min": 3575,
+     "median": 3593,
+     "qty": 154,
+     "listings": 9
+    },
+    "10507": {
+     "min": 614,
+     "median": 615,
+     "qty": 308,
+     "listings": 8
+    },
+    "12799": {
+     "min": 7096,
+     "median": 7497,
+     "qty": 61,
+     "listings": 27
+    },
+    "8959": {
+     "min": 210,
+     "median": 210,
+     "qty": 37,
+     "listings": 9
+    },
+    "250347": {
+     "min": 20000,
+     "median": 30000,
+     "qty": 17,
+     "listings": 3
+    },
+    "247240": {
+     "min": 219,
+     "median": 219,
+     "qty": 176,
+     "listings": 12
+    },
+    "279944": {
+     "min": 129,
+     "median": 129,
+     "qty": 426,
+     "listings": 9
+    },
+    "10940": {
+     "min": 131,
+     "median": 187,
+     "qty": 4204,
+     "listings": 75
+    },
+    "7972": {
+     "min": 400,
+     "median": 400,
+     "qty": 181,
+     "listings": 62
+    },
+    "16204": {
+     "min": 4500,
+     "median": 5000,
+     "qty": 854,
+     "listings": 117
+    },
+    "2596": {
+     "min": 300,
+     "median": 396,
+     "qty": 758,
+     "listings": 9
+    },
+    "250340": {
+     "min": 567,
+     "median": 567,
+     "qty": 198,
+     "listings": 6
+    },
+    "11184": {
+     "min": 2400,
+     "median": 2400,
+     "qty": 69,
+     "listings": 5
+    },
+    "2452": {
+     "min": 1000,
+     "median": 1500,
+     "qty": 927,
+     "listings": 56
+    },
+    "250940": {
+     "min": 1296,
+     "median": 1498,
+     "qty": 150,
+     "listings": 32
+    },
+    "250944": {
+     "min": 171,
+     "median": 172,
+     "qty": 68,
+     "listings": 8
+    },
+    "4096": {
+     "min": 607,
+     "median": 608,
+     "qty": 491,
+     "listings": 133
+    },
+    "15416": {
+     "min": 10000,
+     "median": 10000,
+     "qty": 96,
+     "listings": 24
+    },
+    "4365": {
+     "min": 79,
+     "median": 79,
+     "qty": 89,
+     "listings": 8
+    },
+    "279970": {
+     "min": 1377,
+     "median": 1778,
+     "qty": 45,
+     "listings": 3
+    },
+    "3470": {
+     "min": 6,
+     "median": 8,
+     "qty": 731,
+     "listings": 32
+    },
+    "250934": {
+     "min": 540,
+     "median": 640,
+     "qty": 192,
+     "listings": 7
+    },
+    "15870": {
+     "min": 350,
+     "median": 399,
+     "qty": 184,
+     "listings": 12
+    },
+    "247754": {
+     "min": 110,
+     "median": 112,
+     "qty": 108,
+     "listings": 8
+    },
+    "814": {
+     "min": 25,
+     "median": 25,
+     "qty": 1319,
+     "listings": 140
+    },
+    "7910": {
+     "min": 5563,
+     "median": 5795,
+     "qty": 160,
+     "listings": 124
+    },
+    "247242": {
+     "min": 3398,
+     "median": 3399,
+     "qty": 211,
+     "listings": 15
+    },
+    "5498": {
+     "min": 284,
+     "median": 400,
+     "qty": 644,
+     "listings": 377
+    },
+    "5526": {
+     "min": 75,
+     "median": 75,
+     "qty": 135,
+     "listings": 7
+    },
+    "9262": {
+     "min": 1000,
+     "median": 1000,
+     "qty": 81,
+     "listings": 60
+    },
+    "8150": {
+     "min": 256,
+     "median": 257,
+     "qty": 381,
+     "listings": 79
+    },
+    "8154": {
+     "min": 777,
+     "median": 813,
+     "qty": 461,
+     "listings": 81
+    },
+    "3387": {
+     "min": 9900,
+     "median": 10486,
+     "qty": 436,
+     "listings": 49
+    },
+    "13755": {
+     "min": 430,
+     "median": 476,
+     "qty": 912,
+     "listings": 43
+    },
+    "9155": {
+     "min": 2200,
+     "median": 2219,
+     "qty": 60,
+     "listings": 7
+    },
+    "274971": {
+     "min": 1440,
+     "median": 1442,
+     "qty": 359,
+     "listings": 27
+    },
+    "248815": {
+     "min": 2727,
+     "median": 2928,
+     "qty": 557,
+     "listings": 26
+    },
+    "4395": {
+     "min": 3500,
+     "median": 3500,
+     "qty": 95,
+     "listings": 6
+    },
+    "2687": {
+     "min": 35,
+     "median": 37,
+     "qty": 357,
+     "listings": 29
+    },
+    "2871": {
+     "min": 200,
+     "median": 325,
+     "qty": 654,
+     "listings": 32
+    },
+    "13931": {
+     "min": 474,
+     "median": 475,
+     "qty": 972,
+     "listings": 25
+    },
+    "2680": {
+     "min": 97,
+     "median": 98,
+     "qty": 129,
+     "listings": 7
+    },
+    "9036": {
+     "min": 498,
+     "median": 498,
+     "qty": 109,
+     "listings": 20
+    },
+    "3240": {
+     "min": 95,
+     "median": 99,
+     "qty": 1258,
+     "listings": 24
+    },
+    "13932": {
+     "min": 1000,
+     "median": 1290,
+     "qty": 2344,
+     "listings": 47
+    },
+    "3824": {
+     "min": 2225,
+     "median": 2225,
+     "qty": 196,
+     "listings": 14
+    },
+    "11040": {
+     "min": 5077,
+     "median": 5878,
+     "qty": 406,
+     "listings": 53
+    },
+    "7392": {
+     "min": 700,
+     "median": 744,
+     "qty": 140,
+     "listings": 23
+    },
+    "20424": {
+     "min": 1400,
+     "median": 1499,
+     "qty": 118,
+     "listings": 19
+    },
+    "11370": {
+     "min": 1075,
+     "median": 1400,
+     "qty": 1552,
+     "listings": 128
+    },
+    "5082": {
+     "min": 69,
+     "median": 104,
+     "qty": 21,
+     "listings": 15
+    },
+    "6050": {
+     "min": 880,
+     "median": 2090,
+     "qty": 17,
+     "listings": 4
+    },
+    "11178": {
+     "min": 16700,
+     "median": 17000,
+     "qty": 74,
+     "listings": 19
+    },
+    "4234": {
+     "min": 257,
+     "median": 300,
+     "qty": 1403,
+     "listings": 70
+    },
+    "250342": {
+     "min": 790,
+     "median": 790,
+     "qty": 84,
+     "listings": 6
+    },
+    "250339": {
+     "min": 274,
+     "median": 274,
+     "qty": 695,
+     "listings": 29
+    },
+    "12363": {
+     "min": 91551,
+     "median": 91554,
+     "qty": 156,
+     "listings": 53
+    },
+    "279960": {
+     "min": 113,
+     "median": 114,
+     "qty": 286,
+     "listings": 36
+    },
+    "8544": {
+     "min": 415,
+     "median": 415,
+     "qty": 301,
+     "listings": 22
+    },
+    "9088": {
+     "min": 4568,
+     "median": 4569,
+     "qty": 117,
+     "listings": 9
+    },
+    "11084": {
+     "min": 5500,
+     "median": 9700,
+     "qty": 421,
+     "listings": 79
+    },
+    "3372": {
+     "min": 49,
+     "median": 60,
+     "qty": 1961,
+     "listings": 25
+    },
+    "2324": {
+     "min": 39,
+     "median": 39,
+     "qty": 380,
+     "listings": 6
+    },
+    "279962": {
+     "min": 33,
+     "median": 40,
+     "qty": 429,
+     "listings": 15
+    },
+    "6290": {
+     "min": 29,
+     "median": 39,
+     "qty": 1569,
+     "listings": 74
+    },
+    "16766": {
+     "min": 156,
+     "median": 157,
+     "qty": 143,
+     "listings": 19
+    },
+    "3182": {
+     "min": 1176,
+     "median": 1197,
+     "qty": 200,
+     "listings": 88
+    },
+    "10562": {
+     "min": 999,
+     "median": 999,
+     "qty": 33,
+     "listings": 1
+    },
+    "4358": {
+     "min": 42,
+     "median": 44,
+     "qty": 1214,
+     "listings": 37
+    },
+    "250936": {
+     "min": 5498,
+     "median": 5500,
+     "qty": 96,
+     "listings": 9
+    },
+    "12800": {
+     "min": 21400,
+     "median": 23332,
+     "qty": 71,
+     "listings": 45
+    },
+    "8949": {
+     "min": 949,
+     "median": 1074,
+     "qty": 161,
+     "listings": 17
+    },
+    "7070": {
+     "min": 715,
+     "median": 789,
+     "qty": 368,
+     "listings": 202
+    },
+    "9224": {
+     "min": 10000,
+     "median": 10000,
+     "qty": 23,
+     "listings": 6
+    },
+    "3857": {
+     "min": 700,
+     "median": 749,
+     "qty": 309,
+     "listings": 125
+    },
+    "6372": {
+     "min": 235,
+     "median": 244,
+     "qty": 268,
+     "listings": 56
+    },
+    "6371": {
+     "min": 40,
+     "median": 50,
+     "qty": 1061,
+     "listings": 38
+    },
+    "12809": {
+     "min": 85399,
+     "median": 88998,
+     "qty": 48,
+     "listings": 34
+    },
+    "2880": {
+     "min": 131,
+     "median": 131,
+     "qty": 152,
+     "listings": 7
+    },
+    "5472": {
+     "min": 35,
+     "median": 40,
+     "qty": 302,
+     "listings": 15
+    },
+    "12207": {
+     "min": 2289,
+     "median": 2322,
+     "qty": 529,
+     "listings": 79
+    },
+    "279961": {
+     "min": 5200,
+     "median": 6490,
+     "qty": 157,
+     "listings": 16
+    },
+    "4461": {
+     "min": 300,
+     "median": 314,
+     "qty": 683,
+     "listings": 143
+    },
+    "12643": {
+     "min": 1195,
+     "median": 1200,
+     "qty": 1044,
+     "listings": 22
+    },
+    "279967": {
+     "min": 75,
+     "median": 135,
+     "qty": 1768,
+     "listings": 26
+    },
+    "4364": {
+     "min": 49,
+     "median": 66,
+     "qty": 1134,
+     "listings": 176
+    },
+    "15415": {
+     "min": 16455,
+     "median": 16475,
+     "qty": 51,
+     "listings": 25
+    },
+    "4367": {
+     "min": 200,
+     "median": 200,
+     "qty": 35,
+     "listings": 5
+    },
+    "3355": {
+     "min": 300,
+     "median": 444,
+     "qty": 2781,
+     "listings": 314
+    },
+    "4611": {
+     "min": 1696,
+     "median": 1698,
+     "qty": 285,
+     "listings": 21
+    },
+    "255715": {
+     "min": 480,
+     "median": 480,
+     "qty": 262,
+     "listings": 4
+    },
+    "6370": {
+     "min": 766,
+     "median": 888,
+     "qty": 1134,
+     "listings": 76
+    },
+    "4357": {
+     "min": 21,
+     "median": 21,
+     "qty": 1325,
+     "listings": 16
+    },
+    "11134": {
+     "min": 839,
+     "median": 900,
+     "qty": 396,
+     "listings": 122
+    },
+    "5635": {
+     "min": 75,
+     "median": 90,
+     "qty": 154,
+     "listings": 61
+    },
+    "249427": {
+     "min": 1189,
+     "median": 1200,
+     "qty": 341,
+     "listings": 68
+    },
+    "279965": {
+     "min": 1200,
+     "median": 1298,
+     "qty": 303,
+     "listings": 11
+    },
+    "159": {
+     "min": 12,
+     "median": 13,
+     "qty": 2861,
+     "listings": 29
+    },
+    "2723": {
+     "min": 93,
+     "median": 93,
+     "qty": 508,
+     "listings": 20
+    },
+    "3662": {
+     "min": 100,
+     "median": 100,
+     "qty": 83,
+     "listings": 12
+    },
+    "4470": {
+     "min": 60,
+     "median": 60,
+     "qty": 426,
+     "listings": 4
+    },
+    "6308": {
+     "min": 31,
+     "median": 57,
+     "qty": 4865,
+     "listings": 336
+    },
+    "8165": {
+     "min": 500,
+     "median": 544,
+     "qty": 480,
+     "listings": 141
+    },
+    "250945": {
+     "min": 220,
+     "median": 220,
+     "qty": 16,
+     "listings": 2
+    },
+    "13468": {
+     "min": 97500,
+     "median": 99700,
+     "qty": 95,
+     "listings": 33
+    },
+    "249869": {
+     "min": 8000,
+     "median": 8000,
+     "qty": 3,
+     "listings": 1
+    },
+    "20498": {
+     "min": 27698,
+     "median": 27699,
+     "qty": 64,
+     "listings": 14
+    },
+    "3828": {
+     "min": 199,
+     "median": 399,
+     "qty": 95,
+     "listings": 8
+    },
+    "4380": {
+     "min": 500,
+     "median": 520,
+     "qty": 300,
+     "listings": 14
+    },
+    "6052": {
+     "min": 300,
+     "median": 300,
+     "qty": 130,
+     "listings": 21
+    },
+    "11176": {
+     "min": 2448,
+     "median": 2538,
+     "qty": 1954,
+     "listings": 125
+    },
+    "273131": {
+     "min": 30100,
+     "median": 31088,
+     "qty": 121,
+     "listings": 53
+    },
+    "5997": {
+     "min": 6,
+     "median": 9,
+     "qty": 1504,
+     "listings": 68
+    },
+    "6714": {
+     "min": 480,
+     "median": 689,
+     "qty": 1153,
+     "listings": 232
+    },
+    "8167": {
+     "min": 1055,
+     "median": 1238,
+     "qty": 1492,
+     "listings": 113
+    },
+    "249871": {
+     "min": 200,
+     "median": 500,
+     "qty": 61,
+     "listings": 4
+    },
+    "279976": {
+     "min": 319,
+     "median": 440,
+     "qty": 290,
+     "listings": 39
+    },
+    "14256": {
+     "min": 4300,
+     "median": 4859,
+     "qty": 861,
+     "listings": 175
+    },
+    "273130": {
+     "min": 207499,
+     "median": 207499,
+     "qty": 41,
+     "listings": 22
+    },
+    "5469": {
+     "min": 140,
+     "median": 151,
+     "qty": 11,
+     "listings": 5
+    },
+    "8839": {
+     "min": 999,
+     "median": 1155,
+     "qty": 1776,
+     "listings": 122
+    },
+    "6289": {
+     "min": 8,
+     "median": 68,
+     "qty": 7857,
+     "listings": 315
+    },
+    "11188": {
+     "min": 610,
+     "median": 824,
+     "qty": 522,
+     "listings": 62
+    },
+    "11177": {
+     "min": 7900,
+     "median": 7985,
+     "qty": 317,
+     "listings": 52
+    },
+    "7068": {
+     "min": 3299,
+     "median": 3900,
+     "qty": 259,
+     "listings": 116
+    },
+    "250933": {
+     "min": 118,
+     "median": 169,
+     "qty": 161,
+     "listings": 9
+    },
+    "3466": {
+     "min": 1900,
+     "median": 2000,
+     "qty": 156,
+     "listings": 15
+    },
+    "4341": {
+     "min": 300,
+     "median": 500,
+     "qty": 72,
+     "listings": 5
+    },
+    "3728": {
+     "min": 419,
+     "median": 430,
+     "qty": 570,
+     "listings": 102
+    },
+    "3576": {
+     "min": 200,
+     "median": 250,
+     "qty": 1640,
+     "listings": 24
+    },
+    "250074": {
+     "min": 658,
+     "median": 664,
+     "qty": 362,
+     "listings": 18
+    },
+    "7071": {
+     "min": 300,
+     "median": 301,
+     "qty": 341,
+     "listings": 32
+    },
+    "2863": {
+     "min": 70,
+     "median": 100,
+     "qty": 1181,
+     "listings": 80
+    },
+    "4339": {
+     "min": 3279,
+     "median": 3339,
+     "qty": 603,
+     "listings": 98
+    },
+    "7067": {
+     "min": 3188,
+     "median": 3297,
+     "qty": 279,
+     "listings": 86
+    },
+    "252436": {
+     "min": 968,
+     "median": 1044,
+     "qty": 305,
+     "listings": 36
+    },
+    "2692": {
+     "min": 49,
+     "median": 55,
+     "qty": 3051,
+     "listings": 27
+    },
+    "12204": {
+     "min": 400,
+     "median": 451,
+     "qty": 139,
+     "listings": 78
+    },
+    "247755": {
+     "min": 29,
+     "median": 30,
+     "qty": 457,
+     "listings": 35
+    },
+    "1017": {
+     "min": 108,
+     "median": 108,
+     "qty": 617,
+     "listings": 37
+    },
+    "12190": {
+     "min": 472,
+     "median": 497,
+     "qty": 79,
+     "listings": 12
+    },
+    "3173": {
+     "min": 41,
+     "median": 41,
+     "qty": 587,
+     "listings": 81
+    },
+    "15412": {
+     "min": 531,
+     "median": 531,
+     "qty": 786,
+     "listings": 97
+    },
+    "12203": {
+     "min": 200,
+     "median": 290,
+     "qty": 1664,
+     "listings": 292
+    },
+    "241650": {
+     "min": 3998,
+     "median": 3998,
+     "qty": 73,
+     "listings": 9
+    },
+    "3819": {
+     "min": 898,
+     "median": 1088,
+     "qty": 1100,
+     "listings": 198
+    },
+    "8171": {
+     "min": 744,
+     "median": 783,
+     "qty": 1064,
+     "listings": 282
+    },
+    "10592": {
+     "min": 589,
+     "median": 600,
+     "qty": 138,
+     "listings": 13
+    },
+    "12644": {
+     "min": 3085,
+     "median": 3988,
+     "qty": 359,
+     "listings": 27
+    },
+    "2888": {
+     "min": 95,
+     "median": 95,
+     "qty": 104,
+     "listings": 12
+    },
+    "8368": {
+     "min": 1000,
+     "median": 1020,
+     "qty": 236,
+     "listings": 103
+    },
+    "274976": {
+     "min": 288,
+     "median": 298,
+     "qty": 1010,
+     "listings": 20
+    },
+    "4398": {
+     "min": 1990,
+     "median": 1993,
+     "qty": 39,
+     "listings": 5
+    },
+    "10285": {
+     "min": 1099,
+     "median": 1119,
+     "qty": 557,
+     "listings": 280
+    },
+    "6041": {
+     "min": 17989,
+     "median": 18592,
+     "qty": 38,
+     "listings": 18
+    },
+    "2682": {
+     "min": 35,
+     "median": 45,
+     "qty": 255,
+     "listings": 17
+    },
+    "248824": {
+     "min": 20098,
+     "median": 22200,
+     "qty": 181,
+     "listings": 82
+    },
+    "273129": {
+     "min": 27422,
+     "median": 27493,
+     "qty": 47,
+     "listings": 22
+    },
+    "263512": {
+     "min": 150,
+     "median": 175,
+     "qty": 96,
+     "listings": 17
+    },
+    "249432": {
+     "min": 1849,
+     "median": 2199,
+     "qty": 87,
+     "listings": 11
+    },
+    "7909": {
+     "min": 1424,
+     "median": 2499,
+     "qty": 62,
+     "listings": 53
+    },
+    "7076": {
+     "min": 44999,
+     "median": 45000,
+     "qty": 16,
+     "listings": 9
+    },
+    "11590": {
+     "min": 2500,
+     "median": 2500,
+     "qty": 10,
+     "listings": 3
+    },
+    "2776": {
+     "min": 750,
+     "median": 769,
+     "qty": 573,
+     "listings": 112
+    },
+    "13935": {
+     "min": 3995,
+     "median": 4599,
+     "qty": 1215,
+     "listings": 17
+    },
+    "13890": {
+     "min": 669,
+     "median": 702,
+     "qty": 711,
+     "listings": 23
+    },
+    "4399": {
+     "min": 180,
+     "median": 199,
+     "qty": 191,
+     "listings": 8
+    },
+    "2681": {
+     "min": 34,
+     "median": 34,
+     "qty": 470,
+     "listings": 32
+    },
+    "5504": {
+     "min": 45,
+     "median": 49,
+     "qty": 2154,
+     "listings": 160
+    },
+    "8146": {
+     "min": 500,
+     "median": 555,
+     "qty": 438,
+     "listings": 229
+    },
+    "3667": {
+     "min": 95,
+     "median": 105,
+     "qty": 1134,
+     "listings": 187
+    },
+    "7966": {
+     "min": 1195,
+     "median": 1325,
+     "qty": 1603,
+     "listings": 87
+    },
+    "10308": {
+     "min": 3500,
+     "median": 3500,
+     "qty": 21,
+     "listings": 18
+    },
+    "13889": {
+     "min": 1249,
+     "median": 1249,
+     "qty": 659,
+     "listings": 13
+    },
+    "12202": {
+     "min": 500,
+     "median": 540,
+     "qty": 633,
+     "listings": 126
+    },
+    "248821": {
+     "min": 6947,
+     "median": 6947,
+     "qty": 380,
+     "listings": 40
+    },
+    "2862": {
+     "min": 7,
+     "median": 8,
+     "qty": 643,
+     "listings": 41
+    },
+    "15997": {
+     "min": 89,
+     "median": 89,
+     "qty": 14400,
+     "listings": 8
+    },
+    "267341": {
+     "min": 3897,
+     "median": 3900,
+     "qty": 63,
+     "listings": 18
+    },
+    "12607": {
+     "min": 39500,
+     "median": 40000,
+     "qty": 33,
+     "listings": 30
+    },
+    "15992": {
+     "min": 1455,
+     "median": 1476,
+     "qty": 608,
+     "listings": 34
+    },
+    "1645": {
+     "min": 418,
+     "median": 542,
+     "qty": 667,
+     "listings": 135
+    },
+    "1708": {
+     "min": 185,
+     "median": 199,
+     "qty": 378,
+     "listings": 113
+    },
+    "4589": {
+     "min": 2375,
+     "median": 3425,
+     "qty": 215,
+     "listings": 149
+    },
+    "3727": {
+     "min": 690,
+     "median": 695,
+     "qty": 66,
+     "listings": 4
+    },
+    "250076": {
+     "min": 2000,
+     "median": 2000,
+     "qty": 80,
+     "listings": 3
+    },
+    "16202": {
+     "min": 9377,
+     "median": 9378,
+     "qty": 222,
+     "listings": 46
+    },
+    "11083": {
+     "min": 416,
+     "median": 430,
+     "qty": 1401,
+     "listings": 75
+    },
+    "2251": {
+     "min": 71,
+     "median": 117,
+     "qty": 544,
+     "listings": 110
+    },
+    "2449": {
+     "min": 75,
+     "median": 108,
+     "qty": 1252,
+     "listings": 127
+    },
+    "929": {
+     "min": 139,
+     "median": 145,
+     "qty": 546,
+     "listings": 117
+    },
+    "2459": {
+     "min": 1000,
+     "median": 1390,
+     "qty": 1328,
+     "listings": 353
+    },
+    "10559": {
+     "min": 2790,
+     "median": 2799,
+     "qty": 276,
+     "listings": 29
+    },
+    "16000": {
+     "min": 8255,
+     "median": 8285,
+     "qty": 96,
+     "listings": 9
+    },
+    "247786": {
+     "min": 9,
+     "median": 24,
+     "qty": 4299,
+     "listings": 69
+    },
+    "255007": {
+     "min": 100,
+     "median": 150,
+     "qty": 1292,
+     "listings": 163
+    },
+    "7082": {
+     "min": 57999,
+     "median": 68990,
+     "qty": 36,
+     "listings": 10
+    },
+    "269902": {
+     "min": 12599,
+     "median": 12599,
+     "qty": 29,
+     "listings": 3
+    },
+    "8956": {
+     "min": 3333,
+     "median": 3598,
+     "qty": 969,
+     "listings": 80
+    },
+    "7911": {
+     "min": 1443,
+     "median": 1501,
+     "qty": 979,
+     "listings": 130
+    },
+    "12205": {
+     "min": 304,
+     "median": 320,
+     "qty": 410,
+     "listings": 45
+    },
+    "7191": {
+     "min": 525,
+     "median": 739,
+     "qty": 240,
+     "listings": 200
+    },
+    "7079": {
+     "min": 1198,
+     "median": 1336,
+     "qty": 180,
+     "listings": 73
+    },
+    "11082": {
+     "min": 1717,
+     "median": 1736,
+     "qty": 175,
+     "listings": 45
+    },
+    "2325": {
+     "min": 1189,
+     "median": 1189,
+     "qty": 240,
+     "listings": 28
+    },
+    "4457": {
+     "min": 420,
+     "median": 587,
+     "qty": 360,
+     "listings": 22
+    },
+    "10505": {
+     "min": 595,
+     "median": 700,
+     "qty": 1748,
+     "listings": 76
+    },
+    "13926": {
+     "min": 21576,
+     "median": 28200,
+     "qty": 145,
+     "listings": 91
+    },
+    "6049": {
+     "min": 1184,
+     "median": 1289,
+     "qty": 228,
+     "listings": 22
+    },
+    "250328": {
+     "min": 30000,
+     "median": 30000,
+     "qty": 5,
+     "listings": 1
+    },
+    "14047": {
+     "min": 761,
+     "median": 779,
+     "qty": 4566,
+     "listings": 105
+    },
+    "8153": {
+     "min": 299,
+     "median": 318,
+     "qty": 2175,
+     "listings": 248
+    },
+    "18294": {
+     "min": 1723,
+     "median": 1725,
+     "qty": 155,
+     "listings": 11
+    },
+    "8069": {
+     "min": 5,
+     "median": 5,
+     "qty": 74169,
+     "listings": 21
+    },
+    "1080": {
+     "min": 747,
+     "median": 877,
+     "qty": 268,
+     "listings": 84
+    },
+    "6149": {
+     "min": 649,
+     "median": 846,
+     "qty": 977,
+     "listings": 181
+    },
+    "12804": {
+     "min": 13499,
+     "median": 14298,
+     "qty": 49,
+     "listings": 41
+    },
+    "18045": {
+     "min": 739,
+     "median": 765,
+     "qty": 1523,
+     "listings": 49
+    },
+    "6037": {
+     "min": 1799,
+     "median": 2290,
+     "qty": 690,
+     "listings": 167
+    },
+    "3478": {
+     "min": 175,
+     "median": 184,
+     "qty": 285,
+     "listings": 17
+    },
+    "14344": {
+     "min": 24849,
+     "median": 25000,
+     "qty": 122,
+     "listings": 27
+    },
+    "279948": {
+     "min": 2143,
+     "median": 2144,
+     "qty": 49,
+     "listings": 9
+    },
+    "6451": {
+     "min": 400,
+     "median": 400,
+     "qty": 1649,
+     "listings": 85
+    },
+    "14342": {
+     "min": 234900,
+     "median": 245000,
+     "qty": 18,
+     "listings": 18
+    },
+    "4337": {
+     "min": 792,
+     "median": 793,
+     "qty": 254,
+     "listings": 137
+    },
+    "10514": {
+     "min": 2900,
+     "median": 3500,
+     "qty": 23,
+     "listings": 3
+    },
+    "3827": {
+     "min": 288,
+     "median": 410,
+     "qty": 1093,
+     "listings": 262
+    },
+    "12360": {
+     "min": 389800,
+     "median": 446099,
+     "qty": 40,
+     "listings": 39
+    },
+    "4374": {
+     "min": 245,
+     "median": 249,
+     "qty": 120,
+     "listings": 16
+    },
+    "4389": {
+     "min": 987,
+     "median": 988,
+     "qty": 297,
+     "listings": 33
+    },
+    "274048": {
+     "min": 11400,
+     "median": 11497,
+     "qty": 48,
+     "listings": 13
+    },
+    "15414": {
+     "min": 9874,
+     "median": 9878,
+     "qty": 52,
+     "listings": 24
+    },
+    "2321": {
+     "min": 102,
+     "median": 111,
+     "qty": 3178,
+     "listings": 39
+    },
+    "273128": {
+     "min": 37499,
+     "median": 40000,
+     "qty": 67,
+     "listings": 35
+    },
+    "10647": {
+     "min": 800,
+     "median": 800,
+     "qty": 4,
+     "listings": 1
+    },
+    "11382": {
+     "min": 32254,
+     "median": 32254,
+     "qty": 22,
+     "listings": 20
+    },
+    "13446": {
+     "min": 3900,
+     "median": 4950,
+     "qty": 743,
+     "listings": 113
+    },
+    "3821": {
+     "min": 475,
+     "median": 580,
+     "qty": 2668,
+     "listings": 275
+    },
+    "8172": {
+     "min": 1079,
+     "median": 1080,
+     "qty": 365,
+     "listings": 14
+    },
+    "13465": {
+     "min": 1199,
+     "median": 1200,
+     "qty": 1002,
+     "listings": 62
+    },
+    "4394": {
+     "min": 1379,
+     "median": 1498,
+     "qty": 554,
+     "listings": 31
+    },
+    "279982": {
+     "min": 9994,
+     "median": 9995,
+     "qty": 41,
+     "listings": 5
+    },
+    "7965": {
+     "min": 366,
+     "median": 367,
+     "qty": 2219,
+     "listings": 26
+    },
+    "255717": {
+     "min": 107,
+     "median": 109,
+     "qty": 565,
+     "listings": 16
+    },
+    "249865": {
+     "min": 450,
+     "median": 450,
+     "qty": 68,
+     "listings": 7
+    },
+    "2679": {
+     "min": 21,
+     "median": 30,
+     "qty": 1091,
+     "listings": 69
+    },
+    "2683": {
+     "min": 90,
+     "median": 134,
+     "qty": 1001,
+     "listings": 61
+    },
+    "13893": {
+     "min": 4098,
+     "median": 4098,
+     "qty": 88,
+     "listings": 10
+    },
+    "6317": {
+     "min": 18,
+     "median": 25,
+     "qty": 1652,
+     "listings": 77
+    },
+    "10939": {
+     "min": 397,
+     "median": 410,
+     "qty": 657,
+     "listings": 79
+    },
+    "3826": {
+     "min": 796,
+     "median": 812,
+     "qty": 1278,
+     "listings": 48
+    },
+    "10998": {
+     "min": 525,
+     "median": 598,
+     "qty": 650,
+     "listings": 134
+    },
+    "13457": {
+     "min": 49900,
+     "median": 85000,
+     "qty": 21,
+     "listings": 6
+    },
+    "3357": {
+     "min": 224,
+     "median": 247,
+     "qty": 1144,
+     "listings": 128
+    },
+    "252487": {
+     "min": 100000,
+     "median": 100000,
+     "qty": 1,
+     "listings": 1
+    },
+    "2674": {
+     "min": 135,
+     "median": 149,
+     "qty": 742,
+     "listings": 73
+    },
+    "2455": {
+     "min": 36,
+     "median": 73,
+     "qty": 1090,
+     "listings": 210
+    },
+    "10560": {
+     "min": 2474,
+     "median": 3599,
+     "qty": 379,
+     "listings": 31
+    },
+    "14530": {
+     "min": 1899,
+     "median": 1899,
+     "qty": 41,
+     "listings": 8
+    },
+    "4340": {
+     "min": 449,
+     "median": 449,
+     "qty": 308,
+     "listings": 14
+    },
+    "15423": {
+     "min": 1086,
+     "median": 1090,
+     "qty": 395,
+     "listings": 61
+    },
+    "279950": {
+     "min": 749,
+     "median": 945,
+     "qty": 284,
+     "listings": 56
+    },
+    "250335": {
+     "min": 10000,
+     "median": 10000,
+     "qty": 47,
+     "listings": 9
+    },
+    "733": {
+     "min": 170,
+     "median": 189,
+     "qty": 202,
+     "listings": 34
+    },
+    "12645": {
+     "min": 200000,
+     "median": 200000,
+     "qty": 2,
+     "listings": 2
+    },
+    "250938": {
+     "min": 197,
+     "median": 198,
+     "qty": 53,
+     "listings": 6
+    },
+    "13512": {
+     "min": 799999,
+     "median": 799999,
+     "qty": 8,
+     "listings": 2
+    },
+    "12212": {
+     "min": 379,
+     "median": 398,
+     "qty": 539,
+     "listings": 17
+    },
+    "260793": {
+     "min": 1598,
+     "median": 1798,
+     "qty": 11,
+     "listings": 4
+    },
+    "12214": {
+     "min": 495,
+     "median": 495,
+     "qty": 67,
+     "listings": 4
+    },
+    "3385": {
+     "min": 52,
+     "median": 65,
+     "qty": 935,
+     "listings": 202
+    },
+    "10938": {
+     "min": 154,
+     "median": 155,
+     "qty": 1815,
+     "listings": 42
+    },
+    "11291": {
+     "min": 4469,
+     "median": 4499,
+     "qty": 17,
+     "listings": 5
+    },
+    "15869": {
+     "min": 50,
+     "median": 50,
+     "qty": 28,
+     "listings": 6
+    },
+    "5637": {
+     "min": 155,
+     "median": 200,
+     "qty": 415,
+     "listings": 215
+    },
+    "260792": {
+     "min": 106,
+     "median": 107,
+     "qty": 151,
+     "listings": 3
+    },
+    "16203": {
+     "min": 29799,
+     "median": 29900,
+     "qty": 211,
+     "listings": 58
+    },
+    "2678": {
+     "min": 4,
+     "median": 7,
+     "qty": 2676,
+     "listings": 16
+    },
+    "3928": {
+     "min": 1198,
+     "median": 1450,
+     "qty": 651,
+     "listings": 144
+    },
+    "3030": {
+     "min": 3,
+     "median": 3,
+     "qty": 34632,
+     "listings": 24
+    },
+    "250946": {
+     "min": 3889,
+     "median": 3889,
+     "qty": 14,
+     "listings": 4
+    },
+    "3825": {
+     "min": 795,
+     "median": 900,
+     "qty": 253,
+     "listings": 35
+    },
+    "279969": {
+     "min": 1998,
+     "median": 2000,
+     "qty": 37,
+     "listings": 6
+    },
+    "15407": {
+     "min": 250000,
+     "median": 250000,
+     "qty": 14,
+     "listings": 3
+    },
+    "4382": {
+     "min": 995,
+     "median": 1200,
+     "qty": 531,
+     "listings": 56
+    },
+    "250345": {
+     "min": 503,
+     "median": 503,
+     "qty": 19,
+     "listings": 2
+    },
+    "249428": {
+     "min": 625,
+     "median": 697,
+     "qty": 1117,
+     "listings": 215
+    },
+    "5471": {
+     "min": 592,
+     "median": 739,
+     "qty": 636,
+     "listings": 133
+    },
+    "2456": {
+     "min": 44,
+     "median": 65,
+     "qty": 624,
+     "listings": 127
+    },
+    "273295": {
+     "min": 1497,
+     "median": 1497,
+     "qty": 44,
+     "listings": 9
+    },
+    "13452": {
+     "min": 11092,
+     "median": 11092,
+     "qty": 115,
+     "listings": 11
+    },
+    "279979": {
+     "min": 385,
+     "median": 387,
+     "qty": 630,
+     "listings": 51
+    },
+    "4536": {
+     "min": 33,
+     "median": 35,
+     "qty": 1102,
+     "listings": 19
+    },
+    "1179": {
+     "min": 24,
+     "median": 43,
+     "qty": 1008,
+     "listings": 148
+    },
+    "2453": {
+     "min": 125,
+     "median": 210,
+     "qty": 3513,
+     "listings": 336
+    },
+    "1205": {
+     "min": 100,
+     "median": 114,
+     "qty": 191,
+     "listings": 40
+    },
+    "250331": {
+     "min": 1950,
+     "median": 2050,
+     "qty": 347,
+     "listings": 32
+    },
+    "5480": {
+     "min": 547,
+     "median": 548,
+     "qty": 310,
+     "listings": 8
+    },
+    "4387": {
+     "min": 1195,
+     "median": 1198,
+     "qty": 951,
+     "listings": 47
+    },
+    "14048": {
+     "min": 3925,
+     "median": 4275,
+     "qty": 237,
+     "listings": 45
+    },
+    "4405": {
+     "min": 150,
+     "median": 243,
+     "qty": 330,
+     "listings": 94
+    },
+    "9197": {
+     "min": 1500,
+     "median": 1500,
+     "qty": 20,
+     "listings": 11
+    },
+    "13443": {
+     "min": 4500,
+     "median": 5559,
+     "qty": 266,
+     "listings": 62
+    },
+    "3664": {
+     "min": 339,
+     "median": 490,
+     "qty": 3603,
+     "listings": 187
+    },
+    "10561": {
+     "min": 3925,
+     "median": 4000,
+     "qty": 171,
+     "listings": 29
+    },
+    "11137": {
+     "min": 1019,
+     "median": 1050,
+     "qty": 2038,
+     "listings": 125
+    },
+    "3713": {
+     "min": 169,
+     "median": 169,
+     "qty": 680,
+     "listings": 10
+    },
+    "6657": {
+     "min": 494,
+     "median": 495,
+     "qty": 348,
+     "listings": 15
+    },
+    "260794": {
+     "min": 500,
+     "median": 700,
+     "qty": 14,
+     "listings": 2
+    },
+    "3391": {
+     "min": 398,
+     "median": 805,
+     "qty": 873,
+     "listings": 37
+    },
+    "18567": {
+     "min": 56300,
+     "median": 56300,
+     "qty": 1,
+     "listings": 1
+    },
+    "279951": {
+     "min": 59990,
+     "median": 59990,
+     "qty": 5,
+     "listings": 1
+    },
+    "4655": {
+     "min": 398,
+     "median": 514,
+     "qty": 337,
+     "listings": 60
+    },
+    "3859": {
+     "min": 900,
+     "median": 933,
+     "qty": 2524,
+     "listings": 79
+    },
+    "251525": {
+     "min": 452,
+     "median": 490,
+     "qty": 2163,
+     "listings": 43
+    },
+    "279966": {
+     "min": 111111,
+     "median": 111111,
+     "qty": 11,
+     "listings": 3
+    },
+    "12224": {
+     "min": 2000,
+     "median": 2000,
+     "qty": 52,
+     "listings": 3
+    },
+    "8766": {
+     "min": 489,
+     "median": 998,
+     "qty": 76,
+     "listings": 20
+    },
+    "4390": {
+     "min": 400,
+     "median": 489,
+     "qty": 1500,
+     "listings": 83
+    },
+    "10290": {
+     "min": 5000,
+     "median": 5000,
+     "qty": 29,
+     "listings": 8
+    },
+    "260809": {
+     "min": 10000,
+     "median": 10000,
+     "qty": 5,
+     "listings": 1
+    },
+    "9206": {
+     "min": 4700,
+     "median": 5048,
+     "qty": 356,
+     "listings": 29
+    },
+    "4366": {
+     "min": 1389,
+     "median": 1499,
+     "qty": 260,
+     "listings": 41
+    },
+    "21546": {
+     "min": 6196,
+     "median": 6198,
+     "qty": 167,
+     "listings": 13
+    },
+    "4603": {
+     "min": 100,
+     "median": 149,
+     "qty": 1255,
+     "listings": 62
+    },
+    "250948": {
+     "min": 13500,
+     "median": 13500,
+     "qty": 3,
+     "listings": 1
+    },
+    "3829": {
+     "min": 3041,
+     "median": 3042,
+     "qty": 447,
+     "listings": 44
+    },
+    "12213": {
+     "min": 500,
+     "median": 500,
+     "qty": 32,
+     "listings": 2
+    },
+    "13444": {
+     "min": 10516,
+     "median": 12499,
+     "qty": 340,
+     "listings": 132
+    },
+    "11371": {
+     "min": 78800,
+     "median": 79700,
+     "qty": 200,
+     "listings": 23
+    },
+    "2450": {
+     "min": 100,
+     "median": 240,
+     "qty": 8164,
+     "listings": 443
+    },
+    "13888": {
+     "min": 1299,
+     "median": 1300,
+     "qty": 591,
+     "listings": 13
+    },
+    "2447": {
+     "min": 60,
+     "median": 169,
+     "qty": 4077,
+     "listings": 309
+    },
+    "3730": {
+     "min": 200,
+     "median": 200,
+     "qty": 67,
+     "listings": 33
+    },
+    "9172": {
+     "min": 10448,
+     "median": 10450,
+     "qty": 69,
+     "listings": 11
+    },
+    "260801": {
+     "min": 4000,
+     "median": 4000,
+     "qty": 72,
+     "listings": 2
+    },
+    "13928": {
+     "min": 900,
+     "median": 1899,
+     "qty": 2526,
+     "listings": 33
+    },
+    "249868": {
+     "min": 3000,
+     "median": 3000,
+     "qty": 53,
+     "listings": 4
+    },
+    "15994": {
+     "min": 4900,
+     "median": 4900,
+     "qty": 244,
+     "listings": 15
+    },
+    "4370": {
+     "min": 176,
+     "median": 176,
+     "qty": 63,
+     "listings": 9
+    },
+    "9210": {
+     "min": 7197,
+     "median": 7197,
+     "qty": 76,
+     "listings": 7
+    },
+    "248823": {
+     "min": 14000,
+     "median": 14486,
+     "qty": 181,
+     "listings": 34
+    },
+    "9312": {
+     "min": 199,
+     "median": 199,
+     "qty": 102,
+     "listings": 8
+    },
+    "3823": {
+     "min": 996,
+     "median": 999,
+     "qty": 306,
+     "listings": 37
+    },
+    "6260": {
+     "min": 60,
+     "median": 60,
+     "qty": 55,
+     "listings": 4
+    },
+    "12210": {
+     "min": 598,
+     "median": 598,
+     "qty": 328,
+     "listings": 22
+    },
+    "5467": {
+     "min": 124,
+     "median": 124,
+     "qty": 6,
+     "listings": 4
+    },
+    "250955": {
+     "min": 4597,
+     "median": 7499,
+     "qty": 319,
+     "listings": 65
+    },
+    "250354": {
+     "min": 1678,
+     "median": 1678,
+     "qty": 96,
+     "listings": 7
+    },
+    "250942": {
+     "min": 10000,
+     "median": 10000,
+     "qty": 14,
+     "listings": 4
+    },
+    "20500": {
+     "min": 39900,
+     "median": 39900,
+     "qty": 7,
+     "listings": 6
+    },
+    "255720": {
+     "min": 50,
+     "median": 50,
+     "qty": 10,
+     "listings": 1
+    },
+    "251291": {
+     "min": 54507,
+     "median": 54599,
+     "qty": 774,
+     "listings": 16
+    },
+    "250346": {
+     "min": 1396,
+     "median": 1396,
+     "qty": 42,
+     "listings": 7
+    },
+    "11138": {
+     "min": 1302,
+     "median": 2700,
+     "qty": 552,
+     "listings": 264
+    },
+    "8343": {
+     "min": 1999,
+     "median": 2128,
+     "qty": 149,
+     "listings": 11
+    },
+    "252462": {
+     "min": 6898,
+     "median": 6898,
+     "qty": 71,
+     "listings": 7
+    },
+    "249726": {
+     "min": 8990,
+     "median": 8990,
+     "qty": 100,
+     "listings": 16
+    },
+    "9233": {
+     "min": 4499,
+     "median": 4499,
+     "qty": 26,
+     "listings": 6
+    },
+    "250065": {
+     "min": 1782,
+     "median": 1786,
+     "qty": 525,
+     "listings": 14
+    },
+    "15409": {
+     "min": 240069,
+     "median": 272500,
+     "qty": 30,
+     "listings": 30
+    },
+    "13442": {
+     "min": 9996,
+     "median": 9997,
+     "qty": 157,
+     "listings": 16
+    },
+    "260796": {
+     "min": 11999,
+     "median": 12000,
+     "qty": 23,
+     "listings": 3
+    },
+    "18253": {
+     "min": 29900,
+     "median": 29900,
+     "qty": 7,
+     "listings": 4
+    },
+    "4623": {
+     "min": 598,
+     "median": 599,
+     "qty": 104,
+     "listings": 47
+    },
+    "12215": {
+     "min": 769,
+     "median": 769,
+     "qty": 290,
+     "listings": 8
+    },
+    "10841": {
+     "min": 675,
+     "median": 998,
+     "qty": 304,
+     "listings": 5
+    },
+    "15408": {
+     "min": 2243,
+     "median": 2243,
+     "qty": 99,
+     "listings": 23
+    },
+    "11174": {
+     "min": 4799,
+     "median": 4800,
+     "qty": 207,
+     "listings": 47
+    },
+    "15993": {
+     "min": 4500,
+     "median": 5000,
+     "qty": 113,
+     "listings": 4
+    },
+    "12810": {
+     "min": 15000,
+     "median": 15000,
+     "qty": 83,
+     "listings": 15
+    },
+    "10546": {
+     "min": 11599,
+     "median": 12399,
+     "qty": 42,
+     "listings": 12
+    },
+    "9144": {
+     "min": 2294,
+     "median": 2296,
+     "qty": 82,
+     "listings": 15
+    },
+    "15564": {
+     "min": 4950,
+     "median": 4950,
+     "qty": 70,
+     "listings": 12
+    },
+    "5051": {
+     "min": 10100,
+     "median": 10100,
+     "qty": 10,
+     "listings": 2
+    },
+    "247241": {
+     "min": 590,
+     "median": 590,
+     "qty": 351,
+     "listings": 10
+    },
+    "279943": {
+     "min": 6850,
+     "median": 6869,
+     "qty": 92,
+     "listings": 18
+    },
+    "2320": {
+     "min": 15,
+     "median": 16,
+     "qty": 2365,
+     "listings": 30
+    },
+    "12404": {
+     "min": 946,
+     "median": 998,
+     "qty": 2427,
+     "listings": 38
+    },
+    "279952": {
+     "min": 300000,
+     "median": 300000,
+     "qty": 1,
+     "listings": 1
+    },
+    "249874": {
+     "min": 1200,
+     "median": 1200,
+     "qty": 156,
+     "listings": 4
+    },
+    "250071": {
+     "min": 6478,
+     "median": 6484,
+     "qty": 254,
+     "listings": 6
+    },
+    "12216": {
+     "min": 1100,
+     "median": 1113,
+     "qty": 75,
+     "listings": 4
+    },
+    "9179": {
+     "min": 1059,
+     "median": 1059,
+     "qty": 146,
+     "listings": 11
+    },
+    "11175": {
+     "min": 16994,
+     "median": 18499,
+     "qty": 149,
+     "listings": 50
+    },
+    "279955": {
+     "min": 250000,
+     "median": 250000,
+     "qty": 2,
+     "listings": 1
+    },
+    "250334": {
+     "min": 3480,
+     "median": 3490,
+     "qty": 190,
+     "listings": 18
+    },
+    "16006": {
+     "min": 690100,
+     "median": 690100,
+     "qty": 5,
+     "listings": 5
+    },
+    "248822": {
+     "min": 140154,
+     "median": 143015,
+     "qty": 60,
+     "listings": 19
+    },
+    "279974": {
+     "min": 240100,
+     "median": 240100,
+     "qty": 1,
+     "listings": 1
+    },
+    "255721": {
+     "min": 1500,
+     "median": 1900,
+     "qty": 24,
+     "listings": 3
+    },
+    "250935": {
+     "min": 3400,
+     "median": 3400,
+     "qty": 126,
+     "listings": 6
+    },
+    "12218": {
+     "min": 4500,
+     "median": 5000,
+     "qty": 131,
+     "listings": 4
+    },
+    "20074": {
+     "min": 600,
+     "median": 693,
+     "qty": 110,
+     "listings": 5
+    },
+    "13464": {
+     "min": 1167,
+     "median": 1500,
+     "qty": 512,
+     "listings": 85
+    },
+    "2605": {
+     "min": 149,
+     "median": 149,
+     "qty": 293,
+     "listings": 9
+    },
+    "10548": {
+     "min": 16500,
+     "median": 16500,
+     "qty": 16,
+     "listings": 9
+    },
+    "12655": {
+     "min": 7600,
+     "median": 8500,
+     "qty": 54,
+     "listings": 6
+    },
+    "4304": {
+     "min": 575,
+     "median": 698,
+     "qty": 6651,
+     "listings": 433
+    },
+    "250073": {
+     "min": 1300,
+     "median": 1300,
+     "qty": 28,
+     "listings": 2
+    },
+    "13851": {
+     "min": 400,
+     "median": 447,
+     "qty": 746,
+     "listings": 5
+    },
+    "6038": {
+     "min": 447,
+     "median": 447,
+     "qty": 62,
+     "listings": 3
+    },
+    "250953": {
+     "min": 8710,
+     "median": 8715,
+     "qty": 94,
+     "listings": 7
+    },
+    "250080": {
+     "min": 90,
+     "median": 90,
+     "qty": 140,
+     "listings": 10
+    },
+    "260805": {
+     "min": 9800,
+     "median": 9900,
+     "qty": 26,
+     "listings": 5
+    },
+    "250941": {
+     "min": 3850,
+     "median": 3850,
+     "qty": 65,
+     "listings": 3
+    },
+    "8364": {
+     "min": 247,
+     "median": 250,
+     "qty": 737,
+     "listings": 16
+    },
+    "250937": {
+     "min": 30000,
+     "median": 30000,
+     "qty": 20,
+     "listings": 2
+    },
+    "250329": {
+     "min": 15000,
+     "median": 15000,
+     "qty": 20,
+     "listings": 3
+    },
+    "249876": {
+     "min": 3000,
+     "median": 3000,
+     "qty": 64,
+     "listings": 4
+    },
+    "250350": {
+     "min": 15500,
+     "median": 15500,
+     "qty": 20,
+     "listings": 2
+    },
+    "13927": {
+     "min": 645,
+     "median": 648,
+     "qty": 1588,
+     "listings": 22
+    },
+    "249870": {
+     "min": 5000,
+     "median": 5000,
+     "qty": 45,
+     "listings": 2
+    },
+    "4391": {
+     "min": 4400,
+     "median": 19900,
+     "qty": 5,
+     "listings": 2
+    },
+    "286152": {
+     "min": 2199,
+     "median": 2199,
+     "qty": 212,
+     "listings": 4
+    },
+    "279988": {
+     "min": 2400,
+     "median": 2400,
+     "qty": 9,
+     "listings": 4
+    },
+    "249867": {
+     "min": 1350,
+     "median": 2200,
+     "qty": 601,
+     "listings": 33
+    },
+    "279964": {
+     "min": 6000,
+     "median": 6000,
+     "qty": 1,
+     "listings": 1
+    },
+    "10586": {
+     "min": 19000,
+     "median": 19000,
+     "qty": 51,
+     "listings": 5
+    },
+    "16583": {
+     "min": 5097,
+     "median": 5097,
+     "qty": 1,
+     "listings": 1
+    },
+    "250349": {
+     "min": 3000,
+     "median": 3000,
+     "qty": 82,
+     "listings": 3
+    },
+    "7080": {
+     "min": 52208,
+     "median": 52238,
+     "qty": 133,
+     "listings": 48
+    },
+    "2686": {
+     "min": 200,
+     "median": 200,
+     "qty": 16,
+     "listings": 4
+    },
+    "11139": {
+     "min": 7918,
+     "median": 7918,
+     "qty": 139,
+     "listings": 63
+    },
+    "279940": {
+     "min": 950,
+     "median": 1200,
+     "qty": 4,
+     "listings": 2
+    },
+    "2604": {
+     "min": 91,
+     "median": 95,
+     "qty": 389,
+     "listings": 10
+    },
+    "4342": {
+     "min": 2900,
+     "median": 2900,
+     "qty": 15,
+     "listings": 4
+    },
+    "12803": {
+     "min": 16397,
+     "median": 19866,
+     "qty": 445,
+     "listings": 194
+    },
+    "13933": {
+     "min": 3000,
+     "median": 3750,
+     "qty": 390,
+     "listings": 9
+    },
+    "13447": {
+     "min": 30000,
+     "median": 30000,
+     "qty": 5,
+     "listings": 2
+    },
+    "9260": {
+     "min": 1177,
+     "median": 1290,
+     "qty": 278,
+     "listings": 72
+    },
+    "279981": {
+     "min": 79,
+     "median": 85,
+     "qty": 762,
+     "listings": 25
+    },
+    "4392": {
+     "min": 3970,
+     "median": 3970,
+     "qty": 1,
+     "listings": 1
+    },
+    "4378": {
+     "min": 445,
+     "median": 445,
+     "qty": 61,
+     "listings": 5
+    },
+    "250332": {
+     "min": 6000,
+     "median": 6000,
+     "qty": 18,
+     "listings": 2
+    },
+    "8545": {
+     "min": 1000,
+     "median": 1000,
+     "qty": 291,
+     "listings": 13
+    },
+    "249875": {
+     "min": 3000,
+     "median": 3000,
+     "qty": 22,
+     "listings": 1
+    },
+    "249410": {
+     "min": 749,
+     "median": 750,
+     "qty": 291,
+     "listings": 23
+    },
+    "263509": {
+     "min": 200,
+     "median": 200,
+     "qty": 13,
+     "listings": 3
+    },
+    "3726": {
+     "min": 190,
+     "median": 190,
+     "qty": 14,
+     "listings": 3
+    },
+    "18512": {
+     "min": 22500,
+     "median": 27500,
+     "qty": 99,
+     "listings": 36
+    },
+    "3013": {
+     "min": 95,
+     "median": 101,
+     "qty": 52,
+     "listings": 15
+    },
+    "12206": {
+     "min": 1400,
+     "median": 1630,
+     "qty": 1200,
+     "listings": 181
+    },
+    "252463": {
+     "min": 7900,
+     "median": 9900,
+     "qty": 108,
+     "listings": 11
+    },
+    "4400": {
+     "min": 2500,
+     "median": 2500,
+     "qty": 8,
+     "listings": 3
+    },
+    "13934": {
+     "min": 10000,
+     "median": 10000,
+     "qty": 102,
+     "listings": 5
+    },
+    "249873": {
+     "min": 200,
+     "median": 200,
+     "qty": 7,
+     "listings": 1
+    },
+    "252488": {
+     "min": 120000,
+     "median": 120100,
+     "qty": 9,
+     "listings": 3
+    },
+    "3820": {
+     "min": 400,
+     "median": 600,
+     "qty": 2569,
+     "listings": 208
+    },
+    "14227": {
+     "min": 10000,
+     "median": 10250,
+     "qty": 229,
+     "listings": 65
+    },
+    "18256": {
+     "min": 3599,
+     "median": 3599,
+     "qty": 5,
+     "listings": 1
+    },
+    "250333": {
+     "min": 14999,
+     "median": 14999,
+     "qty": 20,
+     "listings": 3
+    },
+    "4407": {
+     "min": 4490,
+     "median": 4490,
+     "qty": 46,
+     "listings": 8
+    },
+    "6887": {
+     "min": 398,
+     "median": 1264,
+     "qty": 2401,
+     "listings": 53
+    },
+    "14341": {
+     "min": 6000,
+     "median": 6900,
+     "qty": 46,
+     "listings": 9
+    },
+    "10513": {
+     "min": 10,
+     "median": 10,
+     "qty": 16634,
+     "listings": 4
+    },
+    "250341": {
+     "min": 12998,
+     "median": 12998,
+     "qty": 40,
+     "listings": 7
+    },
+    "15422": {
+     "min": 4900,
+     "median": 5000,
+     "qty": 28,
+     "listings": 3
+    },
+    "250072": {
+     "min": 5500,
+     "median": 5500,
+     "qty": 31,
+     "listings": 2
+    },
+    "250951": {
+     "min": 30000,
+     "median": 30000,
+     "qty": 4,
+     "listings": 1
+    },
+    "250351": {
+     "min": 17500,
+     "median": 17500,
+     "qty": 15,
+     "listings": 2
+    },
+    "15871": {
+     "min": 1000,
+     "median": 1000,
+     "qty": 37,
+     "listings": 4
+    },
+    "4402": {
+     "min": 4650,
+     "median": 8000,
+     "qty": 584,
+     "listings": 173
+    },
+    "5631": {
+     "min": 200,
+     "median": 274,
+     "qty": 334,
+     "listings": 27
+    },
+    "18641": {
+     "min": 5000,
+     "median": 5000,
+     "qty": 76,
+     "listings": 4
+    },
+    "250336": {
+     "min": 25000,
+     "median": 25000,
+     "qty": 19,
+     "listings": 2
+    },
+    "9060": {
+     "min": 6950,
+     "median": 6950,
+     "qty": 15,
+     "listings": 2
+    },
+    "9061": {
+     "min": 6713,
+     "median": 6716,
+     "qty": 87,
+     "listings": 9
+    },
+    "7969": {
+     "min": 5000,
+     "median": 5000,
+     "qty": 149,
+     "listings": 11
+    },
+    "13467": {
+     "min": 4000,
+     "median": 4000,
+     "qty": 202,
+     "listings": 13
+    },
+    "249866": {
+     "min": 400,
+     "median": 400,
+     "qty": 7,
+     "listings": 1
+    },
+    "20725": {
+     "min": 1000100,
+     "median": 1000100,
+     "qty": 1,
+     "listings": 1
+    },
+    "4289": {
+     "min": 100,
+     "median": 100,
+     "qty": 241,
+     "listings": 7
+    },
+    "250069": {
+     "min": 4995,
+     "median": 4995,
+     "qty": 55,
+     "listings": 1
+    },
+    "7078": {
+     "min": 59899,
+     "median": 69900,
+     "qty": 58,
+     "listings": 28
+    },
+    "9264": {
+     "min": 15097,
+     "median": 15097,
+     "qty": 2,
+     "listings": 2
+    },
+    "279978": {
+     "min": 299,
+     "median": 339,
+     "qty": 250,
+     "listings": 12
+    },
+    "246948": {
+     "min": 15000,
+     "median": 15000,
+     "qty": 1,
+     "listings": 1
+    },
+    "3731": {
+     "min": 321,
+     "median": 333,
+     "qty": 321,
+     "listings": 49
+    },
+    "5476": {
+     "min": 555,
+     "median": 555,
+     "qty": 98,
+     "listings": 1
+    },
+    "4852": {
+     "min": 20000,
+     "median": 20000,
+     "qty": 5,
+     "listings": 5
+    },
+    "18254": {
+     "min": 3990,
+     "median": 3990,
+     "qty": 34,
+     "listings": 3
+    },
+    "5634": {
+     "min": 1800,
+     "median": 2999,
+     "qty": 353,
+     "listings": 35
+    },
+    "250330": {
+     "min": 400,
+     "median": 400,
+     "qty": 74,
+     "listings": 1
+    },
+    "250344": {
+     "min": 100,
+     "median": 118,
+     "qty": 14,
+     "listings": 3
+    },
+    "18631": {
+     "min": 33333,
+     "median": 33333,
+     "qty": 4,
+     "listings": 1
+    },
+    "10284": {
+     "min": 8000,
+     "median": 8000,
+     "qty": 42,
+     "listings": 2
+    },
+    "7077": {
+     "min": 7999,
+     "median": 7999,
+     "qty": 12,
+     "listings": 2
+    },
+    "3864": {
+     "min": 3500,
+     "median": 3600,
+     "qty": 60,
+     "listings": 35
+    },
+    "10646": {
+     "min": 9000,
+     "median": 9000,
+     "qty": 5,
+     "listings": 1
+    },
+    "11754": {
+     "min": 4860,
+     "median": 4860,
+     "qty": 282,
+     "listings": 3
+    },
+    "6261": {
+     "min": 3400,
+     "median": 3400,
+     "qty": 6,
+     "listings": 1
+    },
+    "250343": {
+     "min": 20000,
+     "median": 20000,
+     "qty": 1,
+     "listings": 1
+    }
+   },
+   "sold_known": false
+  }
+ ],
+ "config": {
+  "_leia_me": "Receitas e nomes vêm da API da Blizzard (data/recipes.json). Aqui ficam só as configurações e os itens vendidos por NPC, que a API não informa. Preços de vendedor em cobre (100 = 1 prata, 10000 = 1 ouro), aproximados: confira no jogo.",
+  "region": "us",
+  "locale": "pt_BR",
+  "house_ids": [
+   110
+  ],
+  "house_filter": "Aliança|Alliance",
+  "ah_cut": 0.05,
+  "items": {},
+  "vendor_places": {
+   "alfaiataria": "Fornecedor de Alfaiataria ou de Mercadorias Gerais, perto do instrutor de Alfaiataria: Ventobravo, Altaforja e Darnassus. Peça a um guarda.",
+   "couraria": "Fornecedor de Couraria, perto do instrutor de Couraria: Ventobravo, Altaforja e Darnassus.",
+   "encantamento": "Fornecedor de Encantamento, ao lado do instrutor de Encantamento: Ventobravo (Distrito dos Magos), Altaforja (Grande Forja) e Darnassus.",
+   "alquimia": "Fornecedor de Alquimia, perto do instrutor de Alquimia: Ventobravo, Altaforja e Darnassus.",
+   "reagentes": "Fornecedor de Reagentes (o que vende reagentes de magia): Ventobravo, Altaforja e Darnassus.",
+   "culinaria": "Fornecedor de Culinária ou Estalajadeiro (taverna): qualquer cidade ou vila.",
+   "ferraria": "Fornecedor de Ferraria ou Mercadorias Gerais, perto da forja: Ventobravo, Altaforja, Vila Ouroeste e Thelsamar.",
+   "mercadorias": "Fornecedor de Mercadorias Gerais: qualquer cidade ou vila."
+  },
+  "vendor": {
+   "2320": {
+    "copper": 10,
+    "place": "alfaiataria"
+   },
+   "2321": {
+    "copper": 100,
+    "place": "alfaiataria"
+   },
+   "4291": {
+    "copper": 500,
+    "place": "alfaiataria"
+   },
+   "8343": {
+    "copper": 2000,
+    "place": "alfaiataria"
+   },
+   "14341": {
+    "copper": 5000,
+    "place": "alfaiataria"
+   },
+   "2324": {
+    "copper": 25,
+    "place": "alfaiataria"
+   },
+   "2604": {
+    "copper": 50,
+    "place": "alfaiataria"
+   },
+   "6260": {
+    "copper": 50,
+    "place": "alfaiataria"
+   },
+   "2605": {
+    "copper": 100,
+    "place": "alfaiataria"
+   },
+   "4340": {
+    "copper": 350,
+    "place": "alfaiataria"
+   },
+   "4289": {
+    "copper": 50,
+    "place": "couraria"
+   },
+   "4470": {
+    "copper": 38,
+    "place": "encantamento"
+   },
+   "6217": {
+    "copper": 124,
+    "place": "encantamento"
+   },
+   "247786": {
+    "copper": null,
+    "place": "encantamento"
+   },
+   "3371": {
+    "copper": 4,
+    "place": "alquimia"
+   },
+   "3372": {
+    "copper": 40,
+    "place": "alquimia"
+   },
+   "8925": {
+    "copper": 500,
+    "place": "alquimia"
+   },
+   "17034": {
+    "copper": 200,
+    "place": "reagentes"
+   },
+   "17035": {
+    "copper": 400,
+    "place": "reagentes"
+   },
+   "2678": {
+    "copper": 10,
+    "place": "culinaria"
+   },
+   "2692": {
+    "copper": 40,
+    "place": "culinaria"
+   },
+   "3713": {
+    "copper": 160,
+    "place": "culinaria"
+   },
+   "159": {
+    "copper": 5,
+    "place": "culinaria"
+   },
+   "1179": {
+    "copper": 125,
+    "place": "culinaria"
+   },
+   "2880": {
+    "copper": 100,
+    "place": "ferraria"
+   },
+   "3466": {
+    "copper": 2000,
+    "place": "ferraria"
+   },
+   "3857": {
+    "copper": 500,
+    "place": "ferraria"
+   },
+   "4399": {
+    "copper": 200,
+    "place": "ferraria"
+   }
+  }
+ }
+}
